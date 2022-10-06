@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace Libreria
 {
     internal static class Program
     {

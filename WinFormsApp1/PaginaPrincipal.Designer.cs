@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class PaginaPrincipal
+    partial class PaginaPrincipal : Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PaginaPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "PaginaPrincipal";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.PaginaPrincipal_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

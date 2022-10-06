@@ -6,5 +6,10 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void PaginaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
