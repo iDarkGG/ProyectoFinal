@@ -19,3 +19,5 @@ C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-window
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\DELL 15\source\repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseConRGB.resources
+C:\Users\DELL 15\source\repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseSinRGB.resources

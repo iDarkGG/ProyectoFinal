@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
+    "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+        "outputPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
+    "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "projectName": "TiendaPerrona",
-        "projectPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
-                "projectPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
+              "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+                "projectPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
               }
             }
           }

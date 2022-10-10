@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
+    "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+        "outputPath": "C:\\Users\\DELL 15\\source\\repos\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",

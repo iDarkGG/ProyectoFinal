@@ -123,6 +123,16 @@ namespace TiendaPerrona.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap torre_de_la_cpu {
+            get {
+                object obj = ResourceManager.GetObject("torre-de-la-cpu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap visual_studio {
             get {
                 object obj = ResourceManager.GetObject("visual-studio", resourceCulture);
