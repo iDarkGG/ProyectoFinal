@@ -10,7 +10,7 @@ namespace Libreria
     public class RegisterBase : UserDataBase
     {
         UserDataBase uwu = new UserDataBase();
-        uw
+        
         
         //public bool UserNameChecker(string username)
         //{ 

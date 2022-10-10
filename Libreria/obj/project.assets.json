@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JADPA-31\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL 15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
       "projectName": "Libreria",
-      "projectPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
-      "packagesPath": "C:\\Users\\JADPA-31\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+      "projectPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL 15\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JADPA-31\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

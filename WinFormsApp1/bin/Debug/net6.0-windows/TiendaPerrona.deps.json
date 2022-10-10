@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TiendaPerrona/1.0.0": {
+        "dependencies": {
+          "Libreria": "1.0.0"
+        },
+        "runtime": {
+          "TiendaPerrona.dll": {}
+        }
+      },
+      "Libreria/1.0.0": {
+        "runtime": {
+          "Libreria.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TiendaPerrona/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Libreria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
