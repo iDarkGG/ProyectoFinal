@@ -4,7 +4,6 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Libreria;
 using System.Text.RegularExpressions;
 namespace Libreria
 {
@@ -41,10 +40,7 @@ namespace Libreria
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
 
             bool EmailChecker(string email)
@@ -54,14 +50,8 @@ namespace Libreria
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
-
-
-
         }
 
 
