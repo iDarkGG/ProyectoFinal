@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    public class UserDataBase
+    public class User
     {
         private string _username;
         private string _password;
@@ -17,17 +17,15 @@ namespace Libreria
         private bool usernameValid = false;
         private bool registeredSucces = false;
         private bool logInSucces = false;
-        public static List<UserDataBase> _users = new List<UserDataBase>();
 
-        public UserDataBase() { }
-        public UserDataBase(string username, string email, string password)
+        public User() { }
+        public User(string username, string email, string password)
         {
             _username = username;
             _email = email;
             _password = password;
             userID = Counter();
         }
-
 
         public string UserName
         {
@@ -44,7 +42,6 @@ namespace Libreria
         public string Email
         {
             get { return _email; }
-            set { _email = value; }
         }
 
         public bool RegisteredSucces

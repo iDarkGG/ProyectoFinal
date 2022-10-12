@@ -10,3 +10,15 @@ C:\Users\DELL 15\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.d
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.deps.json
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.dll
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.pdb
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfo.cs
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.dll
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
+C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
