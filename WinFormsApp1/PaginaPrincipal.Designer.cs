@@ -34,41 +34,38 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.SubMenuPerifericos = new System.Windows.Forms.Panel();
+            this.btnPerifericosMouse = new System.Windows.Forms.Button();
+            this.btnPerifericosTeclados = new System.Windows.Forms.Button();
+            this.btnProductosPerifericos = new System.Windows.Forms.Button();
+            this.btnProductoMonitores = new System.Windows.Forms.Button();
+            this.btnProductoFuentesDePoder = new System.Windows.Forms.Button();
+            this.btnProductosAlmacenamiento = new System.Windows.Forms.Button();
+            this.btnProductoMemoriasRam = new System.Windows.Forms.Button();
             this.btnProductoPlacasMadres = new System.Windows.Forms.Button();
+            this.btnProductoTarjetasGraficas = new System.Windows.Forms.Button();
+            this.subMenuProcesadores = new System.Windows.Forms.Panel();
+            this.btnProcesadorRyzen = new System.Windows.Forms.Button();
+            this.btnProcesadorIntel = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnProductoProcesador = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnProductoCase = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.SubMenuCase = new System.Windows.Forms.Panel();
-            this.btnCaseRGB = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnCaseSinRGB = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.SubMenuProcesadores = new System.Windows.Forms.Panel();
-            this.btnProcesadorIntel = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnProcesadorAmd = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.SubMenuPlacasMadres = new System.Windows.Forms.Panel();
-            this.btnPlacaMadreAsus = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.btnPlacaMadreMsi = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BarraDeTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.MenuVertical.SuspendLayout();
+            this.SubMenuPerifericos.SuspendLayout();
+            this.subMenuProcesadores.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SubMenuCase.SuspendLayout();
-            this.SubMenuProcesadores.SuspendLayout();
-            this.SubMenuPlacasMadres.SuspendLayout();
             this.panelContenedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraDeTitulo
@@ -81,7 +78,7 @@
             this.BarraDeTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraDeTitulo.Location = new System.Drawing.Point(0, 0);
             this.BarraDeTitulo.Name = "BarraDeTitulo";
-            this.BarraDeTitulo.Size = new System.Drawing.Size(1300, 29);
+            this.BarraDeTitulo.Size = new System.Drawing.Size(919, 29);
             this.BarraDeTitulo.TabIndex = 0;
             this.BarraDeTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraDeTitulo_Paint);
             // 
@@ -90,7 +87,7 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = global::TiendaPerrona.Properties.Resources.maximizar_tamano;
-            this.btnRestaurar.Location = new System.Drawing.Point(1223, 1);
+            this.btnRestaurar.Location = new System.Drawing.Point(842, 1);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -104,7 +101,7 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = global::TiendaPerrona.Properties.Resources.minimizar_signo;
-            this.btnMinimizar.Location = new System.Drawing.Point(1192, 1);
+            this.btnMinimizar.Location = new System.Drawing.Point(811, 1);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -117,7 +114,7 @@
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = global::TiendaPerrona.Properties.Resources.maximizar__1_;
-            this.btnMaximizar.Location = new System.Drawing.Point(1223, 1);
+            this.btnMaximizar.Location = new System.Drawing.Point(842, 1);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +127,7 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = global::TiendaPerrona.Properties.Resources.x;
-            this.btnCerrar.Location = new System.Drawing.Point(1263, 1);
+            this.btnCerrar.Location = new System.Drawing.Point(873, 1);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 25);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -141,43 +138,247 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.MenuVertical.Controls.Add(this.panel5);
+            this.MenuVertical.Controls.Add(this.SubMenuPerifericos);
+            this.MenuVertical.Controls.Add(this.btnProductosPerifericos);
+            this.MenuVertical.Controls.Add(this.btnProductoMonitores);
+            this.MenuVertical.Controls.Add(this.btnProductoFuentesDePoder);
+            this.MenuVertical.Controls.Add(this.btnProductosAlmacenamiento);
+            this.MenuVertical.Controls.Add(this.btnProductoMemoriasRam);
             this.MenuVertical.Controls.Add(this.btnProductoPlacasMadres);
+            this.MenuVertical.Controls.Add(this.btnProductoTarjetasGraficas);
+            this.MenuVertical.Controls.Add(this.subMenuProcesadores);
             this.MenuVertical.Controls.Add(this.panel8);
-            this.MenuVertical.Controls.Add(this.panel2);
             this.MenuVertical.Controls.Add(this.btnProductoProcesador);
-            this.MenuVertical.Controls.Add(this.panel1);
             this.MenuVertical.Controls.Add(this.btnProductoCase);
             this.MenuVertical.Controls.Add(this.pictureBox1);
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 29);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(220, 621);
+            this.MenuVertical.Size = new System.Drawing.Size(220, 554);
             this.MenuVertical.TabIndex = 1;
             // 
-            // panel5
+            // SubMenuPerifericos
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel5.Location = new System.Drawing.Point(0, 258);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(8, 33);
-            this.panel5.TabIndex = 2;
+            this.SubMenuPerifericos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.SubMenuPerifericos.Controls.Add(this.btnPerifericosMouse);
+            this.SubMenuPerifericos.Controls.Add(this.btnPerifericosTeclados);
+            this.SubMenuPerifericos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SubMenuPerifericos.Location = new System.Drawing.Point(0, 438);
+            this.SubMenuPerifericos.Name = "SubMenuPerifericos";
+            this.SubMenuPerifericos.Size = new System.Drawing.Size(220, 66);
+            this.SubMenuPerifericos.TabIndex = 12;
+            this.SubMenuPerifericos.Visible = false;
+            // 
+            // btnPerifericosMouse
+            // 
+            this.btnPerifericosMouse.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPerifericosMouse.FlatAppearance.BorderSize = 0;
+            this.btnPerifericosMouse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPerifericosMouse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPerifericosMouse.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPerifericosMouse.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnPerifericosMouse.Location = new System.Drawing.Point(0, 30);
+            this.btnPerifericosMouse.Name = "btnPerifericosMouse";
+            this.btnPerifericosMouse.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnPerifericosMouse.Size = new System.Drawing.Size(220, 30);
+            this.btnPerifericosMouse.TabIndex = 1;
+            this.btnPerifericosMouse.Text = "Mouse";
+            this.btnPerifericosMouse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPerifericosMouse.UseVisualStyleBackColor = true;
+            this.btnPerifericosMouse.Click += new System.EventHandler(this.btnPerifericosMouse_Click);
+            // 
+            // btnPerifericosTeclados
+            // 
+            this.btnPerifericosTeclados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPerifericosTeclados.FlatAppearance.BorderSize = 0;
+            this.btnPerifericosTeclados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPerifericosTeclados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPerifericosTeclados.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPerifericosTeclados.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnPerifericosTeclados.Location = new System.Drawing.Point(0, 0);
+            this.btnPerifericosTeclados.Name = "btnPerifericosTeclados";
+            this.btnPerifericosTeclados.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnPerifericosTeclados.Size = new System.Drawing.Size(220, 30);
+            this.btnPerifericosTeclados.TabIndex = 0;
+            this.btnPerifericosTeclados.Text = "Teclados";
+            this.btnPerifericosTeclados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPerifericosTeclados.UseVisualStyleBackColor = true;
+            this.btnPerifericosTeclados.Click += new System.EventHandler(this.btnPerifericosTeclados_Click);
+            // 
+            // btnProductosPerifericos
+            // 
+            this.btnProductosPerifericos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductosPerifericos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductosPerifericos.FlatAppearance.BorderSize = 0;
+            this.btnProductosPerifericos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductosPerifericos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductosPerifericos.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductosPerifericos.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductosPerifericos.Location = new System.Drawing.Point(0, 406);
+            this.btnProductosPerifericos.Name = "btnProductosPerifericos";
+            this.btnProductosPerifericos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductosPerifericos.Size = new System.Drawing.Size(220, 32);
+            this.btnProductosPerifericos.TabIndex = 11;
+            this.btnProductosPerifericos.Text = "Perifericos";
+            this.btnProductosPerifericos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductosPerifericos.UseVisualStyleBackColor = false;
+            this.btnProductosPerifericos.Click += new System.EventHandler(this.btnProductosPerifericos_Click);
+            // 
+            // btnProductoMonitores
+            // 
+            this.btnProductoMonitores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoMonitores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductoMonitores.FlatAppearance.BorderSize = 0;
+            this.btnProductoMonitores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductoMonitores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductoMonitores.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoMonitores.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductoMonitores.Location = new System.Drawing.Point(0, 374);
+            this.btnProductoMonitores.Name = "btnProductoMonitores";
+            this.btnProductoMonitores.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoMonitores.Size = new System.Drawing.Size(220, 32);
+            this.btnProductoMonitores.TabIndex = 10;
+            this.btnProductoMonitores.Text = "Monitores";
+            this.btnProductoMonitores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductoMonitores.UseVisualStyleBackColor = false;
+            // 
+            // btnProductoFuentesDePoder
+            // 
+            this.btnProductoFuentesDePoder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoFuentesDePoder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductoFuentesDePoder.FlatAppearance.BorderSize = 0;
+            this.btnProductoFuentesDePoder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductoFuentesDePoder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductoFuentesDePoder.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoFuentesDePoder.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductoFuentesDePoder.Location = new System.Drawing.Point(0, 342);
+            this.btnProductoFuentesDePoder.Name = "btnProductoFuentesDePoder";
+            this.btnProductoFuentesDePoder.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoFuentesDePoder.Size = new System.Drawing.Size(220, 32);
+            this.btnProductoFuentesDePoder.TabIndex = 9;
+            this.btnProductoFuentesDePoder.Text = "Fuentes de poder";
+            this.btnProductoFuentesDePoder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductoFuentesDePoder.UseVisualStyleBackColor = false;
+            // 
+            // btnProductosAlmacenamiento
+            // 
+            this.btnProductosAlmacenamiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductosAlmacenamiento.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductosAlmacenamiento.FlatAppearance.BorderSize = 0;
+            this.btnProductosAlmacenamiento.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductosAlmacenamiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductosAlmacenamiento.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductosAlmacenamiento.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductosAlmacenamiento.Location = new System.Drawing.Point(0, 310);
+            this.btnProductosAlmacenamiento.Name = "btnProductosAlmacenamiento";
+            this.btnProductosAlmacenamiento.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductosAlmacenamiento.Size = new System.Drawing.Size(220, 32);
+            this.btnProductosAlmacenamiento.TabIndex = 8;
+            this.btnProductosAlmacenamiento.Text = "Almacenamiento";
+            this.btnProductosAlmacenamiento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductosAlmacenamiento.UseVisualStyleBackColor = false;
+            // 
+            // btnProductoMemoriasRam
+            // 
+            this.btnProductoMemoriasRam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoMemoriasRam.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductoMemoriasRam.FlatAppearance.BorderSize = 0;
+            this.btnProductoMemoriasRam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductoMemoriasRam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductoMemoriasRam.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoMemoriasRam.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductoMemoriasRam.Location = new System.Drawing.Point(0, 278);
+            this.btnProductoMemoriasRam.Name = "btnProductoMemoriasRam";
+            this.btnProductoMemoriasRam.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoMemoriasRam.Size = new System.Drawing.Size(220, 32);
+            this.btnProductoMemoriasRam.TabIndex = 7;
+            this.btnProductoMemoriasRam.Text = "Memorias Ram";
+            this.btnProductoMemoriasRam.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductoMemoriasRam.UseVisualStyleBackColor = false;
             // 
             // btnProductoPlacasMadres
             // 
             this.btnProductoPlacasMadres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoPlacasMadres.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProductoPlacasMadres.FlatAppearance.BorderSize = 0;
             this.btnProductoPlacasMadres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnProductoPlacasMadres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductoPlacasMadres.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoPlacasMadres.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoPlacasMadres.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoPlacasMadres.Location = new System.Drawing.Point(0, 258);
+            this.btnProductoPlacasMadres.Location = new System.Drawing.Point(0, 246);
             this.btnProductoPlacasMadres.Name = "btnProductoPlacasMadres";
-            this.btnProductoPlacasMadres.Size = new System.Drawing.Size(220, 33);
-            this.btnProductoPlacasMadres.TabIndex = 4;
-            this.btnProductoPlacasMadres.Text = "PLACAS MADRES";
+            this.btnProductoPlacasMadres.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoPlacasMadres.Size = new System.Drawing.Size(220, 32);
+            this.btnProductoPlacasMadres.TabIndex = 6;
+            this.btnProductoPlacasMadres.Text = "Placas madres";
+            this.btnProductoPlacasMadres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoPlacasMadres.UseVisualStyleBackColor = false;
-            this.btnProductoPlacasMadres.Click += new System.EventHandler(this.btnProductoPlacasMadres_Click);
+            // 
+            // btnProductoTarjetasGraficas
+            // 
+            this.btnProductoTarjetasGraficas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoTarjetasGraficas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductoTarjetasGraficas.FlatAppearance.BorderSize = 0;
+            this.btnProductoTarjetasGraficas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProductoTarjetasGraficas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductoTarjetasGraficas.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoTarjetasGraficas.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProductoTarjetasGraficas.Location = new System.Drawing.Point(0, 216);
+            this.btnProductoTarjetasGraficas.Name = "btnProductoTarjetasGraficas";
+            this.btnProductoTarjetasGraficas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoTarjetasGraficas.Size = new System.Drawing.Size(220, 30);
+            this.btnProductoTarjetasGraficas.TabIndex = 5;
+            this.btnProductoTarjetasGraficas.Text = "Tarjetas Graficas";
+            this.btnProductoTarjetasGraficas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductoTarjetasGraficas.UseVisualStyleBackColor = false;
+            // 
+            // subMenuProcesadores
+            // 
+            this.subMenuProcesadores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.subMenuProcesadores.Controls.Add(this.btnProcesadorRyzen);
+            this.subMenuProcesadores.Controls.Add(this.btnProcesadorIntel);
+            this.subMenuProcesadores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subMenuProcesadores.Location = new System.Drawing.Point(0, 148);
+            this.subMenuProcesadores.Name = "subMenuProcesadores";
+            this.subMenuProcesadores.Size = new System.Drawing.Size(220, 68);
+            this.subMenuProcesadores.TabIndex = 4;
+            this.subMenuProcesadores.Visible = false;
+            // 
+            // btnProcesadorRyzen
+            // 
+            this.btnProcesadorRyzen.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProcesadorRyzen.FlatAppearance.BorderSize = 0;
+            this.btnProcesadorRyzen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProcesadorRyzen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProcesadorRyzen.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProcesadorRyzen.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProcesadorRyzen.Location = new System.Drawing.Point(0, 30);
+            this.btnProcesadorRyzen.Name = "btnProcesadorRyzen";
+            this.btnProcesadorRyzen.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnProcesadorRyzen.Size = new System.Drawing.Size(220, 30);
+            this.btnProcesadorRyzen.TabIndex = 1;
+            this.btnProcesadorRyzen.Text = "Ryzen";
+            this.btnProcesadorRyzen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProcesadorRyzen.UseVisualStyleBackColor = true;
+            this.btnProcesadorRyzen.Click += new System.EventHandler(this.btnProcesadorRyzen_Click);
+            // 
+            // btnProcesadorIntel
+            // 
+            this.btnProcesadorIntel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProcesadorIntel.FlatAppearance.BorderSize = 0;
+            this.btnProcesadorIntel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProcesadorIntel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProcesadorIntel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProcesadorIntel.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnProcesadorIntel.Location = new System.Drawing.Point(0, 0);
+            this.btnProcesadorIntel.Name = "btnProcesadorIntel";
+            this.btnProcesadorIntel.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnProcesadorIntel.Size = new System.Drawing.Size(220, 30);
+            this.btnProcesadorIntel.TabIndex = 0;
+            this.btnProcesadorIntel.Text = "Intel";
+            this.btnProcesadorIntel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProcesadorIntel.UseVisualStyleBackColor = true;
+            this.btnProcesadorIntel.Click += new System.EventHandler(this.btnProcesadorIntel_Click);
             // 
             // panel8
             // 
@@ -187,51 +388,41 @@
             this.panel8.Size = new System.Drawing.Size(5, 33);
             this.panel8.TabIndex = 3;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel2.Location = new System.Drawing.Point(0, 183);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(8, 33);
-            this.panel2.TabIndex = 1;
-            // 
             // btnProductoProcesador
             // 
             this.btnProductoProcesador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoProcesador.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProductoProcesador.FlatAppearance.BorderSize = 0;
             this.btnProductoProcesador.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnProductoProcesador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductoProcesador.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoProcesador.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoProcesador.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoProcesador.Location = new System.Drawing.Point(0, 183);
+            this.btnProductoProcesador.Location = new System.Drawing.Point(0, 118);
             this.btnProductoProcesador.Name = "btnProductoProcesador";
-            this.btnProductoProcesador.Size = new System.Drawing.Size(220, 33);
+            this.btnProductoProcesador.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoProcesador.Size = new System.Drawing.Size(220, 30);
             this.btnProductoProcesador.TabIndex = 2;
-            this.btnProductoProcesador.Text = "PROCESADOR";
+            this.btnProductoProcesador.Text = "Procesadores";
+            this.btnProductoProcesador.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoProcesador.UseVisualStyleBackColor = false;
             this.btnProductoProcesador.Click += new System.EventHandler(this.btnProductoProcesador_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel1.Location = new System.Drawing.Point(0, 105);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(8, 33);
-            this.panel1.TabIndex = 0;
             // 
             // btnProductoCase
             // 
             this.btnProductoCase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProductoCase.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProductoCase.FlatAppearance.BorderSize = 0;
             this.btnProductoCase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnProductoCase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductoCase.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnProductoCase.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoCase.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoCase.Location = new System.Drawing.Point(0, 105);
+            this.btnProductoCase.Location = new System.Drawing.Point(0, 86);
             this.btnProductoCase.Name = "btnProductoCase";
-            this.btnProductoCase.Size = new System.Drawing.Size(220, 33);
+            this.btnProductoCase.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductoCase.Size = new System.Drawing.Size(220, 32);
             this.btnProductoCase.TabIndex = 1;
-            this.btnProductoCase.Text = "CASE";
+            this.btnProductoCase.Text = "Torre del CPU";
+            this.btnProductoCase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoCase.UseVisualStyleBackColor = false;
             this.btnProductoCase.Click += new System.EventHandler(this.btnProductoCase_Click);
             // 
@@ -241,213 +432,69 @@
             this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.visual_studio;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(220, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // SubMenuCase
-            // 
-            this.SubMenuCase.Controls.Add(this.panel4);
-            this.SubMenuCase.Controls.Add(this.btnCaseSinRGB);
-            this.SubMenuCase.Controls.Add(this.panel3);
-            this.SubMenuCase.Controls.Add(this.btnCaseRGB);
-            this.SubMenuCase.Location = new System.Drawing.Point(0, 105);
-            this.SubMenuCase.Name = "SubMenuCase";
-            this.SubMenuCase.Size = new System.Drawing.Size(195, 77);
-            this.SubMenuCase.TabIndex = 0;
-            this.SubMenuCase.Visible = false;
-            // 
-            // btnCaseRGB
-            // 
-            this.btnCaseRGB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnCaseRGB.FlatAppearance.BorderSize = 0;
-            this.btnCaseRGB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnCaseRGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCaseRGB.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCaseRGB.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCaseRGB.Location = new System.Drawing.Point(0, 3);
-            this.btnCaseRGB.Name = "btnCaseRGB";
-            this.btnCaseRGB.Size = new System.Drawing.Size(195, 33);
-            this.btnCaseRGB.TabIndex = 2;
-            this.btnCaseRGB.Text = "CASE RGB";
-            this.btnCaseRGB.UseVisualStyleBackColor = false;
-            this.btnCaseRGB.Click += new System.EventHandler(this.btnCaseRGB_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel3.Location = new System.Drawing.Point(0, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(5, 33);
-            this.panel3.TabIndex = 1;
-            // 
-            // btnCaseSinRGB
-            // 
-            this.btnCaseSinRGB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnCaseSinRGB.FlatAppearance.BorderSize = 0;
-            this.btnCaseSinRGB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnCaseSinRGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCaseSinRGB.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCaseSinRGB.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCaseSinRGB.Location = new System.Drawing.Point(0, 39);
-            this.btnCaseSinRGB.Name = "btnCaseSinRGB";
-            this.btnCaseSinRGB.Size = new System.Drawing.Size(195, 33);
-            this.btnCaseSinRGB.TabIndex = 3;
-            this.btnCaseSinRGB.Text = "CASE SIN RGB";
-            this.btnCaseSinRGB.UseVisualStyleBackColor = false;
-            this.btnCaseSinRGB.Click += new System.EventHandler(this.btnCaseSinRGB_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel4.Location = new System.Drawing.Point(0, 39);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(5, 33);
-            this.panel4.TabIndex = 2;
-            // 
-            // SubMenuProcesadores
-            // 
-            this.SubMenuProcesadores.Controls.Add(this.panel6);
-            this.SubMenuProcesadores.Controls.Add(this.btnProcesadorAmd);
-            this.SubMenuProcesadores.Controls.Add(this.panel7);
-            this.SubMenuProcesadores.Controls.Add(this.btnProcesadorIntel);
-            this.SubMenuProcesadores.Location = new System.Drawing.Point(0, 183);
-            this.SubMenuProcesadores.Name = "SubMenuProcesadores";
-            this.SubMenuProcesadores.Size = new System.Drawing.Size(195, 79);
-            this.SubMenuProcesadores.TabIndex = 4;
-            this.SubMenuProcesadores.Visible = false;
-            // 
-            // btnProcesadorIntel
-            // 
-            this.btnProcesadorIntel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnProcesadorIntel.FlatAppearance.BorderSize = 0;
-            this.btnProcesadorIntel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnProcesadorIntel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProcesadorIntel.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnProcesadorIntel.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProcesadorIntel.Location = new System.Drawing.Point(0, 3);
-            this.btnProcesadorIntel.Name = "btnProcesadorIntel";
-            this.btnProcesadorIntel.Size = new System.Drawing.Size(195, 33);
-            this.btnProcesadorIntel.TabIndex = 2;
-            this.btnProcesadorIntel.Text = "INTEL";
-            this.btnProcesadorIntel.UseVisualStyleBackColor = false;
-            this.btnProcesadorIntel.Click += new System.EventHandler(this.btnProcesadorIntel_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(0, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 33);
-            this.panel7.TabIndex = 1;
-            // 
-            // btnProcesadorAmd
-            // 
-            this.btnProcesadorAmd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnProcesadorAmd.FlatAppearance.BorderSize = 0;
-            this.btnProcesadorAmd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnProcesadorAmd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProcesadorAmd.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnProcesadorAmd.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProcesadorAmd.Location = new System.Drawing.Point(0, 39);
-            this.btnProcesadorAmd.Name = "btnProcesadorAmd";
-            this.btnProcesadorAmd.Size = new System.Drawing.Size(195, 33);
-            this.btnProcesadorAmd.TabIndex = 3;
-            this.btnProcesadorAmd.Text = "RYZEN";
-            this.btnProcesadorAmd.UseVisualStyleBackColor = false;
-            this.btnProcesadorAmd.Click += new System.EventHandler(this.btnProcesadorAmd_Click);
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel6.Location = new System.Drawing.Point(0, 39);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 33);
-            this.panel6.TabIndex = 2;
-            // 
-            // SubMenuPlacasMadres
-            // 
-            this.SubMenuPlacasMadres.Controls.Add(this.panel10);
-            this.SubMenuPlacasMadres.Controls.Add(this.btnPlacaMadreMsi);
-            this.SubMenuPlacasMadres.Controls.Add(this.panel11);
-            this.SubMenuPlacasMadres.Controls.Add(this.btnPlacaMadreAsus);
-            this.SubMenuPlacasMadres.Location = new System.Drawing.Point(0, 261);
-            this.SubMenuPlacasMadres.Name = "SubMenuPlacasMadres";
-            this.SubMenuPlacasMadres.Size = new System.Drawing.Size(195, 79);
-            this.SubMenuPlacasMadres.TabIndex = 5;
-            this.SubMenuPlacasMadres.Visible = false;
-            // 
-            // btnPlacaMadreAsus
-            // 
-            this.btnPlacaMadreAsus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnPlacaMadreAsus.FlatAppearance.BorderSize = 0;
-            this.btnPlacaMadreAsus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnPlacaMadreAsus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlacaMadreAsus.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPlacaMadreAsus.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPlacaMadreAsus.Location = new System.Drawing.Point(0, 3);
-            this.btnPlacaMadreAsus.Name = "btnPlacaMadreAsus";
-            this.btnPlacaMadreAsus.Size = new System.Drawing.Size(195, 33);
-            this.btnPlacaMadreAsus.TabIndex = 2;
-            this.btnPlacaMadreAsus.Text = "ASUS";
-            this.btnPlacaMadreAsus.UseVisualStyleBackColor = false;
-            this.btnPlacaMadreAsus.Click += new System.EventHandler(this.btnPlacaMadreAsus_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel11.Location = new System.Drawing.Point(0, 3);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(5, 33);
-            this.panel11.TabIndex = 1;
-            // 
-            // btnPlacaMadreMsi
-            // 
-            this.btnPlacaMadreMsi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnPlacaMadreMsi.FlatAppearance.BorderSize = 0;
-            this.btnPlacaMadreMsi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnPlacaMadreMsi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlacaMadreMsi.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPlacaMadreMsi.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPlacaMadreMsi.Location = new System.Drawing.Point(0, 39);
-            this.btnPlacaMadreMsi.Name = "btnPlacaMadreMsi";
-            this.btnPlacaMadreMsi.Size = new System.Drawing.Size(195, 33);
-            this.btnPlacaMadreMsi.TabIndex = 3;
-            this.btnPlacaMadreMsi.Text = "MSI";
-            this.btnPlacaMadreMsi.UseVisualStyleBackColor = false;
-            this.btnPlacaMadreMsi.Click += new System.EventHandler(this.btnPlacaMadreMsi_Click);
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel10.Location = new System.Drawing.Point(0, 39);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(5, 33);
-            this.panel10.TabIndex = 2;
-            // 
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.panelContenedor.Controls.Add(this.SubMenuPlacasMadres);
-            this.panelContenedor.Controls.Add(this.SubMenuProcesadores);
-            this.panelContenedor.Controls.Add(this.SubMenuCase);
+            this.panelContenedor.Controls.Add(this.label2);
+            this.panelContenedor.Controls.Add(this.label1);
+            this.panelContenedor.Controls.Add(this.pictureBox2);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(220, 29);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1080, 621);
+            this.panelContenedor.Size = new System.Drawing.Size(699, 554);
             this.panelContenedor.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(153, 434);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(389, 44);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Para gente perrona";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(138, 374);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(424, 60);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "TIENDA PERRONA";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.visual_studio;
+            this.pictureBox2.Location = new System.Drawing.Point(171, 137);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(350, 269);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // PaginaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 650);
+            this.ClientSize = new System.Drawing.Size(919, 583);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraDeTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PaginaPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.PaginaPrincipal_Load);
             this.BarraDeTitulo.ResumeLayout(false);
@@ -456,11 +503,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.MenuVertical.ResumeLayout(false);
+            this.SubMenuPerifericos.ResumeLayout(false);
+            this.subMenuProcesadores.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.SubMenuCase.ResumeLayout(false);
-            this.SubMenuProcesadores.ResumeLayout(false);
-            this.SubMenuPlacasMadres.ResumeLayout(false);
             this.panelContenedor.ResumeLayout(false);
+            this.panelContenedor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -474,28 +522,25 @@
         private PictureBox btnMaximizar;
         private PictureBox btnRestaurar;
         private PictureBox pictureBox1;
-        private Panel panel1;
         private Panel panel8;
-        private Panel panel2;
         private Button btnProductoProcesador;
         private Button btnProductoCase;
-        private Panel panel5;
-        private Button btnProductoPlacasMadres;
-        private Panel SubMenuCase;
-        private Panel panel4;
-        private Button btnCaseSinRGB;
-        private Panel panel3;
-        private Button btnCaseRGB;
-        private Panel SubMenuProcesadores;
-        private Panel panel6;
-        private Button btnProcesadorAmd;
-        private Panel panel7;
-        private Button btnProcesadorIntel;
-        private Panel SubMenuPlacasMadres;
-        private Panel panel10;
-        private Button btnPlacaMadreMsi;
-        private Panel panel11;
-        private Button btnPlacaMadreAsus;
         private Panel panelContenedor;
+        private Panel subMenuProcesadores;
+        private Button btnProcesadorRyzen;
+        private Button btnProcesadorIntel;
+        private Panel SubMenuPerifericos;
+        private Button btnPerifericosMouse;
+        private Button btnPerifericosTeclados;
+        private Button btnProductosPerifericos;
+        private Button btnProductoMonitores;
+        private Button btnProductoFuentesDePoder;
+        private Button btnProductosAlmacenamiento;
+        private Button btnProductoMemoriasRam;
+        private Button btnProductoPlacasMadres;
+        private Button btnProductoTarjetasGraficas;
+        private PictureBox pictureBox2;
+        private Label label2;
+        private Label label1;
     }
 }
