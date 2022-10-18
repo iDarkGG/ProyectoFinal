@@ -104,7 +104,7 @@ namespace Libreria
 
         private void btnProcesadorIntel_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FormProcesadorIntel>();
+            //AbrirFormulario<FormProcesadorIntel>();
             ocultasSUbMenu();
         }
 
@@ -126,6 +126,11 @@ namespace Libreria
         private void btnPerifericosMouse_Click(object sender, EventArgs e)
         {
             ocultasSUbMenu();
+        }
+
+        private void btnAbrirCarrito_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormDelCarrito>();
         }
 
         private void btnProductoProcesador_Click(object sender, EventArgs e)

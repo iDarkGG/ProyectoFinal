@@ -30,70 +30,82 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase3 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase5 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.btnComprarCase6 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.lbCantidadCase1 = new System.Windows.Forms.ListBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.lbCantidadCase2 = new System.Windows.Forms.ListBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lbCantidadCase3 = new System.Windows.Forms.ListBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.lbCantidadCase4 = new System.Windows.Forms.ListBox();
+            this.lbCantidadCase5 = new System.Windows.Forms.ListBox();
+            this.lbCantidadCase6 = new System.Windows.Forms.ListBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.SuspendLayout();
@@ -112,7 +124,9 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.lbCantidadCase1);
+            this.panel1.Controls.Add(this.btnComprarCase1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label5);
@@ -123,17 +137,17 @@
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 6;
             // 
-            // pictureBox3
+            // btnComprarCase1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase1.Name = "btnComprarCase1";
+            this.btnComprarCase1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase1.TabIndex = 6;
+            this.btnComprarCase1.TabStop = false;
+            this.btnComprarCase1.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // label3
             // 
@@ -189,7 +203,9 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.lbCantidadCase4);
+            this.panel2.Controls.Add(this.btnComprarCase4);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label6);
@@ -200,16 +216,17 @@
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 7;
             // 
-            // pictureBox1
+            // btnComprarCase4
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarCase4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase4.Name = "btnComprarCase4";
+            this.btnComprarCase4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase4.TabIndex = 5;
+            this.btnComprarCase4.TabStop = false;
+            this.btnComprarCase4.Click += new System.EventHandler(this.btnComprarCase4_Click);
             // 
             // label1
             // 
@@ -265,7 +282,9 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.pictureBox7);
+            this.panel3.Controls.Add(this.label20);
+            this.panel3.Controls.Add(this.lbCantidadCase2);
+            this.panel3.Controls.Add(this.btnComprarCase2);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label9);
@@ -276,17 +295,17 @@
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 7;
             // 
-            // pictureBox7
+            // btnComprarCase2
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 5;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.btnComprarCase2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase2.Name = "btnComprarCase2";
+            this.btnComprarCase2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase2.TabIndex = 7;
+            this.btnComprarCase2.TabStop = false;
+            this.btnComprarCase2.Click += new System.EventHandler(this.btnComprarCase2_Click);
             // 
             // label7
             // 
@@ -342,7 +361,9 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.pictureBox10);
+            this.panel4.Controls.Add(this.label21);
+            this.panel4.Controls.Add(this.lbCantidadCase3);
+            this.panel4.Controls.Add(this.btnComprarCase3);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label12);
@@ -353,16 +374,17 @@
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 8;
             // 
-            // pictureBox10
+            // btnComprarCase3
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox10.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 5;
-            this.pictureBox10.TabStop = false;
+            this.btnComprarCase3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase3.Name = "btnComprarCase3";
+            this.btnComprarCase3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase3.TabIndex = 5;
+            this.btnComprarCase3.TabStop = false;
+            this.btnComprarCase3.Click += new System.EventHandler(this.btnComprarCase3_Click);
             // 
             // label10
             // 
@@ -418,7 +440,9 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.pictureBox13);
+            this.panel5.Controls.Add(this.label23);
+            this.panel5.Controls.Add(this.lbCantidadCase5);
+            this.panel5.Controls.Add(this.btnComprarCase5);
             this.panel5.Controls.Add(this.label13);
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.label15);
@@ -429,16 +453,17 @@
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 8;
             // 
-            // pictureBox13
+            // btnComprarCase5
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox13.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox13.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 5;
-            this.pictureBox13.TabStop = false;
+            this.btnComprarCase5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase5.Name = "btnComprarCase5";
+            this.btnComprarCase5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase5.TabIndex = 5;
+            this.btnComprarCase5.TabStop = false;
+            this.btnComprarCase5.Click += new System.EventHandler(this.btnComprarCase5_Click);
             // 
             // label13
             // 
@@ -494,7 +519,9 @@
             // panel6
             // 
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel6.Controls.Add(this.pictureBox16);
+            this.panel6.Controls.Add(this.label24);
+            this.panel6.Controls.Add(this.lbCantidadCase6);
+            this.panel6.Controls.Add(this.btnComprarCase6);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Controls.Add(this.label17);
             this.panel6.Controls.Add(this.label18);
@@ -505,16 +532,17 @@
             this.panel6.Size = new System.Drawing.Size(189, 243);
             this.panel6.TabIndex = 8;
             // 
-            // pictureBox16
+            // btnComprarCase6
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox16.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox16.Location = new System.Drawing.Point(68, 211);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 5;
-            this.pictureBox16.TabStop = false;
+            this.btnComprarCase6.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase6.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase6.Name = "btnComprarCase6";
+            this.btnComprarCase6.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase6.TabIndex = 5;
+            this.btnComprarCase6.TabStop = false;
+            this.btnComprarCase6.Click += new System.EventHandler(this.btnComprarCase6_Click);
             // 
             // label16
             // 
@@ -567,6 +595,186 @@
             this.pictureBox18.TabIndex = 0;
             this.pictureBox18.TabStop = false;
             // 
+            // lbCantidadCase1
+            // 
+            this.lbCantidadCase1.FormattingEnabled = true;
+            this.lbCantidadCase1.ItemHeight = 15;
+            this.lbCantidadCase1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase1.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase1.Name = "lbCantidadCase1";
+            this.lbCantidadCase1.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase1.TabIndex = 7;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(68, 224);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 13);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Cantidad :";
+            // 
+            // lbCantidadCase2
+            // 
+            this.lbCantidadCase2.FormattingEnabled = true;
+            this.lbCantidadCase2.ItemHeight = 15;
+            this.lbCantidadCase2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase2.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase2.Name = "lbCantidadCase2";
+            this.lbCantidadCase2.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase2.TabIndex = 9;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(68, 224);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Cantidad :";
+            // 
+            // lbCantidadCase3
+            // 
+            this.lbCantidadCase3.FormattingEnabled = true;
+            this.lbCantidadCase3.ItemHeight = 15;
+            this.lbCantidadCase3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase3.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase3.Name = "lbCantidadCase3";
+            this.lbCantidadCase3.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase3.TabIndex = 10;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(68, 224);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(60, 13);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "Cantidad :";
+            // 
+            // lbCantidadCase4
+            // 
+            this.lbCantidadCase4.FormattingEnabled = true;
+            this.lbCantidadCase4.ItemHeight = 15;
+            this.lbCantidadCase4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase4.Location = new System.Drawing.Point(133, 221);
+            this.lbCantidadCase4.Name = "lbCantidadCase4";
+            this.lbCantidadCase4.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase4.TabIndex = 9;
+            // 
+            // lbCantidadCase5
+            // 
+            this.lbCantidadCase5.FormattingEnabled = true;
+            this.lbCantidadCase5.ItemHeight = 15;
+            this.lbCantidadCase5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase5.Location = new System.Drawing.Point(133, 221);
+            this.lbCantidadCase5.Name = "lbCantidadCase5";
+            this.lbCantidadCase5.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase5.TabIndex = 10;
+            // 
+            // lbCantidadCase6
+            // 
+            this.lbCantidadCase6.FormattingEnabled = true;
+            this.lbCantidadCase6.ItemHeight = 15;
+            this.lbCantidadCase6.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase6.Location = new System.Drawing.Point(133, 221);
+            this.lbCantidadCase6.Name = "lbCantidadCase6";
+            this.lbCantidadCase6.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase6.TabIndex = 11;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(68, 227);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(60, 13);
+            this.label22.TabIndex = 10;
+            this.label22.Text = "Cantidad :";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(68, 227);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(60, 13);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Cantidad :";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(68, 227);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(60, 13);
+            this.label24.TabIndex = 12;
+            this.label24.Text = "Cantidad :";
+            // 
             // FormDelCase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -585,32 +793,32 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.ResumeLayout(false);
@@ -621,46 +829,58 @@
 
         private PictureBox btnCerrar1;
         private Panel panel1;
-        private PictureBox pictureBox3;
         private Label label3;
         private Label label4;
         private Label label5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Panel panel2;
-        private PictureBox pictureBox1;
+        private PictureBox btnComprarCase4;
         private Label label1;
         private Label label2;
         private Label label6;
         private PictureBox pictureBox2;
         private PictureBox pictureBox6;
         private Panel panel3;
-        private PictureBox pictureBox7;
         private Label label7;
         private Label label8;
         private Label label9;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Panel panel4;
-        private PictureBox pictureBox10;
+        private PictureBox btnComprarCase3;
         private Label label10;
         private Label label11;
         private Label label12;
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Panel panel5;
-        private PictureBox pictureBox13;
+        private PictureBox btnComprarCase5;
         private Label label13;
         private Label label14;
         private Label label15;
         private PictureBox pictureBox14;
         private PictureBox pictureBox15;
         private Panel panel6;
-        private PictureBox pictureBox16;
+        private PictureBox btnComprarCase6;
         private Label label16;
         private Label label17;
         private Label label18;
         private PictureBox pictureBox17;
         private PictureBox pictureBox18;
+        private PictureBox btnComprarCase1;
+        private PictureBox btnComprarCase2;
+        private Label label19;
+        private ListBox lbCantidadCase1;
+        private Label label22;
+        private ListBox lbCantidadCase4;
+        private Label label20;
+        private ListBox lbCantidadCase2;
+        private Label label21;
+        private ListBox lbCantidadCase3;
+        private Label label23;
+        private ListBox lbCantidadCase5;
+        private Label label24;
+        private ListBox lbCantidadCase6;
     }
 }

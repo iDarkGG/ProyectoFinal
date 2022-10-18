@@ -23,15 +23,42 @@ namespace TiendaPerrona
             this.Close();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+       
+
+        private void btnComprarCase1_Click(object sender, EventArgs e)
         {
-          
-            form1.Show();
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void btnComprarCase2_Click(object sender, EventArgs e)
         {
-            form1.Show(); 
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
+        }
+
+        private void btnComprarCase3_Click(object sender, EventArgs e)
+        {
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
+        }
+
+        private void btnComprarCase4_Click(object sender, EventArgs e)
+        {
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
+        }
+
+        private void btnComprarCase5_Click(object sender, EventArgs e)
+        {
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
+        }
+
+        private void btnComprarCase6_Click(object sender, EventArgs e)
+        {
+            MensajeAgregado abrirForm = new MensajeAgregado();
+            abrirForm.Show();
         }
     }
 }

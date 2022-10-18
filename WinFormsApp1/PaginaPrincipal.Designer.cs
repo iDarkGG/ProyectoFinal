@@ -55,6 +55,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnAbrirCarrito = new System.Windows.Forms.PictureBox();
             this.BarraDeTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -66,6 +67,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAbrirCarrito)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraDeTitulo
@@ -440,6 +442,7 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panelContenedor.Controls.Add(this.btnAbrirCarrito);
             this.panelContenedor.Controls.Add(this.label2);
             this.panelContenedor.Controls.Add(this.label1);
             this.panelContenedor.Controls.Add(this.pictureBox2);
@@ -484,6 +487,17 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // btnAbrirCarrito
+            // 
+            this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAbrirCarrito.Location = new System.Drawing.Point(634, 6);
+            this.btnAbrirCarrito.Name = "btnAbrirCarrito";
+            this.btnAbrirCarrito.Size = new System.Drawing.Size(53, 49);
+            this.btnAbrirCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAbrirCarrito.TabIndex = 3;
+            this.btnAbrirCarrito.TabStop = false;
+            this.btnAbrirCarrito.Click += new System.EventHandler(this.btnAbrirCarrito_Click);
+            // 
             // PaginaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -509,6 +523,7 @@
             this.panelContenedor.ResumeLayout(false);
             this.panelContenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAbrirCarrito)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -542,5 +557,6 @@
         private PictureBox pictureBox2;
         private Label label2;
         private Label label1;
+        private PictureBox btnAbrirCarrito;
     }
 }

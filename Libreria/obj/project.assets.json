@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL 15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj",
       "projectName": "Libreria",
-      "projectPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+      "projectPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

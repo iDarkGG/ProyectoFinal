@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
+    "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+        "projectPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
+    "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "projectName": "TiendaPerrona",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "packagesPath": "C:\\Users\\DELL 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
+              "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+                "projectPath": "C:\\Users\\DELL 15\\Documents\\yareth\\c#\\ProyectoFinal-main\\ProyectoFinal\\Libreria\\Libreria.csproj"
               }
             }
           }
@@ -117,7 +117,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
