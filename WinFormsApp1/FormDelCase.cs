@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace TiendaPerrona
 {
+  
     public partial class FormDelCase : Form
     {
         MensajeAgregado form1 = new MensajeAgregado();
@@ -17,7 +18,7 @@ namespace TiendaPerrona
         {
             InitializeComponent();
         }
-
+        
         private void btnCerrar1_Click(object sender, EventArgs e)
         {
             this.Close();

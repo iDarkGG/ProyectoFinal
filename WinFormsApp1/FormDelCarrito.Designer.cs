@@ -53,6 +53,7 @@
             // lvListaDelCarritoDeCompras
             // 
             this.lvListaDelCarritoDeCompras.BackColor = System.Drawing.Color.White;
+            this.lvListaDelCarritoDeCompras.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lvListaDelCarritoDeCompras.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
