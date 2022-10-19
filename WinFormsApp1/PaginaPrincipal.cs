@@ -8,7 +8,29 @@ namespace Libreria
         public PaginaPrincipal()
         {
             InitializeComponent();
+            
         }
+        
+        private void ocultasSUbMenu()
+        {
+            if (subMenuProcesadores.Visible == true)
+                subMenuProcesadores.Visible = false;
+            if (SubMenuPerifericos.Visible == true)
+                SubMenuPerifericos.Visible = false;
+        }
+        private void MostrarSubMenu(Panel SubMenu)
+        {
+            if (SubMenu.Visible == false)
+            {
+                ocultasSUbMenu();
+                SubMenu.Visible = true;
+            }
+            else
+            {
+                SubMenu.Visible = false;
+            }
+        }
+
 
 
 
@@ -36,8 +58,7 @@ namespace Libreria
                 LosFormularios.BringToFront();
             }
         }
-
-
+       
 
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -60,6 +81,7 @@ namespace Libreria
             
 
         }
+       
 
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
@@ -77,55 +99,54 @@ namespace Libreria
 
         private void btnProductoCase_Click(object sender, EventArgs e)
         {
-            SubMenuCase.Visible = true;
-           
+            AbrirFormulario<FormDelCase>();
         }
 
-        private void btnCaseRGB_Click(object sender, EventArgs e)
+        private void btnProcesadorIntel_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FormCaseConRGB>();
-            SubMenuCase.Visible = false;
+            //AbrirFormulario<FormProcesadorIntel>();
+            ocultasSUbMenu();
         }
 
-        private void btnCaseSinRGB_Click(object sender, EventArgs e)
+        private void btnProcesadorRyzen_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FormCaseSinRGB>();
-            SubMenuCase.Visible = false;
+            ocultasSUbMenu();
+        }
+
+        private void btnProductosPerifericos_Click(object sender, EventArgs e)
+        {
+            MostrarSubMenu(SubMenuPerifericos);
+        }
+
+        private void btnPerifericosTeclados_Click(object sender, EventArgs e)
+        {
+            ocultasSUbMenu();
+        }
+
+        private void btnPerifericosMouse_Click(object sender, EventArgs e)
+        {
+            ocultasSUbMenu();
+        }
+
+        private void btnAbrirCarrito_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormDelCarrito>();
         }
 
         private void btnProductoProcesador_Click(object sender, EventArgs e)
         {
-            SubMenuProcesadores.Visible = true;
+            MostrarSubMenu(subMenuProcesadores);
         }
         
-        private void btnProcesadorIntel_Click(object sender, EventArgs e)
-        {
-            SubMenuProcesadores.Visible = false;
-        }
 
-        private void btnProcesadorAmd_Click(object sender, EventArgs e)
-        {
-            SubMenuProcesadores.Visible = false;
-        }
-
-        private void btnProductoPlacasMadres_Click(object sender, EventArgs e)
-        {
-            SubMenuPlacasMadres.Visible = true;
-        }
+     
 
         private void BarraDeTitulo_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void btnPlacaMadreAsus_Click(object sender, EventArgs e)
-        {
-            SubMenuPlacasMadres.Visible = false;
-        }
 
-        private void btnPlacaMadreMsi_Click(object sender, EventArgs e)
-        {
-            SubMenuPlacasMadres.Visible = false;
-        }
+       
     }
 }

@@ -21,26 +21,103 @@ C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-window
 C:\Users\DELL 15\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
 C:\Users\DELL 15\source\repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseConRGB.resources
 C:\Users\DELL 15\source\repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseSinRGB.resources
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.exe
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.deps.json
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.runtimeconfig.json
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.dll
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.pdb
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.dll
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.pdb
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.AssemblyReference.cache
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseConRGB.resources
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseSinRGB.resources
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\Libreria.PaginaPrincipal.resources
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.Properties.Resources.resources
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.GenerateResource.cache
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfoInputs.cache
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfo.cs
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CoreCompileInputs.cache
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CopyComplete
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.dll
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerrona.dll
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
-C:\Users\JADPA-31\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.exe
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.deps.json
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.runtimeconfig.json
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.AssemblyReference.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\Libreria.PaginaPrincipal.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.Properties.Resources.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.GenerateResource.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfoInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfo.cs
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CoreCompileInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CopyComplete
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCase.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormProcesadorIntel.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.MensajeAgregado.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.exe
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.deps.json
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.runtimeconfig.json
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.pdb
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseConRGB.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormCaseSinRGB.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCase.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormProcesadorIntel.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.MensajeAgregado.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\Libreria.PaginaPrincipal.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.Properties.Resources.resources
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfoInputs.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfo.cs
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CopyComplete
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerrona.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.exe
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.deps.json
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.runtimeconfig.json
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.AssemblyReference.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCarrito.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCase.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormProcesadorIntel.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.MensajeAgregado.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\Libreria.PaginaPrincipal.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.Properties.Resources.resources
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.GenerateResource.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfoInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfo.cs
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CoreCompileInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CopyComplete
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerrona.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.exe
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.deps.json
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.runtimeconfig.json
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\bin\Debug\net6.0-windows\Libreria.pdb
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.AssemblyReference.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCarrito.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormDelCase.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormProcesadorIntel.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.MensajeAgregado.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\Libreria.PaginaPrincipal.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.Properties.Resources.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.GenerateResource.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfoInputs.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.AssemblyInfo.cs
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CoreCompileInputs.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.csproj.CopyComplete
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerrona.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll

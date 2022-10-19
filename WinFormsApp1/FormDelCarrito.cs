@@ -10,16 +10,19 @@ using System.Windows.Forms;
 
 namespace TiendaPerrona
 {
-    public partial class FormCaseConRGB : Form
+    public partial class FormDelCarrito : Form
     {
-        public FormCaseConRGB()
+        public FormDelCarrito()
         {
             InitializeComponent();
         }
+        Libreria.PaginaPrincipal uwu = new Libreria.PaginaPrincipal();
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnSeguirComprando_Click(object sender, EventArgs e)
         {
             this.Close();
+            uwu.Show();
+
         }
     }
 }
