@@ -30,59 +30,59 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.lbCantidadCase1 = new System.Windows.Forms.ListBox();
             this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblPrecioCase1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblCaseGamer1 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.lbCantidadCase4 = new System.Windows.Forms.ListBox();
             this.btnComprarCase4 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPrecioCase4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblCaseGamer4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lbCantidadCase2 = new System.Windows.Forms.ListBox();
             this.btnComprarCase2 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblPrecioCase2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblCaseGamer2 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.lbCantidadCase3 = new System.Windows.Forms.ListBox();
             this.btnComprarCase3 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblPrecioCase3 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblCaseGamer3 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.lbCantidadCase5 = new System.Windows.Forms.ListBox();
             this.btnComprarCase5 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblPrecioCase5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblCaseGamer5 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.lbCantidadCase6 = new System.Windows.Forms.ListBox();
             this.btnComprarCase6 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblPrecioCase6 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lblCaseGamer6 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.lbCantidadCase1 = new System.Windows.Forms.ListBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.lbCantidadCase2 = new System.Windows.Forms.ListBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.lbCantidadCase3 = new System.Windows.Forms.ListBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.lbCantidadCase4 = new System.Windows.Forms.ListBox();
-            this.lbCantidadCase5 = new System.Windows.Forms.ListBox();
-            this.lbCantidadCase6 = new System.Windows.Forms.ListBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
@@ -127,15 +127,45 @@
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.lbCantidadCase1);
             this.panel1.Controls.Add(this.btnComprarCase1);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lblPrecioCase1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.lblCaseGamer1);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(44, 39);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 6;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(68, 224);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 13);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Cantidad :";
+            // 
+            // lbCantidadCase1
+            // 
+            this.lbCantidadCase1.FormattingEnabled = true;
+            this.lbCantidadCase1.ItemHeight = 15;
+            this.lbCantidadCase1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase1.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase1.Name = "lbCantidadCase1";
+            this.lbCantidadCase1.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase1.TabIndex = 7;
             // 
             // btnComprarCase1
             // 
@@ -149,15 +179,15 @@
             this.btnComprarCase1.TabStop = false;
             this.btnComprarCase1.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // label3
+            // lblPrecioCase1
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label3.Location = new System.Drawing.Point(83, 193);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase1.AutoSize = true;
+            this.lblPrecioCase1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase1.Name = "lblPrecioCase1";
+            this.lblPrecioCase1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase1.TabIndex = 3;
+            this.lblPrecioCase1.Text = "$ 59.95 + IVA";
             // 
             // label4
             // 
@@ -169,16 +199,16 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Precio :";
             // 
-            // label5
+            // lblCaseGamer1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label5.Location = new System.Drawing.Point(0, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(184, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer1.AutoSize = true;
+            this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer1.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer1.Name = "lblCaseGamer1";
+            this.lblCaseGamer1.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer1.TabIndex = 4;
+            this.lblCaseGamer1.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox4
             // 
@@ -206,15 +236,45 @@
             this.panel2.Controls.Add(this.label22);
             this.panel2.Controls.Add(this.lbCantidadCase4);
             this.panel2.Controls.Add(this.btnComprarCase4);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.lblPrecioCase4);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.lblCaseGamer4);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 299);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 7;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(68, 227);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(60, 13);
+            this.label22.TabIndex = 10;
+            this.label22.Text = "Cantidad :";
+            // 
+            // lbCantidadCase4
+            // 
+            this.lbCantidadCase4.FormattingEnabled = true;
+            this.lbCantidadCase4.ItemHeight = 15;
+            this.lbCantidadCase4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase4.Location = new System.Drawing.Point(133, 221);
+            this.lbCantidadCase4.Name = "lbCantidadCase4";
+            this.lbCantidadCase4.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase4.TabIndex = 9;
             // 
             // btnComprarCase4
             // 
@@ -228,15 +288,15 @@
             this.btnComprarCase4.TabStop = false;
             this.btnComprarCase4.Click += new System.EventHandler(this.btnComprarCase4_Click);
             // 
-            // label1
+            // lblPrecioCase4
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label1.Location = new System.Drawing.Point(83, 193);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase4.AutoSize = true;
+            this.lblPrecioCase4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase4.Name = "lblPrecioCase4";
+            this.lblPrecioCase4.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase4.TabIndex = 3;
+            this.lblPrecioCase4.Text = "$ 59.95 + IVA";
             // 
             // label2
             // 
@@ -248,16 +308,16 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Precio :";
             // 
-            // label6
+            // lblCaseGamer4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label6.Location = new System.Drawing.Point(0, 158);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(184, 26);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer4.AutoSize = true;
+            this.lblCaseGamer4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer4.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer4.Name = "lblCaseGamer4";
+            this.lblCaseGamer4.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer4.TabIndex = 4;
+            this.lblCaseGamer4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox2
             // 
@@ -285,15 +345,45 @@
             this.panel3.Controls.Add(this.label20);
             this.panel3.Controls.Add(this.lbCantidadCase2);
             this.panel3.Controls.Add(this.btnComprarCase2);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.lblPrecioCase2);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblCaseGamer2);
             this.panel3.Controls.Add(this.pictureBox8);
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Location = new System.Drawing.Point(260, 39);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 7;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(68, 224);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Cantidad :";
+            // 
+            // lbCantidadCase2
+            // 
+            this.lbCantidadCase2.FormattingEnabled = true;
+            this.lbCantidadCase2.ItemHeight = 15;
+            this.lbCantidadCase2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase2.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase2.Name = "lbCantidadCase2";
+            this.lbCantidadCase2.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase2.TabIndex = 9;
             // 
             // btnComprarCase2
             // 
@@ -307,15 +397,15 @@
             this.btnComprarCase2.TabStop = false;
             this.btnComprarCase2.Click += new System.EventHandler(this.btnComprarCase2_Click);
             // 
-            // label7
+            // lblPrecioCase2
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase2.AutoSize = true;
+            this.lblPrecioCase2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase2.Name = "lblPrecioCase2";
+            this.lblPrecioCase2.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase2.TabIndex = 3;
+            this.lblPrecioCase2.Text = "$ 59.95 + IVA";
             // 
             // label8
             // 
@@ -327,16 +417,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblCaseGamer2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer2.AutoSize = true;
+            this.lblCaseGamer2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer2.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer2.Name = "lblCaseGamer2";
+            this.lblCaseGamer2.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer2.TabIndex = 4;
+            this.lblCaseGamer2.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox8
             // 
@@ -364,15 +454,45 @@
             this.panel4.Controls.Add(this.label21);
             this.panel4.Controls.Add(this.lbCantidadCase3);
             this.panel4.Controls.Add(this.btnComprarCase3);
-            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.lblPrecioCase3);
             this.panel4.Controls.Add(this.label11);
-            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.lblCaseGamer3);
             this.panel4.Controls.Add(this.pictureBox11);
             this.panel4.Controls.Add(this.pictureBox12);
             this.panel4.Location = new System.Drawing.Point(480, 39);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 8;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(68, 224);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(60, 13);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "Cantidad :";
+            // 
+            // lbCantidadCase3
+            // 
+            this.lbCantidadCase3.FormattingEnabled = true;
+            this.lbCantidadCase3.ItemHeight = 15;
+            this.lbCantidadCase3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase3.Location = new System.Drawing.Point(133, 218);
+            this.lbCantidadCase3.Name = "lbCantidadCase3";
+            this.lbCantidadCase3.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase3.TabIndex = 10;
             // 
             // btnComprarCase3
             // 
@@ -386,15 +506,15 @@
             this.btnComprarCase3.TabStop = false;
             this.btnComprarCase3.Click += new System.EventHandler(this.btnComprarCase3_Click);
             // 
-            // label10
+            // lblPrecioCase3
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase3.AutoSize = true;
+            this.lblPrecioCase3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase3.Name = "lblPrecioCase3";
+            this.lblPrecioCase3.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase3.TabIndex = 3;
+            this.lblPrecioCase3.Text = "$ 59.95 + IVA";
             // 
             // label11
             // 
@@ -406,16 +526,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblCaseGamer3
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer3.AutoSize = true;
+            this.lblCaseGamer3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer3.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer3.Name = "lblCaseGamer3";
+            this.lblCaseGamer3.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer3.TabIndex = 4;
+            this.lblCaseGamer3.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox11
             // 
@@ -443,15 +563,45 @@
             this.panel5.Controls.Add(this.label23);
             this.panel5.Controls.Add(this.lbCantidadCase5);
             this.panel5.Controls.Add(this.btnComprarCase5);
-            this.panel5.Controls.Add(this.label13);
+            this.panel5.Controls.Add(this.lblPrecioCase5);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.lblCaseGamer5);
             this.panel5.Controls.Add(this.pictureBox14);
             this.panel5.Controls.Add(this.pictureBox15);
             this.panel5.Location = new System.Drawing.Point(260, 299);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 8;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(68, 227);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(60, 13);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Cantidad :";
+            // 
+            // lbCantidadCase5
+            // 
+            this.lbCantidadCase5.FormattingEnabled = true;
+            this.lbCantidadCase5.ItemHeight = 15;
+            this.lbCantidadCase5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.lbCantidadCase5.Location = new System.Drawing.Point(133, 221);
+            this.lbCantidadCase5.Name = "lbCantidadCase5";
+            this.lbCantidadCase5.Size = new System.Drawing.Size(56, 19);
+            this.lbCantidadCase5.TabIndex = 10;
             // 
             // btnComprarCase5
             // 
@@ -465,15 +615,15 @@
             this.btnComprarCase5.TabStop = false;
             this.btnComprarCase5.Click += new System.EventHandler(this.btnComprarCase5_Click);
             // 
-            // label13
+            // lblPrecioCase5
             // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label13.Location = new System.Drawing.Point(83, 193);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(74, 15);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase5.AutoSize = true;
+            this.lblPrecioCase5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase5.Name = "lblPrecioCase5";
+            this.lblPrecioCase5.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase5.TabIndex = 3;
+            this.lblPrecioCase5.Text = "$ 59.95 + IVA";
             // 
             // label14
             // 
@@ -485,16 +635,16 @@
             this.label14.TabIndex = 3;
             this.label14.Text = "Precio :";
             // 
-            // label15
+            // lblCaseGamer5
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label15.Location = new System.Drawing.Point(0, 158);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(184, 26);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer5.AutoSize = true;
+            this.lblCaseGamer5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer5.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer5.Name = "lblCaseGamer5";
+            this.lblCaseGamer5.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer5.TabIndex = 4;
+            this.lblCaseGamer5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox14
             // 
@@ -522,9 +672,9 @@
             this.panel6.Controls.Add(this.label24);
             this.panel6.Controls.Add(this.lbCantidadCase6);
             this.panel6.Controls.Add(this.btnComprarCase6);
-            this.panel6.Controls.Add(this.label16);
+            this.panel6.Controls.Add(this.lblPrecioCase6);
             this.panel6.Controls.Add(this.label17);
-            this.panel6.Controls.Add(this.label18);
+            this.panel6.Controls.Add(this.lblCaseGamer6);
             this.panel6.Controls.Add(this.pictureBox17);
             this.panel6.Controls.Add(this.pictureBox18);
             this.panel6.Location = new System.Drawing.Point(480, 299);
@@ -532,198 +682,15 @@
             this.panel6.Size = new System.Drawing.Size(189, 243);
             this.panel6.TabIndex = 8;
             // 
-            // btnComprarCase6
+            // label24
             // 
-            this.btnComprarCase6.BackColor = System.Drawing.Color.Yellow;
-            this.btnComprarCase6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.btnComprarCase6.Location = new System.Drawing.Point(3, 212);
-            this.btnComprarCase6.Name = "btnComprarCase6";
-            this.btnComprarCase6.Size = new System.Drawing.Size(56, 28);
-            this.btnComprarCase6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnComprarCase6.TabIndex = 5;
-            this.btnComprarCase6.TabStop = false;
-            this.btnComprarCase6.Click += new System.EventHandler(this.btnComprarCase6_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(83, 193);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(74, 15);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "$ 59.95 + IVA";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(33, 193);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(44, 13);
-            this.label17.TabIndex = 3;
-            this.label17.Text = "Precio :";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(0, 158);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(184, 26);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox17.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 3;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::TiendaPerrona.Properties.Resources.pngegg__5_;
-            this.pictureBox18.Location = new System.Drawing.Point(33, -11);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(127, 155);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 0;
-            this.pictureBox18.TabStop = false;
-            // 
-            // lbCantidadCase1
-            // 
-            this.lbCantidadCase1.FormattingEnabled = true;
-            this.lbCantidadCase1.ItemHeight = 15;
-            this.lbCantidadCase1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase1.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase1.Name = "lbCantidadCase1";
-            this.lbCantidadCase1.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase1.TabIndex = 7;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(68, 224);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(60, 13);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Cantidad :";
-            // 
-            // lbCantidadCase2
-            // 
-            this.lbCantidadCase2.FormattingEnabled = true;
-            this.lbCantidadCase2.ItemHeight = 15;
-            this.lbCantidadCase2.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase2.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase2.Name = "lbCantidadCase2";
-            this.lbCantidadCase2.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase2.TabIndex = 9;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(68, 224);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 13);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Cantidad :";
-            // 
-            // lbCantidadCase3
-            // 
-            this.lbCantidadCase3.FormattingEnabled = true;
-            this.lbCantidadCase3.ItemHeight = 15;
-            this.lbCantidadCase3.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase3.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase3.Name = "lbCantidadCase3";
-            this.lbCantidadCase3.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase3.TabIndex = 10;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(68, 224);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(60, 13);
-            this.label21.TabIndex = 10;
-            this.label21.Text = "Cantidad :";
-            // 
-            // lbCantidadCase4
-            // 
-            this.lbCantidadCase4.FormattingEnabled = true;
-            this.lbCantidadCase4.ItemHeight = 15;
-            this.lbCantidadCase4.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase4.Location = new System.Drawing.Point(133, 221);
-            this.lbCantidadCase4.Name = "lbCantidadCase4";
-            this.lbCantidadCase4.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase4.TabIndex = 9;
-            // 
-            // lbCantidadCase5
-            // 
-            this.lbCantidadCase5.FormattingEnabled = true;
-            this.lbCantidadCase5.ItemHeight = 15;
-            this.lbCantidadCase5.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase5.Location = new System.Drawing.Point(133, 221);
-            this.lbCantidadCase5.Name = "lbCantidadCase5";
-            this.lbCantidadCase5.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase5.TabIndex = 10;
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(68, 227);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(60, 13);
+            this.label24.TabIndex = 12;
+            this.label24.Text = "Cantidad :";
             // 
             // lbCantidadCase6
             // 
@@ -745,35 +712,68 @@
             this.lbCantidadCase6.Size = new System.Drawing.Size(56, 19);
             this.lbCantidadCase6.TabIndex = 11;
             // 
-            // label22
+            // btnComprarCase6
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(68, 227);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(60, 13);
-            this.label22.TabIndex = 10;
-            this.label22.Text = "Cantidad :";
+            this.btnComprarCase6.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase6.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase6.Name = "btnComprarCase6";
+            this.btnComprarCase6.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase6.TabIndex = 5;
+            this.btnComprarCase6.TabStop = false;
+            this.btnComprarCase6.Click += new System.EventHandler(this.btnComprarCase6_Click);
             // 
-            // label23
+            // lblPrecioCase6
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label23.Location = new System.Drawing.Point(68, 227);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(60, 13);
-            this.label23.TabIndex = 11;
-            this.label23.Text = "Cantidad :";
+            this.lblPrecioCase6.AutoSize = true;
+            this.lblPrecioCase6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase6.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase6.Name = "lblPrecioCase6";
+            this.lblPrecioCase6.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase6.TabIndex = 3;
+            this.lblPrecioCase6.Text = "$ 59.95 + IVA";
             // 
-            // label24
+            // label17
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(68, 227);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(60, 13);
-            this.label24.TabIndex = 12;
-            this.label24.Text = "Cantidad :";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(33, 193);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(44, 13);
+            this.label17.TabIndex = 3;
+            this.label17.Text = "Precio :";
+            // 
+            // lblCaseGamer6
+            // 
+            this.lblCaseGamer6.AutoSize = true;
+            this.lblCaseGamer6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer6.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer6.Name = "lblCaseGamer6";
+            this.lblCaseGamer6.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer6.TabIndex = 4;
+            this.lblCaseGamer6.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
+            this.pictureBox17.Location = new System.Drawing.Point(59, 132);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(80, 23);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 3;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::TiendaPerrona.Properties.Resources.pngegg__5_;
+            this.pictureBox18.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 0;
+            this.pictureBox18.TabStop = false;
             // 
             // FormDelCase
             // 
@@ -829,43 +829,43 @@
 
         private PictureBox btnCerrar1;
         private Panel panel1;
-        private Label label3;
+        private Label lblPrecioCase1;
         private Label label4;
-        private Label label5;
+        private Label lblCaseGamer1;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Panel panel2;
         private PictureBox btnComprarCase4;
-        private Label label1;
+        private Label lblPrecioCase4;
         private Label label2;
-        private Label label6;
+        private Label lblCaseGamer4;
         private PictureBox pictureBox2;
         private PictureBox pictureBox6;
         private Panel panel3;
-        private Label label7;
+        private Label lblPrecioCase2;
         private Label label8;
-        private Label label9;
+        private Label lblCaseGamer2;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Panel panel4;
         private PictureBox btnComprarCase3;
-        private Label label10;
+        private Label lblPrecioCase3;
         private Label label11;
-        private Label label12;
+        private Label lblCaseGamer3;
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Panel panel5;
         private PictureBox btnComprarCase5;
-        private Label label13;
+        private Label lblPrecioCase5;
         private Label label14;
-        private Label label15;
+        private Label lblCaseGamer5;
         private PictureBox pictureBox14;
         private PictureBox pictureBox15;
         private Panel panel6;
         private PictureBox btnComprarCase6;
-        private Label label16;
+        private Label lblPrecioCase6;
         private Label label17;
-        private Label label18;
+        private Label lblCaseGamer6;
         private PictureBox pictureBox17;
         private PictureBox pictureBox18;
         private PictureBox btnComprarCase1;
