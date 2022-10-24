@@ -45,11 +45,7 @@ namespace TiendaPerrona
 
         public static decimal PrecioImpuesto()
         {
-            decimal impuesto = 0;
-            foreach (Producto item in productosComprados)
-                impuesto += item.CalcularIVA();
-
-            return impuesto;
+            return PrecioSubtotal() * 15 / 100;
         }
 
         public static decimal PrecioTotal()
