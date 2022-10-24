@@ -59,12 +59,15 @@
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
+            this.lvListaDelCarritoDeCompras.GridLines = true;
             this.lvListaDelCarritoDeCompras.Location = new System.Drawing.Point(12, 83);
             this.lvListaDelCarritoDeCompras.Name = "lvListaDelCarritoDeCompras";
             this.lvListaDelCarritoDeCompras.Size = new System.Drawing.Size(659, 229);
             this.lvListaDelCarritoDeCompras.TabIndex = 0;
             this.lvListaDelCarritoDeCompras.UseCompatibleStateImageBehavior = false;
             this.lvListaDelCarritoDeCompras.View = System.Windows.Forms.View.Details;
+            this.lvListaDelCarritoDeCompras.DoubleClick += new System.EventHandler(this.lvListaDelCarritoDeCompras_DoubleClick);
+            this.lvListaDelCarritoDeCompras.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvListaDelCarritoDeCompras_MouseDoubleClick);
             // 
             // columnHeader1
             // 
@@ -216,6 +219,7 @@
             this.btnPagar.TabIndex = 13;
             this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = false;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // btnSeguirComprando
             // 
