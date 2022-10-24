@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+        "outputPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",

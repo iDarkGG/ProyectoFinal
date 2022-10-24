@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
       "projectName": "Libreria",
-      "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
       "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
       "projectStyle": "PackageReference",

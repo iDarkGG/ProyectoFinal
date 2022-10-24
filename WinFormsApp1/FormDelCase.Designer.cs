@@ -286,7 +286,7 @@
             this.btnComprarCase4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnComprarCase4.TabIndex = 5;
             this.btnComprarCase4.TabStop = false;
-            this.btnComprarCase4.Click += new System.EventHandler(this.btnComprarCase4_Click);
+            this.btnComprarCase4.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // lblPrecioCase4
             // 
@@ -395,7 +395,7 @@
             this.btnComprarCase2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnComprarCase2.TabIndex = 7;
             this.btnComprarCase2.TabStop = false;
-            this.btnComprarCase2.Click += new System.EventHandler(this.btnComprarCase2_Click);
+            this.btnComprarCase2.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // lblPrecioCase2
             // 
@@ -504,7 +504,7 @@
             this.btnComprarCase3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnComprarCase3.TabIndex = 5;
             this.btnComprarCase3.TabStop = false;
-            this.btnComprarCase3.Click += new System.EventHandler(this.btnComprarCase3_Click);
+            this.btnComprarCase3.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // lblPrecioCase3
             // 
@@ -613,7 +613,7 @@
             this.btnComprarCase5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnComprarCase5.TabIndex = 5;
             this.btnComprarCase5.TabStop = false;
-            this.btnComprarCase5.Click += new System.EventHandler(this.btnComprarCase5_Click);
+            this.btnComprarCase5.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // lblPrecioCase5
             // 
@@ -722,7 +722,7 @@
             this.btnComprarCase6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnComprarCase6.TabIndex = 5;
             this.btnComprarCase6.TabStop = false;
-            this.btnComprarCase6.Click += new System.EventHandler(this.btnComprarCase6_Click);
+            this.btnComprarCase6.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
             // lblPrecioCase6
             // 

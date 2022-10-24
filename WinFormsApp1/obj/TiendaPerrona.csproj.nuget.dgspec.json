@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+        "outputPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "projectName": "TiendaPerrona",
-        "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
-                "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
+              "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+                "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
               }
             }
           }
