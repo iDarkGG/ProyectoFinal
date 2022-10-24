@@ -201,7 +201,6 @@
             // 
             // lblCaseGamer1
             // 
-            this.lblCaseGamer1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.lblCaseGamer1.AutoSize = true;
             this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
@@ -425,10 +424,9 @@
             this.lblCaseGamer2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblCaseGamer2.Location = new System.Drawing.Point(0, 158);
             this.lblCaseGamer2.Name = "lblCaseGamer2";
-            this.lblCaseGamer2.Size = new System.Drawing.Size(84, 13);
+            this.lblCaseGamer2.Size = new System.Drawing.Size(184, 26);
             this.lblCaseGamer2.TabIndex = 4;
-            this.lblCaseGamer2.Text = "KJKLSAJDLAFJD";
-            this.lblCaseGamer2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCaseGamer2.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
             // pictureBox8
             // 
