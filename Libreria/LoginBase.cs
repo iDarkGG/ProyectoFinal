@@ -16,16 +16,13 @@ namespace Libreria
             User user = new User();
             DataBase db = new DataBase();
 
-            bool PasswordQuerying(string password)
+
+
+            bool PasswordAndUserQuerying(string password, string input)
             {
-                for(int i = 0; i < db.Users.Count; i++)
-                {
-                    if (db.Users[i].Password.Equals(password))
-                    {
-                        return true;
-                    }
-                }
-                return false;
+                
+
+                return flase;
             }
         }
 

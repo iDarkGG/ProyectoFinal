@@ -18,20 +18,17 @@ namespace Libreria
 
             User user = new User();
 
-            bool UserNameChecker(string username)
+            bool UserNameAvailable(string input)
             {
                 for (int i = 0; i < dataBase.Users.Count; i++)
                 {
-                    if (username.Equals(dataBase.Users.ElementAt(i).UserName))
+                    if (input.Equals(dataBase.Users[i].UserName) ^ input.Equals(dataBase.Users[i].Email))
                     {
-                        user.UsernameValid = false;
+                        return false;
                     }
-                    else
-                    {
-                        user.UsernameValid = true;
-                    }
+
                 }
-                return user.UsernameValid;
+                return true;
             }
 
             bool PasswordChecker(string password, string confpassword)
