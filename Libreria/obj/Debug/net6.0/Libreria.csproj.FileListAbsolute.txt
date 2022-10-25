@@ -22,3 +22,51 @@ C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.
 C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
 C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
 C:\Users\JADPA-31\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.deps.json
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.pdb
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfo.cs
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
+C:\Users\PC\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.deps.json
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfo.cs
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
+C:\Users\DELL 15\Documents\yareth\c#\ProyectoFinal-main\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.deps.json
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.pdb
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfo.cs
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.deps.json
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.dll
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\bin\Debug\net6.0\Libreria.pdb
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.AssemblyReference.cache
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.AssemblyInfo.cs
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.dll
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\refint\Libreria.dll
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\Libreria.pdb
+C:\Users\Wilman\source\repos\ProyectoFinal\Libreria\obj\Debug\net6.0\ref\Libreria.dll

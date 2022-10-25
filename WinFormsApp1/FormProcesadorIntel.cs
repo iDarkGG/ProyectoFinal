@@ -10,23 +10,14 @@ using System.Windows.Forms;
 
 namespace TiendaPerrona
 {
-    public partial class FormCaseSinRGB : Form
+    public partial class FormProcesadorIntel : Form
     {
-        public FormCaseSinRGB()
+        public FormProcesadorIntel()
         {
             InitializeComponent();
         }
 
-        
-
-       
-
-        private void FormCaseSinRGB_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnCerrar2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
