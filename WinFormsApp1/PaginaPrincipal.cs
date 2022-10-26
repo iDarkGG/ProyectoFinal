@@ -1,7 +1,7 @@
 
 using TiendaPerrona;
 
-namespace Libreria
+namespace TiendaPerrona
 {
     public partial class PaginaPrincipal : Form
     {
@@ -131,6 +131,17 @@ namespace Libreria
         private void btnAbrirCarrito_Click(object sender, EventArgs e)
         {
             AbrirFormulario<FormDelCarrito>();
+        }
+
+        private void horafecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToLongTimeString(); 
+            lblFecha.Text= DateTime.Now.ToLongDateString(); 
+        }
+
+        private void panelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void btnProductoProcesador_Click(object sender, EventArgs e)

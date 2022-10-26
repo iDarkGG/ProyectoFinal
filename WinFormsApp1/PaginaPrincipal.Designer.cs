@@ -1,5 +1,7 @@
-﻿namespace Libreria
+﻿namespace TiendaPerrona
 {
+
+
     partial class PaginaPrincipal : Form
     {
         /// <summary>
@@ -28,15 +30,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BarraDeTitulo = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.SubMenuPerifericos = new System.Windows.Forms.Panel();
             this.btnPerifericosMouse = new System.Windows.Forms.Button();
             this.btnPerifericosTeclados = new System.Windows.Forms.Button();
+            this.lblHora = new System.Windows.Forms.Label();
             this.btnProductosPerifericos = new System.Windows.Forms.Button();
             this.btnProductoMonitores = new System.Windows.Forms.Button();
             this.btnProductoFuentesDePoder = new System.Windows.Forms.Button();
@@ -52,10 +57,12 @@
             this.btnProductoCase = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.lblFecha = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAbrirCarrito = new System.Windows.Forms.PictureBox();
+            this.horafecha = new System.Windows.Forms.Timer(this.components);
             this.BarraDeTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -140,7 +147,9 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.MenuVertical.Controls.Add(this.label3);
             this.MenuVertical.Controls.Add(this.SubMenuPerifericos);
+            this.MenuVertical.Controls.Add(this.lblHora);
             this.MenuVertical.Controls.Add(this.btnProductosPerifericos);
             this.MenuVertical.Controls.Add(this.btnProductoMonitores);
             this.MenuVertical.Controls.Add(this.btnProductoFuentesDePoder);
@@ -159,13 +168,25 @@
             this.MenuVertical.Size = new System.Drawing.Size(220, 554);
             this.MenuVertical.TabIndex = 1;
             // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Book Antiqua", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(3, 529);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 25);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Hora";
+            // 
             // SubMenuPerifericos
             // 
             this.SubMenuPerifericos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
             this.SubMenuPerifericos.Controls.Add(this.btnPerifericosMouse);
             this.SubMenuPerifericos.Controls.Add(this.btnPerifericosTeclados);
             this.SubMenuPerifericos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SubMenuPerifericos.Location = new System.Drawing.Point(0, 438);
+            this.SubMenuPerifericos.Location = new System.Drawing.Point(0, 432);
             this.SubMenuPerifericos.Name = "SubMenuPerifericos";
             this.SubMenuPerifericos.Size = new System.Drawing.Size(220, 66);
             this.SubMenuPerifericos.TabIndex = 12;
@@ -207,6 +228,18 @@
             this.btnPerifericosTeclados.UseVisualStyleBackColor = true;
             this.btnPerifericosTeclados.Click += new System.EventHandler(this.btnPerifericosTeclados_Click);
             // 
+            // lblHora
+            // 
+            this.lblHora.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblHora.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblHora.Location = new System.Drawing.Point(69, 531);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(15, 23);
+            this.lblHora.TabIndex = 7;
+            this.lblHora.Text = ".";
+            // 
             // btnProductosPerifericos
             // 
             this.btnProductosPerifericos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -216,7 +249,7 @@
             this.btnProductosPerifericos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductosPerifericos.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductosPerifericos.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductosPerifericos.Location = new System.Drawing.Point(0, 406);
+            this.btnProductosPerifericos.Location = new System.Drawing.Point(0, 400);
             this.btnProductosPerifericos.Name = "btnProductosPerifericos";
             this.btnProductosPerifericos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductosPerifericos.Size = new System.Drawing.Size(220, 32);
@@ -235,7 +268,7 @@
             this.btnProductoMonitores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoMonitores.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoMonitores.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoMonitores.Location = new System.Drawing.Point(0, 374);
+            this.btnProductoMonitores.Location = new System.Drawing.Point(0, 368);
             this.btnProductoMonitores.Name = "btnProductoMonitores";
             this.btnProductoMonitores.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoMonitores.Size = new System.Drawing.Size(220, 32);
@@ -253,7 +286,7 @@
             this.btnProductoFuentesDePoder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoFuentesDePoder.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoFuentesDePoder.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoFuentesDePoder.Location = new System.Drawing.Point(0, 342);
+            this.btnProductoFuentesDePoder.Location = new System.Drawing.Point(0, 336);
             this.btnProductoFuentesDePoder.Name = "btnProductoFuentesDePoder";
             this.btnProductoFuentesDePoder.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoFuentesDePoder.Size = new System.Drawing.Size(220, 32);
@@ -271,7 +304,7 @@
             this.btnProductosAlmacenamiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductosAlmacenamiento.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductosAlmacenamiento.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductosAlmacenamiento.Location = new System.Drawing.Point(0, 310);
+            this.btnProductosAlmacenamiento.Location = new System.Drawing.Point(0, 304);
             this.btnProductosAlmacenamiento.Name = "btnProductosAlmacenamiento";
             this.btnProductosAlmacenamiento.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductosAlmacenamiento.Size = new System.Drawing.Size(220, 32);
@@ -289,7 +322,7 @@
             this.btnProductoMemoriasRam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoMemoriasRam.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoMemoriasRam.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoMemoriasRam.Location = new System.Drawing.Point(0, 278);
+            this.btnProductoMemoriasRam.Location = new System.Drawing.Point(0, 272);
             this.btnProductoMemoriasRam.Name = "btnProductoMemoriasRam";
             this.btnProductoMemoriasRam.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoMemoriasRam.Size = new System.Drawing.Size(220, 32);
@@ -307,7 +340,7 @@
             this.btnProductoPlacasMadres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoPlacasMadres.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoPlacasMadres.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoPlacasMadres.Location = new System.Drawing.Point(0, 246);
+            this.btnProductoPlacasMadres.Location = new System.Drawing.Point(0, 240);
             this.btnProductoPlacasMadres.Name = "btnProductoPlacasMadres";
             this.btnProductoPlacasMadres.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoPlacasMadres.Size = new System.Drawing.Size(220, 32);
@@ -325,7 +358,7 @@
             this.btnProductoTarjetasGraficas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoTarjetasGraficas.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoTarjetasGraficas.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoTarjetasGraficas.Location = new System.Drawing.Point(0, 216);
+            this.btnProductoTarjetasGraficas.Location = new System.Drawing.Point(0, 210);
             this.btnProductoTarjetasGraficas.Name = "btnProductoTarjetasGraficas";
             this.btnProductoTarjetasGraficas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoTarjetasGraficas.Size = new System.Drawing.Size(220, 30);
@@ -340,7 +373,7 @@
             this.subMenuProcesadores.Controls.Add(this.btnProcesadorRyzen);
             this.subMenuProcesadores.Controls.Add(this.btnProcesadorIntel);
             this.subMenuProcesadores.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subMenuProcesadores.Location = new System.Drawing.Point(0, 148);
+            this.subMenuProcesadores.Location = new System.Drawing.Point(0, 142);
             this.subMenuProcesadores.Name = "subMenuProcesadores";
             this.subMenuProcesadores.Size = new System.Drawing.Size(220, 68);
             this.subMenuProcesadores.TabIndex = 4;
@@ -399,7 +432,7 @@
             this.btnProductoProcesador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoProcesador.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoProcesador.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoProcesador.Location = new System.Drawing.Point(0, 118);
+            this.btnProductoProcesador.Location = new System.Drawing.Point(0, 112);
             this.btnProductoProcesador.Name = "btnProductoProcesador";
             this.btnProductoProcesador.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoProcesador.Size = new System.Drawing.Size(220, 30);
@@ -418,7 +451,7 @@
             this.btnProductoCase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductoCase.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnProductoCase.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnProductoCase.Location = new System.Drawing.Point(0, 86);
+            this.btnProductoCase.Location = new System.Drawing.Point(0, 80);
             this.btnProductoCase.Name = "btnProductoCase";
             this.btnProductoCase.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProductoCase.Size = new System.Drawing.Size(220, 32);
@@ -431,72 +464,91 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.visual_studio;
+            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.image;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 86);
+            this.pictureBox1.Size = new System.Drawing.Size(220, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // panelContenedor
             // 
-            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.panelContenedor.Controls.Add(this.btnAbrirCarrito);
+            this.panelContenedor.BackColor = System.Drawing.Color.White;
+            this.panelContenedor.Controls.Add(this.lblFecha);
             this.panelContenedor.Controls.Add(this.label2);
             this.panelContenedor.Controls.Add(this.label1);
             this.panelContenedor.Controls.Add(this.pictureBox2);
+            this.panelContenedor.Controls.Add(this.btnAbrirCarrito);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(220, 29);
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(699, 554);
             this.panelContenedor.TabIndex = 2;
+            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.BackColor = System.Drawing.Color.Transparent;
+            this.lblFecha.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblFecha.Location = new System.Drawing.Point(187, 465);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(15, 23);
+            this.lblFecha.TabIndex = 13;
+            this.lblFecha.Text = ".";
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(153, 434);
+            this.label2.Font = new System.Drawing.Font("Book Antiqua", 21.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(201, 426);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 44);
-            this.label2.TabIndex = 2;
+            this.label2.Size = new System.Drawing.Size(258, 35);
+            this.label2.TabIndex = 6;
             this.label2.Text = "Para gente perrona";
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(138, 374);
+            this.label1.Font = new System.Drawing.Font("Book Antiqua", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(85, 375);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(424, 60);
-            this.label1.TabIndex = 1;
+            this.label1.Size = new System.Drawing.Size(479, 57);
+            this.label1.TabIndex = 5;
             this.label1.Text = "TIENDA PERRONA";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.visual_studio;
-            this.pictureBox2.Location = new System.Drawing.Point(171, 137);
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.perro2;
+            this.pictureBox2.Location = new System.Drawing.Point(149, 112);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(350, 269);
+            this.pictureBox2.Size = new System.Drawing.Size(369, 282);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
             // btnAbrirCarrito
             // 
-            this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.btnAbrirCarrito.Location = new System.Drawing.Point(634, 6);
+            this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.image__1_;
+            this.btnAbrirCarrito.Location = new System.Drawing.Point(640, 6);
             this.btnAbrirCarrito.Name = "btnAbrirCarrito";
-            this.btnAbrirCarrito.Size = new System.Drawing.Size(53, 49);
+            this.btnAbrirCarrito.Size = new System.Drawing.Size(56, 39);
             this.btnAbrirCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnAbrirCarrito.TabIndex = 3;
             this.btnAbrirCarrito.TabStop = false;
             this.btnAbrirCarrito.Click += new System.EventHandler(this.btnAbrirCarrito_Click);
+            // 
+            // horafecha
+            // 
+            this.horafecha.Enabled = true;
+            this.horafecha.Tick += new System.EventHandler(this.horafecha_Tick);
             // 
             // PaginaPrincipal
             // 
@@ -517,6 +569,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.MenuVertical.ResumeLayout(false);
+            this.MenuVertical.PerformLayout();
             this.SubMenuPerifericos.ResumeLayout(false);
             this.subMenuProcesadores.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -554,9 +607,13 @@
         private Button btnProductoMemoriasRam;
         private Button btnProductoPlacasMadres;
         private Button btnProductoTarjetasGraficas;
+        private PictureBox btnAbrirCarrito;
         private PictureBox pictureBox2;
         private Label label2;
         private Label label1;
-        private PictureBox btnAbrirCarrito;
+        private Label lblHora;
+        private System.Windows.Forms.Timer horafecha;
+        private Label label3;
+        private Label lblFecha;
     }
 }

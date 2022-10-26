@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TiendaPerrona
+namespace TiendaPerrona  
 {
     public partial class FormDelCarrito : Form
     {
-        Libreria.PaginaPrincipal uwu = new Libreria.PaginaPrincipal();
+        PaginaPrincipal uwu = new PaginaPrincipal();
         public FormDelCarrito()
         {
             InitializeComponent();
@@ -57,9 +57,16 @@ namespace TiendaPerrona
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("¡Su compra se ha realizado con exito!","Mensaje");
+           
             lvListaDelCarritoDeCompras.Items.Clear();
             Carrito.VaciarCarrito();
+            lblDescuento.Text = "0.00";
+            lblImpuesto.Text = "0.00";
+            lblNombreDeUsuario.Text = "0.00";
+            lblSubTotal.Text = "0.00";
+            lblTotal.Text = "0.00";
+
+
         }
 
         private void CargarLabels()
@@ -68,6 +75,11 @@ namespace TiendaPerrona
             lblImpuesto.Text = Carrito.PrecioImpuesto().ToString("C");
             lblSubTotal.Text = Carrito.PrecioSubtotal().ToString("C");
             lblTotal.Text = Carrito.PrecioTotal().ToString("C");
+        }
+
+        private void lvListaDelCarritoDeCompras_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -505,6 +505,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormProcesadorIntel";
             this.Text = "FormProcesadorIntel";
+            this.Load += new System.EventHandler(this.FormProcesadorIntel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
