@@ -21,5 +21,10 @@ namespace TiendaPerrona
         {
             this.Close();
         }
+
+        private void FormProcesadorIntel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

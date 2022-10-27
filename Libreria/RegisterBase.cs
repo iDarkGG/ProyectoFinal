@@ -22,13 +22,13 @@ namespace Libreria
             {
                 for (int i = 0; i < dataBase.Users.Count; i++)
                 {
-                    if (input.Equals(dataBase.Users[i].UserName) ^ input.Equals(dataBase.Users[i].Email))
+
+                    if (username.Equals(dataBase.Users[i].UserName) ^ username.Equals(dataBase.Users[i].Email))
                     {
-                        return false;
+                        return true;
                     }
 
-                }
-                return true;
+                return false;
             }
 
             bool PasswordChecker(string password, string confpassword)

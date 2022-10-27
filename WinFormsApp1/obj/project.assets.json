@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "Libreria/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Libreria.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Libreria.dll": {}
-        }
-      }
-    }
+    "net6.0-windows7.0": {}
   },
-  "libraries": {
-    "Libreria/1.0.0": {
-      "type": "project",
-      "path": "../Libreria/Libreria.csproj",
-      "msbuildProject": "../Libreria/Libreria.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "Libreria >= 1.0.0"
-    ]
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\JADPA-31\\.nuget\\packages\\": {}
@@ -52,11 +33,9 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
-              "projectPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
-            }
-          }
+
+          "projectReferences": {}
+
         }
       },
       "warningProperties": {
