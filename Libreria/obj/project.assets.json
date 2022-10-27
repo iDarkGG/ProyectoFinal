@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JADPA-32\\.nuget\\packages\\": {}
+    "C:\\Users\\JADPA-31\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "projectUniqueName": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
       "projectName": "Libreria",
-      "projectPath": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
-      "packagesPath": "C:\\Users\\JADPA-32\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
+      "projectPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+      "packagesPath": "C:\\Users\\JADPA-31\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JADPA-32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JADPA-31\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
