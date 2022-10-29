@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
  
 
-namespace TiendaPerrona
+namespace TiendaPerrona  
 {
   
     public partial class FormDelCase : Form
@@ -74,6 +74,11 @@ namespace TiendaPerrona
             x = x.Replace(a, "");
             x = x.Replace(b, "");
             return Convert.ToDecimal(x);
+        }
+
+        private void FormDelCase_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

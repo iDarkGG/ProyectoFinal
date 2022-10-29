@@ -66,6 +66,7 @@
             this.lvListaDelCarritoDeCompras.TabIndex = 0;
             this.lvListaDelCarritoDeCompras.UseCompatibleStateImageBehavior = false;
             this.lvListaDelCarritoDeCompras.View = System.Windows.Forms.View.Details;
+            this.lvListaDelCarritoDeCompras.SelectedIndexChanged += new System.EventHandler(this.lvListaDelCarritoDeCompras_SelectedIndexChanged);
             this.lvListaDelCarritoDeCompras.DoubleClick += new System.EventHandler(this.lvListaDelCarritoDeCompras_DoubleClick);
             this.lvListaDelCarritoDeCompras.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvListaDelCarritoDeCompras_MouseDoubleClick);
             // 

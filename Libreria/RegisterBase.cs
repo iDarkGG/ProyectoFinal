@@ -4,7 +4,6 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Libreria;
 using System.Text.RegularExpressions;
 namespace Libreria
 {
@@ -23,16 +22,12 @@ namespace Libreria
             {
                 for (int i = 0; i < dataBase.Users.Count; i++)
                 {
-                    if (username.Equals(dataBase.Users.ElementAt(i).UserName))
+                    if (username.Equals(dataBase.Users[i].UserName) ^ username.Equals(dataBase.Users[i].Email))
                     {
-                        user.UsernameValid = false;
-                    }
-                    else
-                    {
-                        user.UsernameValid = true;
+                        return true;
                     }
                 }
-                return user.UsernameValid;
+                return false;
             }
 
             bool PasswordChecker(string password, string confpassword)
@@ -41,10 +36,7 @@ namespace Libreria
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
 
             bool EmailChecker(string email)
@@ -54,14 +46,8 @@ namespace Libreria
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
-
-
-
         }
 
 
