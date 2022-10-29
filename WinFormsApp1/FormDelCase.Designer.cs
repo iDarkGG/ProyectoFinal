@@ -790,6 +790,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormDelCase";
             this.Text = "FormDelCase";
+            this.Load += new System.EventHandler(this.FormDelCase_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -41,5 +41,10 @@ namespace TiendaPerrona
                 this.Close();
             }
         }
+
+        private void MensajeAgregado_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

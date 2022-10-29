@@ -93,6 +93,7 @@
             this.Name = "MensajeAgregado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MensajeAgregado";
+            this.Load += new System.EventHandler(this.MensajeAgregado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

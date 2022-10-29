@@ -1,45 +1,26 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "Libreria/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Libreria.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Libreria.dll": {}
-        }
-      }
-    }
+    "net6.0-windows7.0": {}
   },
-  "libraries": {
-    "Libreria/1.0.0": {
-      "type": "project",
-      "path": "../Libreria/Libreria.csproj",
-      "msbuildProject": "../Libreria/Libreria.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "Libreria >= 1.0.0"
-    ]
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Wilman\\.nuget\\packages\\": {}
+    "C:\\Users\\JADPA-31\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+      "projectUniqueName": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
       "projectName": "TiendaPerrona",
-      "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
-      "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+      "packagesPath": "C:\\Users\\JADPA-31\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JADPA-31\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JADPA-31\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
-              "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -86,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
