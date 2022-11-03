@@ -57,6 +57,10 @@ namespace TiendaPerrona
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
+            TarjetaCredito uwu = new TarjetaCredito();
+            
+            uwu.Show();
+            
            
             lvListaDelCarritoDeCompras.Items.Clear();
             Carrito.VaciarCarrito();

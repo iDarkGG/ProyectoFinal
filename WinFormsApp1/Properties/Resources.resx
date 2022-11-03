@@ -199,6 +199,9 @@
   <data name="609dfb52-b520-4ed3-a364-7ff8d66a2aba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\609dfb52-b520-4ed3-a364-7ff8d66a2aba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngegg (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -217,7 +220,7 @@
   <data name="pngegg (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

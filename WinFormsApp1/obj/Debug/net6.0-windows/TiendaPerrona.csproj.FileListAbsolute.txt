@@ -178,3 +178,4 @@ C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windo
 C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormMouse.resources
 C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormPlacasMadres.resources
 C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormTeclados.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.TarjetaCredito.resources
