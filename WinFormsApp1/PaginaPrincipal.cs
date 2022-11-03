@@ -5,6 +5,9 @@ namespace TiendaPerrona
 {
     public partial class PaginaPrincipal : Form
     {
+        private int xPosition,yPosition;
+        private bool isPressed;
+
         public PaginaPrincipal()
         {
             InitializeComponent();
@@ -137,6 +140,28 @@ namespace TiendaPerrona
         {
             lblHora.Text = DateTime.Now.ToLongTimeString(); 
             lblFecha.Text= DateTime.Now.ToLongDateString(); 
+        }
+
+        private void BarraDeTitulo_MouseDown(object sender, MouseEventArgs e)
+        {
+            isPressed = true;
+            xPosition = e.X;
+            yPosition = e.Y;
+        }
+
+        private void BarraDeTitulo_MouseUp(object sender, MouseEventArgs e)
+        {
+           isPressed = false;
+        }
+
+        private void BarraDeTitulo_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isPressed)
+            {
+                int x = MousePosition.X;
+                int y = MousePosition.Y;
+                this.Location = new Point(x-xPosition, y-yPosition);
+            }
         }
 
         private void panelContenedor_Paint(object sender, PaintEventArgs e)
