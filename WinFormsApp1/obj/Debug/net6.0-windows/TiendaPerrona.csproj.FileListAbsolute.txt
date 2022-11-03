@@ -169,3 +169,12 @@ C:\Users\JADPA-32\source\WinFormsApp1\obj\Debug\net6.0-windows\refint\TiendaPerr
 C:\Users\JADPA-32\source\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.pdb
 C:\Users\JADPA-32\source\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.genruntimeconfig.cache
 C:\Users\JADPA-32\source\WinFormsApp1\obj\Debug\net6.0-windows\ref\TiendaPerrona.dll
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormProcesadorRyzen.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormTarjetasGraficas.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormAlmacenamiento.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormFuentesDePoder.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormMemoriasRam.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormMonitores.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormMouse.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormPlacasMadres.resources
+C:\Users\JADPA-32\Source\Repos\ProyectoFinal\WinFormsApp1\obj\Debug\net6.0-windows\TiendaPerrona.FormTeclados.resources

@@ -37,12 +37,12 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.btnAbrirCarrito = new System.Windows.Forms.PictureBox();
             this.SubMenuPerifericos = new System.Windows.Forms.Panel();
             this.btnPerifericosMouse = new System.Windows.Forms.Button();
             this.btnPerifericosTeclados = new System.Windows.Forms.Button();
             this.lblHora = new System.Windows.Forms.Label();
             this.btnProductosPerifericos = new System.Windows.Forms.Button();
-            this.btnAbrirCarrito = new System.Windows.Forms.PictureBox();
             this.btnProductoMonitores = new System.Windows.Forms.Button();
             this.btnProductoFuentesDePoder = new System.Windows.Forms.Button();
             this.btnProductosAlmacenamiento = new System.Windows.Forms.Button();
@@ -68,8 +68,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.MenuVertical.SuspendLayout();
-            this.SubMenuPerifericos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnAbrirCarrito)).BeginInit();
+            this.SubMenuPerifericos.SuspendLayout();
             this.subMenuProcesadores.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelContenedor.SuspendLayout();
@@ -167,6 +167,18 @@
             this.MenuVertical.Size = new System.Drawing.Size(220, 554);
             this.MenuVertical.TabIndex = 1;
             // 
+            // btnAbrirCarrito
+            // 
+            this.btnAbrirCarrito.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.image1;
+            this.btnAbrirCarrito.Location = new System.Drawing.Point(3, 503);
+            this.btnAbrirCarrito.Name = "btnAbrirCarrito";
+            this.btnAbrirCarrito.Size = new System.Drawing.Size(56, 39);
+            this.btnAbrirCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAbrirCarrito.TabIndex = 3;
+            this.btnAbrirCarrito.TabStop = false;
+            this.btnAbrirCarrito.Click += new System.EventHandler(this.btnAbrirCarrito_Click);
+            // 
             // SubMenuPerifericos
             // 
             this.SubMenuPerifericos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
@@ -246,18 +258,6 @@
             this.btnProductosPerifericos.UseVisualStyleBackColor = false;
             this.btnProductosPerifericos.Click += new System.EventHandler(this.btnProductosPerifericos_Click);
             // 
-            // btnAbrirCarrito
-            // 
-            this.btnAbrirCarrito.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.image1;
-            this.btnAbrirCarrito.Location = new System.Drawing.Point(3, 503);
-            this.btnAbrirCarrito.Name = "btnAbrirCarrito";
-            this.btnAbrirCarrito.Size = new System.Drawing.Size(56, 39);
-            this.btnAbrirCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnAbrirCarrito.TabIndex = 3;
-            this.btnAbrirCarrito.TabStop = false;
-            this.btnAbrirCarrito.Click += new System.EventHandler(this.btnAbrirCarrito_Click);
-            // 
             // btnProductoMonitores
             // 
             this.btnProductoMonitores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -275,6 +275,7 @@
             this.btnProductoMonitores.Text = "Monitores";
             this.btnProductoMonitores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoMonitores.UseVisualStyleBackColor = false;
+            this.btnProductoMonitores.Click += new System.EventHandler(this.btnProductoMonitores_Click);
             // 
             // btnProductoFuentesDePoder
             // 
@@ -293,6 +294,7 @@
             this.btnProductoFuentesDePoder.Text = "Fuentes de poder";
             this.btnProductoFuentesDePoder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoFuentesDePoder.UseVisualStyleBackColor = false;
+            this.btnProductoFuentesDePoder.Click += new System.EventHandler(this.btnProductoFuentesDePoder_Click);
             // 
             // btnProductosAlmacenamiento
             // 
@@ -311,6 +313,7 @@
             this.btnProductosAlmacenamiento.Text = "Almacenamiento";
             this.btnProductosAlmacenamiento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductosAlmacenamiento.UseVisualStyleBackColor = false;
+            this.btnProductosAlmacenamiento.Click += new System.EventHandler(this.btnProductosAlmacenamiento_Click);
             // 
             // btnProductoMemoriasRam
             // 
@@ -329,6 +332,7 @@
             this.btnProductoMemoriasRam.Text = "Memorias Ram";
             this.btnProductoMemoriasRam.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoMemoriasRam.UseVisualStyleBackColor = false;
+            this.btnProductoMemoriasRam.Click += new System.EventHandler(this.btnProductoMemoriasRam_Click);
             // 
             // btnProductoPlacasMadres
             // 
@@ -347,6 +351,7 @@
             this.btnProductoPlacasMadres.Text = "Placas madres";
             this.btnProductoPlacasMadres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoPlacasMadres.UseVisualStyleBackColor = false;
+            this.btnProductoPlacasMadres.Click += new System.EventHandler(this.btnProductoPlacasMadres_Click);
             // 
             // btnProductoTarjetasGraficas
             // 
@@ -365,6 +370,7 @@
             this.btnProductoTarjetasGraficas.Text = "Tarjetas Graficas";
             this.btnProductoTarjetasGraficas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductoTarjetasGraficas.UseVisualStyleBackColor = false;
+            this.btnProductoTarjetasGraficas.Click += new System.EventHandler(this.btnProductoTarjetasGraficas_Click);
             // 
             // subMenuProcesadores
             // 
@@ -557,8 +563,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.MenuVertical.ResumeLayout(false);
             this.MenuVertical.PerformLayout();
-            this.SubMenuPerifericos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnAbrirCarrito)).EndInit();
+            this.SubMenuPerifericos.ResumeLayout(false);
             this.subMenuProcesadores.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelContenedor.ResumeLayout(false);

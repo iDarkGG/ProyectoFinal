@@ -104,12 +104,13 @@ namespace TiendaPerrona
 
         private void btnProcesadorIntel_Click(object sender, EventArgs e)
         {
-            //AbrirFormulario<FormProcesadorIntel>();
+            AbrirFormulario<FormProcesadorIntel>();
             ocultasSUbMenu();
         }
 
         private void btnProcesadorRyzen_Click(object sender, EventArgs e)
         {
+            AbrirFormulario<FormProcesadorRyzen>();
             ocultasSUbMenu();
         }
 
@@ -120,11 +121,13 @@ namespace TiendaPerrona
 
         private void btnPerifericosTeclados_Click(object sender, EventArgs e)
         {
+            AbrirFormulario<FormTeclados>();
             ocultasSUbMenu();
         }
 
         private void btnPerifericosMouse_Click(object sender, EventArgs e)
         {
+            AbrirFormulario<FormMouse>();
             ocultasSUbMenu();
         }
 
@@ -142,6 +145,36 @@ namespace TiendaPerrona
         private void panelContenedor_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnProductoTarjetasGraficas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormTarjetasGraficas>();
+        }
+
+        private void btnProductoPlacasMadres_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormPlacasMadres>();
+        }
+
+        private void btnProductoMemoriasRam_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormMemoriasRam>();
+        }
+
+        private void btnProductosAlmacenamiento_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormAlmacenamiento>();
+        }
+
+        private void btnProductoFuentesDePoder_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormFuentesDePoder>();
+        }
+
+        private void btnProductoMonitores_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormMonitores>();
         }
 
         private void btnProductoProcesador_Click(object sender, EventArgs e)

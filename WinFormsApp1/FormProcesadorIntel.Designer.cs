@@ -118,7 +118,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(68, 211);
+            this.pictureBox3.Location = new System.Drawing.Point(17, 212);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(56, 28);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -194,7 +194,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 211);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 212);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 28);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -270,7 +270,7 @@
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(68, 211);
+            this.pictureBox7.Location = new System.Drawing.Point(6, 209);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(56, 28);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -346,7 +346,7 @@
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox10.Location = new System.Drawing.Point(68, 211);
+            this.pictureBox10.Location = new System.Drawing.Point(3, 215);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(56, 28);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -422,7 +422,7 @@
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox13.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox13.Location = new System.Drawing.Point(68, 211);
+            this.pictureBox13.Location = new System.Drawing.Point(3, 212);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(56, 28);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

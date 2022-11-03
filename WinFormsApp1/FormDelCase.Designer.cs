@@ -36,7 +36,6 @@
             this.lblPrecioCase1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblCaseGamer1 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
@@ -45,7 +44,6 @@
             this.lblPrecioCase4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblCaseGamer4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
@@ -54,7 +52,6 @@
             this.lblPrecioCase2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblCaseGamer2 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
@@ -63,7 +60,6 @@
             this.lblPrecioCase3 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.lblCaseGamer3 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
@@ -72,7 +68,6 @@
             this.lblPrecioCase5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.lblCaseGamer5 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
@@ -81,32 +76,25 @@
             this.lblPrecioCase6 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.lblCaseGamer6 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,7 +118,6 @@
             this.panel1.Controls.Add(this.lblPrecioCase1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.lblCaseGamer1);
-            this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(44, 39);
             this.panel1.Name = "panel1";
@@ -210,16 +197,6 @@
             this.lblCaseGamer1.TabIndex = 4;
             this.lblCaseGamer1.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox4.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg;
@@ -239,7 +216,6 @@
             this.panel2.Controls.Add(this.lblPrecioCase4);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblCaseGamer4);
-            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 299);
             this.panel2.Name = "panel2";
@@ -319,16 +295,6 @@
             this.lblCaseGamer4.TabIndex = 4;
             this.lblCaseGamer4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox2.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.pngegg__3_;
@@ -348,7 +314,6 @@
             this.panel3.Controls.Add(this.lblPrecioCase2);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.lblCaseGamer2);
-            this.panel3.Controls.Add(this.pictureBox8);
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Location = new System.Drawing.Point(260, 39);
             this.panel3.Name = "panel3";
@@ -428,16 +393,6 @@
             this.lblCaseGamer2.TabIndex = 4;
             this.lblCaseGamer2.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox8.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
-            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__1_;
@@ -457,7 +412,6 @@
             this.panel4.Controls.Add(this.lblPrecioCase3);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.lblCaseGamer3);
-            this.panel4.Controls.Add(this.pictureBox11);
             this.panel4.Controls.Add(this.pictureBox12);
             this.panel4.Location = new System.Drawing.Point(480, 39);
             this.panel4.Name = "panel4";
@@ -537,16 +491,6 @@
             this.lblCaseGamer3.TabIndex = 4;
             this.lblCaseGamer3.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox11.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 3;
-            this.pictureBox11.TabStop = false;
-            // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::TiendaPerrona.Properties.Resources.pngegg__2_;
@@ -566,7 +510,6 @@
             this.panel5.Controls.Add(this.lblPrecioCase5);
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.lblCaseGamer5);
-            this.panel5.Controls.Add(this.pictureBox14);
             this.panel5.Controls.Add(this.pictureBox15);
             this.panel5.Location = new System.Drawing.Point(260, 299);
             this.panel5.Name = "panel5";
@@ -646,16 +589,6 @@
             this.lblCaseGamer5.TabIndex = 4;
             this.lblCaseGamer5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox14.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 3;
-            this.pictureBox14.TabStop = false;
-            // 
             // pictureBox15
             // 
             this.pictureBox15.Image = global::TiendaPerrona.Properties.Resources.pngegg__4_;
@@ -675,7 +608,6 @@
             this.panel6.Controls.Add(this.lblPrecioCase6);
             this.panel6.Controls.Add(this.label17);
             this.panel6.Controls.Add(this.lblCaseGamer6);
-            this.panel6.Controls.Add(this.pictureBox17);
             this.panel6.Controls.Add(this.pictureBox18);
             this.panel6.Location = new System.Drawing.Point(480, 299);
             this.panel6.Name = "panel6";
@@ -755,16 +687,6 @@
             this.lblCaseGamer6.TabIndex = 4;
             this.lblCaseGamer6.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::TiendaPerrona.Properties.Resources.pngegg__7_;
-            this.pictureBox17.Location = new System.Drawing.Point(59, 132);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(80, 23);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 3;
-            this.pictureBox17.TabStop = false;
-            // 
             // pictureBox18
             // 
             this.pictureBox18.Image = global::TiendaPerrona.Properties.Resources.pngegg__5_;
@@ -795,32 +717,26 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.ResumeLayout(false);
 
@@ -833,41 +749,35 @@
         private Label lblPrecioCase1;
         private Label label4;
         private Label lblCaseGamer1;
-        private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Panel panel2;
         private PictureBox btnComprarCase4;
         private Label lblPrecioCase4;
         private Label label2;
         private Label lblCaseGamer4;
-        private PictureBox pictureBox2;
         private PictureBox pictureBox6;
         private Panel panel3;
         private Label lblPrecioCase2;
         private Label label8;
         private Label lblCaseGamer2;
-        private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Panel panel4;
         private PictureBox btnComprarCase3;
         private Label lblPrecioCase3;
         private Label label11;
         private Label lblCaseGamer3;
-        private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Panel panel5;
         private PictureBox btnComprarCase5;
         private Label lblPrecioCase5;
         private Label label14;
         private Label lblCaseGamer5;
-        private PictureBox pictureBox14;
         private PictureBox pictureBox15;
         private Panel panel6;
         private PictureBox btnComprarCase6;
         private Label lblPrecioCase6;
         private Label label17;
         private Label lblCaseGamer6;
-        private PictureBox pictureBox17;
         private PictureBox pictureBox18;
         private PictureBox btnComprarCase1;
         private PictureBox btnComprarCase2;
