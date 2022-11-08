@@ -270,9 +270,9 @@
             this.lblPrecioCase4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblPrecioCase4.Location = new System.Drawing.Point(83, 193);
             this.lblPrecioCase4.Name = "lblPrecioCase4";
-            this.lblPrecioCase4.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase4.Size = new System.Drawing.Size(77, 15);
             this.lblPrecioCase4.TabIndex = 3;
-            this.lblPrecioCase4.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase4.Text = "$121.35 + IVA";
             // 
             // label2
             // 
@@ -289,11 +289,11 @@
             this.lblCaseGamer4.AutoSize = true;
             this.lblCaseGamer4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer4.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer4.Location = new System.Drawing.Point(24, 158);
             this.lblCaseGamer4.Name = "lblCaseGamer4";
-            this.lblCaseGamer4.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer4.Size = new System.Drawing.Size(148, 26);
             this.lblCaseGamer4.TabIndex = 4;
-            this.lblCaseGamer4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer4.Text = "CASE GAMER TG5 PRO RGB \r\n             SHARKOON";
             // 
             // pictureBox6
             // 
@@ -370,7 +370,7 @@
             this.lblPrecioCase2.Name = "lblPrecioCase2";
             this.lblPrecioCase2.Size = new System.Drawing.Size(74, 15);
             this.lblPrecioCase2.TabIndex = 3;
-            this.lblPrecioCase2.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase2.Text = "$ 55.25 + IVA";
             // 
             // label8
             // 
@@ -387,11 +387,12 @@
             this.lblCaseGamer2.AutoSize = true;
             this.lblCaseGamer2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer2.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer2.Location = new System.Drawing.Point(13, 158);
             this.lblCaseGamer2.Name = "lblCaseGamer2";
-            this.lblCaseGamer2.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer2.Size = new System.Drawing.Size(166, 26);
             this.lblCaseGamer2.TabIndex = 4;
-            this.lblCaseGamer2.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer2.Text = "CASE GAMER EAGLE WARRIOR \r\nGLADIATOR CG11";
+            this.lblCaseGamer2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox9
             // 
@@ -468,7 +469,7 @@
             this.lblPrecioCase3.Name = "lblPrecioCase3";
             this.lblPrecioCase3.Size = new System.Drawing.Size(74, 15);
             this.lblPrecioCase3.TabIndex = 3;
-            this.lblPrecioCase3.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase3.Text = "$ 42.70 + IVA";
             // 
             // label11
             // 
@@ -485,11 +486,11 @@
             this.lblCaseGamer3.AutoSize = true;
             this.lblCaseGamer3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer3.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer3.Location = new System.Drawing.Point(8, 158);
             this.lblCaseGamer3.Name = "lblCaseGamer3";
-            this.lblCaseGamer3.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer3.Size = new System.Drawing.Size(173, 26);
             this.lblCaseGamer3.TabIndex = 4;
-            this.lblCaseGamer3.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer3.Text = "CASE MASTERCASE H1000 ARGB \r\n         MCM-H100-KANN-S01\r\n";
             // 
             // pictureBox12
             // 
@@ -564,9 +565,9 @@
             this.lblPrecioCase5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblPrecioCase5.Location = new System.Drawing.Point(83, 193);
             this.lblPrecioCase5.Name = "lblPrecioCase5";
-            this.lblPrecioCase5.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase5.Size = new System.Drawing.Size(80, 15);
             this.lblPrecioCase5.TabIndex = 3;
-            this.lblPrecioCase5.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase5.Text = "$ 125.00 + IVA";
             // 
             // label14
             // 
@@ -585,9 +586,9 @@
             this.lblCaseGamer5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblCaseGamer5.Location = new System.Drawing.Point(0, 158);
             this.lblCaseGamer5.Name = "lblCaseGamer5";
-            this.lblCaseGamer5.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer5.Size = new System.Drawing.Size(195, 26);
             this.lblCaseGamer5.TabIndex = 4;
-            this.lblCaseGamer5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer5.Text = "CASE COOLER MASTER MB511 ARGB \r\n              MCB-B511D-KGNN-";
             // 
             // pictureBox15
             // 
@@ -662,9 +663,9 @@
             this.lblPrecioCase6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblPrecioCase6.Location = new System.Drawing.Point(83, 193);
             this.lblPrecioCase6.Name = "lblPrecioCase6";
-            this.lblPrecioCase6.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase6.Size = new System.Drawing.Size(80, 15);
             this.lblPrecioCase6.TabIndex = 3;
-            this.lblPrecioCase6.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase6.Text = "$ 175.50 + IVA";
             // 
             // label17
             // 
@@ -681,11 +682,11 @@
             this.lblCaseGamer6.AutoSize = true;
             this.lblCaseGamer6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer6.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer6.Location = new System.Drawing.Point(1, 158);
             this.lblCaseGamer6.Name = "lblCaseGamer6";
-            this.lblCaseGamer6.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer6.Size = new System.Drawing.Size(187, 13);
             this.lblCaseGamer6.TabIndex = 4;
-            this.lblCaseGamer6.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer6.Text = "CASE GAMER MPG VELOX 100R MSI";
             // 
             // pictureBox18
             // 

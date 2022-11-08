@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
+    "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectUniqueName": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
         "projectName": "TiendaPerrona",
-        "projectPath": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
-        "packagesPath": "C:\\Users\\JADPA-32\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA-32\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wilman\\source\\repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JADPA-32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

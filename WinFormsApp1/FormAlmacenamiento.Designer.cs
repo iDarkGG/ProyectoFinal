@@ -136,7 +136,7 @@
             this.lblPrecioCase1.Name = "lblPrecioCase1";
             this.lblPrecioCase1.Size = new System.Drawing.Size(74, 15);
             this.lblPrecioCase1.TabIndex = 3;
-            this.lblPrecioCase1.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase1.Text = "$ 73.50 + IVA";
             // 
             // label4
             // 
@@ -153,14 +153,15 @@
             this.lblCaseGamer1.AutoSize = true;
             this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer1.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer1.Location = new System.Drawing.Point(16, 158);
             this.lblCaseGamer1.Name = "lblCaseGamer1";
-            this.lblCaseGamer1.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer1.Size = new System.Drawing.Size(155, 26);
             this.lblCaseGamer1.TabIndex = 4;
-            this.lblCaseGamer1.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer1.Text = "SSD M2 NVME 512GB AS40G-\r\n  512GT-C M2 XPG SPECTR";
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_NVME_512GB_AS40G_512GT_C_M2_XPG_SPECTR;
             this.pictureBox5.Location = new System.Drawing.Point(33, -11);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(127, 155);
@@ -209,9 +210,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label2.Location = new System.Drawing.Point(83, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
+            this.label2.Size = new System.Drawing.Size(80, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 173.00 + IVA";
             // 
             // label3
             // 
@@ -230,12 +231,13 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label5.Location = new System.Drawing.Point(0, 158);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(184, 26);
+            this.label5.Size = new System.Drawing.Size(194, 26);
             this.label5.TabIndex = 4;
-            this.label5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label5.Text = "SSD SATA 1.92TB ASU630SS-1T92Q-R \r\n                         ADATA";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.SSD_SATA_1_92TB_ASU630SS_1T92Q_R_ADATA;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -286,7 +288,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 49.50 + IVA";
             // 
             // label8
             // 
@@ -305,12 +307,13 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label9.Location = new System.Drawing.Point(0, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(193, 26);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "SSD SATA 512GB ASU650SS-512GT-R \r\n                        ADATA";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.SSD_SATA_512GB_ASU650SS_512GT_R_ADATA;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -361,7 +364,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(74, 15);
             this.label11.TabIndex = 3;
-            this.label11.Text = "$ 59.95 + IVA";
+            this.label11.Text = "$ 97.00 + IVA";
             // 
             // label12
             // 
@@ -380,12 +383,13 @@
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label13.Location = new System.Drawing.Point(0, 158);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(184, 26);
+            this.label13.Size = new System.Drawing.Size(195, 26);
             this.label13.TabIndex = 4;
-            this.label13.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label13.Text = "SSD M2 SATA 1TB ASU650NS38-1TT-C\r\n                         ADATA";
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_SATA_1TB_ASU650NS38_1TT_C_ADATA;
             this.pictureBox7.Location = new System.Drawing.Point(33, -11);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(127, 155);
@@ -436,7 +440,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(74, 15);
             this.label15.TabIndex = 3;
-            this.label15.Text = "$ 59.95 + IVA";
+            this.label15.Text = "$ 35.50 + IVA";
             // 
             // label16
             // 
@@ -453,14 +457,15 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label17.Location = new System.Drawing.Point(0, 158);
+            this.label17.Location = new System.Drawing.Point(2, 158);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(184, 26);
+            this.label17.Size = new System.Drawing.Size(180, 26);
             this.label17.TabIndex = 4;
-            this.label17.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label17.Text = "SSD M2 SATA 256GB ASU650NS38-\r\n               256GT-C ADATA";
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_SATA_256GB_ASU650NS38_256GT_C_ADATA;
             this.pictureBox9.Location = new System.Drawing.Point(33, -11);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(127, 155);

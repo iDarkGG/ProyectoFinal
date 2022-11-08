@@ -134,9 +134,9 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label10.Location = new System.Drawing.Point(83, 193);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
+            this.label10.Size = new System.Drawing.Size(77, 15);
             this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.label10.Text = "$295.25 + IVA";
             // 
             // label11
             // 
@@ -153,14 +153,15 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 158);
+            this.label12.Location = new System.Drawing.Point(1, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
+            this.label12.Size = new System.Drawing.Size(185, 26);
             this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label12.Text = "TARJETA MADRE ATX ASUS PRIME \r\nZ690-P WIFI INTEL LGA 1700 12GEN";
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.TARJETA_MADRE_ATX_ASUS_PRIME_Z690_P_WIFI_INTEL_LGA_1700_12GEN;
             this.pictureBox6.Location = new System.Drawing.Point(33, -11);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 155);
@@ -211,7 +212,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 81.84 + IVA";
             // 
             // label3
             // 
@@ -228,14 +229,16 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(0, 158);
+            this.label4.Location = new System.Drawing.Point(6, 154);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 26);
+            this.label4.Size = new System.Drawing.Size(178, 39);
             this.label4.TabIndex = 4;
-            this.label4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label4.Text = "    TARJETA MADRE MICRO ATX \r\n  BIOSTAR H510MH 2.0 INTEL LGA \r\n                  " +
+    "      1200";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.TARJETA_MADRE_MICRO_ATX_BIOSTAR_H510MH_2_0_INTEL_LGA_1200;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -284,9 +287,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label7.Location = new System.Drawing.Point(83, 193);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
+            this.label7.Size = new System.Drawing.Size(80, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 166.87 + IVA";
             // 
             // label8
             // 
@@ -303,14 +306,16 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
+            this.label9.Location = new System.Drawing.Point(12, 154);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(165, 39);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "   TARJETA MADRE MICRO ATX \r\nGIGABYTE B560M AORUS ELITE \r\n                  INTEL" +
+    " 1200";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.TARJETA_MADRE_MICRO_ATX_GIGABYTE_B560M_AORUS_ELITE_INTEL_1200;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -359,9 +364,9 @@
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label14.Location = new System.Drawing.Point(83, 193);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 15);
+            this.label14.Size = new System.Drawing.Size(80, 15);
             this.label14.TabIndex = 3;
-            this.label14.Text = "$ 59.95 + IVA";
+            this.label14.Text = "$ 106.52 + IVA";
             // 
             // label15
             // 
@@ -378,11 +383,12 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(0, 158);
+            this.label16.Location = new System.Drawing.Point(4, 154);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 26);
+            this.label16.Size = new System.Drawing.Size(180, 39);
             this.label16.TabIndex = 4;
-            this.label16.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label16.Text = "     TARJETA MADRE MICRO ATX \r\nGIGABYTE H610M H D4 INTEL LGA \r\n                 1" +
+    "700 12VA GEN";
             // 
             // pictureBox8
             // 
@@ -434,9 +440,9 @@
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label18.Location = new System.Drawing.Point(83, 193);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 15);
+            this.label18.Size = new System.Drawing.Size(80, 15);
             this.label18.TabIndex = 3;
-            this.label18.Text = "$ 59.95 + IVA";
+            this.label18.Text = "$ 173.06 + IVA";
             // 
             // label19
             // 
@@ -453,14 +459,16 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(0, 158);
+            this.label20.Location = new System.Drawing.Point(1, 154);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 26);
+            this.label20.Size = new System.Drawing.Size(187, 39);
             this.label20.TabIndex = 4;
-            this.label20.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label20.Text = "       TARJETA MADRE MICRO ATX \r\nGIGABYTE B660M DS3H DDR4 INTEL\r\n              LG" +
+    "A 1700 12VA GEN";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.TARJETA_MADRE_MICRO_ATX_GIGABYTE_B660M_DS3H_DDR4_INTEL_LGA_1700_12VA_GEN;
             this.pictureBox10.Location = new System.Drawing.Point(33, -11);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 155);

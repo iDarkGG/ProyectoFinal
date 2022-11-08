@@ -134,9 +134,9 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label10.Location = new System.Drawing.Point(83, 193);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
+            this.label10.Size = new System.Drawing.Size(80, 15);
             this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.label10.Text = "$ 112.94 + IVA";
             // 
             // label11
             // 
@@ -155,12 +155,13 @@
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label12.Location = new System.Drawing.Point(0, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
+            this.label12.Size = new System.Drawing.Size(196, 26);
             this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label12.Text = "TECLADO MECANICO LOGITECH USB \r\n       G PRO LEAGUE OF LEGENDS";
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.TECLADO_MECANICO_LOGITECH_USB_G_PRO_LEAGUE_OF_LEGENDS_920_010533;
             this.pictureBox6.Location = new System.Drawing.Point(33, -11);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 155);
@@ -211,7 +212,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 80.59 + IVA";
             // 
             // label3
             // 
@@ -230,12 +231,13 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label4.Location = new System.Drawing.Point(0, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 26);
+            this.label4.Size = new System.Drawing.Size(188, 26);
             this.label4.TabIndex = 4;
-            this.label4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label4.Text = "TECLADO MECANICO CORSAIR K60 \r\n          PRO RED CHERRY LED";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.TECLADO_MECANICO_CORSAIR_K60_PRO_RED_CHERRY_LED_CH_910D029_SP;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -254,7 +256,7 @@
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(480, 46);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(189, 243);
+            this.panel3.Size = new System.Drawing.Size(192, 243);
             this.panel3.TabIndex = 13;
             // 
             // label6
@@ -284,9 +286,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label7.Location = new System.Drawing.Point(83, 193);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
+            this.label7.Size = new System.Drawing.Size(83, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 161.90  + IVA";
             // 
             // label8
             // 
@@ -305,12 +307,13 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label9.Location = new System.Drawing.Point(0, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(197, 26);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "TECLADO MECANICO 60% GLORIOUS\r\n       USB GMMK-COMPACT-BRN";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.TECLADO_MECANICO_60_GLORIOUS_USB_GMMK_COMPACT_BRN;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -361,7 +364,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(74, 15);
             this.label14.TabIndex = 3;
-            this.label14.Text = "$ 59.95 + IVA";
+            this.label14.Text = "$ 47.51 + IVA";
             // 
             // label15
             // 
@@ -380,12 +383,13 @@
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label16.Location = new System.Drawing.Point(0, 158);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 26);
+            this.label16.Size = new System.Drawing.Size(193, 26);
             this.label16.TabIndex = 4;
-            this.label16.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label16.Text = "TECLADO MECANICO LOGITECH USB\r\n                     K835 TKL BLUE\r\n";
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.TECLADO_MECANICO_LOGITECH_USB_K835_TKL_BLUE_920_010086;
             this.pictureBox8.Location = new System.Drawing.Point(33, -11);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(127, 155);
@@ -436,7 +440,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(74, 15);
             this.label18.TabIndex = 3;
-            this.label18.Text = "$ 59.95 + IVA";
+            this.label18.Text = "$ 35.19 + IVA";
             // 
             // label19
             // 
@@ -455,12 +459,13 @@
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label20.Location = new System.Drawing.Point(0, 158);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 26);
+            this.label20.Size = new System.Drawing.Size(190, 26);
             this.label20.TabIndex = 4;
-            this.label20.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label20.Text = "  TECLADO RAZER CYNOSA LITE US \r\nLAYOUT FRML RZ03-02740600-R3M1";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.TECLADO_RAZER_CYNOSA_LITE_US_LAYOUT_FRML_RZ03_02740600_R3M1_1;
             this.pictureBox10.Location = new System.Drawing.Point(33, -11);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 155);

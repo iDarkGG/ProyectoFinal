@@ -134,9 +134,9 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label10.Location = new System.Drawing.Point(83, 193);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
+            this.label10.Size = new System.Drawing.Size(71, 15);
             this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.label10.Text = "$63.00 + IVA";
             // 
             // label11
             // 
@@ -153,14 +153,15 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 158);
+            this.label12.Location = new System.Drawing.Point(12, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
+            this.label12.Size = new System.Drawing.Size(168, 26);
             this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label12.Text = "MEMORIA DDR4 8GB 3200MHZ \r\n           HYPERX KINGSTON";
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.MEMORIA_DDR4_8GB_3200MHZ_HYPERX_KINGSTON;
             this.pictureBox6.Location = new System.Drawing.Point(33, -11);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 155);
@@ -211,7 +212,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 89.00 + IVA";
             // 
             // label3
             // 
@@ -228,14 +229,15 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(0, 158);
+            this.label4.Location = new System.Drawing.Point(8, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 26);
+            this.label4.Size = new System.Drawing.Size(174, 26);
             this.label4.TabIndex = 4;
-            this.label4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label4.Text = "MEMORIA DDR4 16GB 2666MHZ \r\n                   CRUCIAL";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.MEMORIA_DDR4_16GB_2666MHZ_CRUCIAL;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -284,9 +286,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label7.Location = new System.Drawing.Point(83, 193);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
+            this.label7.Size = new System.Drawing.Size(80, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 118.00 + IVA";
             // 
             // label8
             // 
@@ -305,12 +307,13 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label9.Location = new System.Drawing.Point(0, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(188, 13);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "XPG MEMORIA 16G DDR5 5200MHZ";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.MEMORIA_16G_DDR5_5200MHZ;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -361,7 +364,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(74, 15);
             this.label14.TabIndex = 3;
-            this.label14.Text = "$ 59.95 + IVA";
+            this.label14.Text = "$ 54.00 + IVA";
             // 
             // label15
             // 
@@ -378,14 +381,15 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(0, 158);
+            this.label16.Location = new System.Drawing.Point(3, 158);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 26);
+            this.label16.Size = new System.Drawing.Size(185, 26);
             this.label16.TabIndex = 4;
-            this.label16.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label16.Text = "KINGSTONE FURY MEMORIA DDR4 \r\n                  8G 3200 MHZ ";
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.MEMORIA_DDR4_8G_3200_MHZ;
             this.pictureBox8.Location = new System.Drawing.Point(33, -11);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(127, 155);
@@ -436,7 +440,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(74, 15);
             this.label18.TabIndex = 3;
-            this.label18.Text = "$ 59.95 + IVA";
+            this.label18.Text = "$ 69.00 + IVA";
             // 
             // label19
             // 
@@ -455,12 +459,13 @@
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label20.Location = new System.Drawing.Point(0, 158);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 26);
+            this.label20.Size = new System.Drawing.Size(191, 13);
             this.label20.TabIndex = 4;
-            this.label20.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label20.Text = "MEMORIA DDR4 16G 3200 MHZ XPG";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.MEMORIA_DDR4_16G_3200_MHZ_XPG;
             this.pictureBox10.Location = new System.Drawing.Point(33, -11);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 155);

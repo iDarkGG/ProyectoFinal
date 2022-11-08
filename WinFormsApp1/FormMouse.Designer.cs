@@ -136,7 +136,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 15);
             this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.label10.Text = "$ 58.18 + IVA";
             // 
             // label11
             // 
@@ -153,14 +153,15 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 158);
+            this.label12.Location = new System.Drawing.Point(16, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
+            this.label12.Size = new System.Drawing.Size(156, 26);
             this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label12.Text = "MOUSE ASUS USB P511 ROG \r\n            CHAKRAM CORE\r\n";
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.MOUSE_ASUS_USB_P511_ROG_CHAKRAM_CORE;
             this.pictureBox6.Location = new System.Drawing.Point(33, -11);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 155);
@@ -211,7 +212,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 88.44 + IVA";
             // 
             // label3
             // 
@@ -228,14 +229,15 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(0, 158);
+            this.label4.Location = new System.Drawing.Point(5, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 26);
+            this.label4.Size = new System.Drawing.Size(179, 26);
             this.label4.TabIndex = 4;
-            this.label4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label4.Text = "MOUSE LOGITECH INALAMBRICO \r\n       G604 LIGHTSPEED GAMING";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.MOUSE_LOGITECH_INALAMBRICO_G604_LIGHTSPEED_GAMING;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -286,7 +288,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 35.45 + IVA";
             // 
             // label8
             // 
@@ -303,14 +305,15 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
+            this.label9.Location = new System.Drawing.Point(33, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(126, 26);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "MOUSE RAZER GAMER \r\n     DEATHADDER V2";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.MOUSE_RAZER_GAMER_DEATHADDER_V2;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -361,7 +364,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(74, 15);
             this.label14.TabIndex = 3;
-            this.label14.Text = "$ 59.95 + IVA";
+            this.label14.Text = "$ 84.64 + IVA";
             // 
             // label15
             // 
@@ -378,14 +381,15 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(0, 158);
+            this.label16.Location = new System.Drawing.Point(7, 158);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 26);
+            this.label16.Size = new System.Drawing.Size(170, 26);
             this.label16.TabIndex = 4;
-            this.label16.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label16.Text = "MOUSE CORSAIR GAMING M65 \r\n                       PRO";
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.MOUSE_CORSAIR_GAMING_M65_PRO;
             this.pictureBox8.Location = new System.Drawing.Point(33, -11);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(127, 155);
@@ -436,7 +440,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(74, 15);
             this.label18.TabIndex = 3;
-            this.label18.Text = "$ 59.95 + IVA";
+            this.label18.Text = "$ 22.83 + IVA";
             // 
             // label19
             // 
@@ -453,14 +457,15 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(0, 158);
+            this.label20.Location = new System.Drawing.Point(16, 158);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 26);
+            this.label20.Size = new System.Drawing.Size(156, 26);
             this.label20.TabIndex = 4;
-            this.label20.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label20.Text = "MOUSE LOGITECH USB G203 \r\n      LIGHTSYNC GAMING";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.MOUSE_LOGITECH_USB_G203_LIGHTSYNC_GAMING_BLACK_910_005790;
             this.pictureBox10.Location = new System.Drawing.Point(33, -11);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 155);

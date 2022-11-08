@@ -37,6 +37,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -136,7 +136,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 49.30 + IVA";
             // 
             // label8
             // 
@@ -155,12 +155,13 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label9.Location = new System.Drawing.Point(0, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(195, 26);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "FUENTE DE PODER EAGLE WARRIOR \r\n           EW600 80 PLUZ BRONZE";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.FUENTE_DE_PODER_EAGLE_WARRIOR_EW600_80_PLUZ_BRONZE;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -182,6 +183,16 @@
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(68, 224);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Cantidad :";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
@@ -199,9 +210,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label2.Location = new System.Drawing.Point(83, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
+            this.label2.Size = new System.Drawing.Size(80, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 423.87 + IVA";
             // 
             // label3
             // 
@@ -218,14 +229,15 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(0, 158);
+            this.label4.Location = new System.Drawing.Point(11, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 26);
+            this.label4.Size = new System.Drawing.Size(172, 26);
             this.label4.TabIndex = 4;
-            this.label4.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label4.Text = "FUENTE DE PODER EVGA 1600W\r\n                     GP GOLD";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.FUENTE_DE_PODER_EVGA_1600W_GP_GOLD_220_GP_1600_X1;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -276,7 +288,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 15);
             this.label10.TabIndex = 3;
-            this.label10.Text = "$ 59.95 + IVA";
+            this.label10.Text = "$ 42.04 + IVA";
             // 
             // label11
             // 
@@ -295,28 +307,19 @@
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label12.Location = new System.Drawing.Point(0, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 26);
+            this.label12.Size = new System.Drawing.Size(190, 26);
             this.label12.TabIndex = 4;
-            this.label12.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label12.Text = "FUENTE DE PODER CORSAIR CV450 \r\n                           BRONZE";
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.FUENTE_DE_PODER_CORSAIR_CV450_BRONZE_CP_9020209_NA;
             this.pictureBox6.Location = new System.Drawing.Point(33, -11);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 155);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(68, 224);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Cantidad :";
             // 
             // panel4
             // 
@@ -359,9 +362,9 @@
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label14.Location = new System.Drawing.Point(83, 193);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 15);
+            this.label14.Size = new System.Drawing.Size(71, 15);
             this.label14.TabIndex = 3;
-            this.label14.Text = "$ 59.95 + IVA";
+            this.label14.Text = "$ 87.48+ IVA";
             // 
             // label15
             // 
@@ -380,12 +383,13 @@
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label16.Location = new System.Drawing.Point(0, 158);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 26);
+            this.label16.Size = new System.Drawing.Size(197, 26);
             this.label16.TabIndex = 4;
-            this.label16.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label16.Text = "FUENTE DE PODER COOLER MASTER \r\n             GOLD V2 FM 550W\r\n";
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.FUENTE_DE_PODER_COOLER_MASTER_GOLD_V2_FM_550W_MPE_5501_AFFAAG_U2;
             this.pictureBox8.Location = new System.Drawing.Point(33, -11);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(127, 155);
@@ -434,9 +438,9 @@
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label18.Location = new System.Drawing.Point(83, 193);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 15);
+            this.label18.Size = new System.Drawing.Size(80, 15);
             this.label18.TabIndex = 3;
-            this.label18.Text = "$ 59.95 + IVA";
+            this.label18.Text = "$ 276.95 + IVA";
             // 
             // label19
             // 
@@ -453,14 +457,15 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(0, 158);
+            this.label20.Location = new System.Drawing.Point(14, 158);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 26);
+            this.label20.Size = new System.Drawing.Size(166, 26);
             this.label20.TabIndex = 4;
-            this.label20.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label20.Text = "FUENTE DE PODER ASUS ROG  \r\n         STRIX 850W GOLD";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.FUENTE_DE_PODER_ASUS_ROG_STRIX_850W_GOLD_90YE00A3_B0AA00;
             this.pictureBox10.Location = new System.Drawing.Point(33, -11);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 155);

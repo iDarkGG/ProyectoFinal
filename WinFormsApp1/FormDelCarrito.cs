@@ -60,17 +60,6 @@ namespace TiendaPerrona
             TarjetaCredito uwu = new TarjetaCredito();
             
             uwu.Show();
-            
-           
-            lvListaDelCarritoDeCompras.Items.Clear();
-            Carrito.VaciarCarrito();
-            lblDescuento.Text = "0.00";
-            lblImpuesto.Text = "0.00";
-            lblNombreDeUsuario.Text = "0.00";
-            lblSubTotal.Text = "0.00";
-            lblTotal.Text = "0.00";
-
-
         }
 
         private void CargarLabels()
@@ -84,6 +73,17 @@ namespace TiendaPerrona
         private void lvListaDelCarritoDeCompras_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void cleanAll()
+        {
+            lvListaDelCarritoDeCompras.Items.Clear();
+            Carrito.VaciarCarrito();
+            lblDescuento.Text = "C$ 0.00";
+            lblImpuesto.Text = "C$ 0.00";
+            lblNombreDeUsuario.Text = "C$ 0.00";
+            lblSubTotal.Text = "C$ 0.00";
+            lblTotal.Text = "C$ 0.00";
         }
     }
 }

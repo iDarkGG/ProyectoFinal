@@ -64,6 +64,11 @@
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
+            this.cboProcesador2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -85,6 +90,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.btnComprarCase1);
             this.panel1.Controls.Add(this.lblPrecioCase1);
@@ -123,9 +129,9 @@
             this.lblPrecioCase1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.lblPrecioCase1.Location = new System.Drawing.Point(83, 193);
             this.lblPrecioCase1.Name = "lblPrecioCase1";
-            this.lblPrecioCase1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase1.Size = new System.Drawing.Size(80, 15);
             this.lblPrecioCase1.TabIndex = 3;
-            this.lblPrecioCase1.Text = "$ 59.95 + IVA";
+            this.lblPrecioCase1.Text = "$ 270.57 + IVA";
             // 
             // label4
             // 
@@ -142,14 +148,15 @@
             this.lblCaseGamer1.AutoSize = true;
             this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer1.Location = new System.Drawing.Point(0, 158);
+            this.lblCaseGamer1.Location = new System.Drawing.Point(50, 158);
             this.lblCaseGamer1.Name = "lblCaseGamer1";
-            this.lblCaseGamer1.Size = new System.Drawing.Size(184, 26);
+            this.lblCaseGamer1.Size = new System.Drawing.Size(111, 13);
             this.lblCaseGamer1.TabIndex = 4;
-            this.lblCaseGamer1.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.lblCaseGamer1.Text = "AMD RYZEN 7 5700G";
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.AMD_RYZEN_7_5700G;
             this.pictureBox5.Location = new System.Drawing.Point(33, -11);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(127, 155);
@@ -160,6 +167,7 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.Controls.Add(this.cboProcesador2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label2);
@@ -198,9 +206,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label2.Location = new System.Drawing.Point(83, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
+            this.label2.Size = new System.Drawing.Size(80, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$ 59.95 + IVA";
+            this.label2.Text = "$ 236.00 + IVA";
             // 
             // label3
             // 
@@ -217,14 +225,15 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label5.Location = new System.Drawing.Point(0, 158);
+            this.label5.Location = new System.Drawing.Point(5, 158);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(184, 26);
+            this.label5.Size = new System.Drawing.Size(178, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label5.Text = "PROCESADOR AMD RYZEN 5 3600";
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.RYZEN_5_3600;
             this.pictureBox2.Location = new System.Drawing.Point(33, -11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 155);
@@ -235,6 +244,7 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.comboBox2);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.label7);
@@ -273,9 +283,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label7.Location = new System.Drawing.Point(83, 193);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
+            this.label7.Size = new System.Drawing.Size(80, 15);
             this.label7.TabIndex = 3;
-            this.label7.Text = "$ 59.95 + IVA";
+            this.label7.Text = "$ 268.89 + IVA";
             // 
             // label8
             // 
@@ -294,12 +304,13 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label9.Location = new System.Drawing.Point(0, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 26);
+            this.label9.Size = new System.Drawing.Size(186, 13);
             this.label9.TabIndex = 4;
-            this.label9.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label9.Text = "PROCESADOR AMD RYZEN 5 5600G";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.RYZEN_5_5600G;
             this.pictureBox4.Location = new System.Drawing.Point(33, -11);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(127, 155);
@@ -310,6 +321,7 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.Controls.Add(this.comboBox4);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.pictureBox6);
             this.panel4.Controls.Add(this.label11);
@@ -348,9 +360,9 @@
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label11.Location = new System.Drawing.Point(83, 193);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 15);
+            this.label11.Size = new System.Drawing.Size(80, 15);
             this.label11.TabIndex = 3;
-            this.label11.Text = "$ 59.95 + IVA";
+            this.label11.Text = "$ 432.82 + IVA";
             // 
             // label12
             // 
@@ -369,12 +381,13 @@
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label13.Location = new System.Drawing.Point(0, 158);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(184, 26);
+            this.label13.Size = new System.Drawing.Size(184, 13);
             this.label13.TabIndex = 4;
-            this.label13.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label13.Text = "PROCESADOR AMD RYZEN 7 3800X";
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.ryzen_7_3800x;
             this.pictureBox7.Location = new System.Drawing.Point(33, -11);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(127, 155);
@@ -385,6 +398,7 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.Controls.Add(this.comboBox3);
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.pictureBox8);
             this.panel5.Controls.Add(this.label15);
@@ -423,9 +437,9 @@
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label15.Location = new System.Drawing.Point(83, 193);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(74, 15);
+            this.label15.Size = new System.Drawing.Size(80, 15);
             this.label15.TabIndex = 3;
-            this.label15.Text = "$ 59.95 + IVA";
+            this.label15.Text = "$ 205.28 + IVA";
             // 
             // label16
             // 
@@ -444,12 +458,13 @@
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.label17.Location = new System.Drawing.Point(0, 158);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(184, 26);
+            this.label17.Size = new System.Drawing.Size(184, 13);
             this.label17.TabIndex = 4;
-            this.label17.Text = "CASE CAMER ADATA XPG INVADER-\r\n                         BLACK\r\n";
+            this.label17.Text = "PROCESADOR AMD RYZEN 5 5600X";
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.RYZEN_5_5600X;
             this.pictureBox9.Location = new System.Drawing.Point(33, -11);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(127, 155);
@@ -467,6 +482,126 @@
             this.btnCerrar1.TabIndex = 10;
             this.btnCerrar1.TabStop = false;
             this.btnCerrar1.Click += new System.EventHandler(this.btnCerrar1_Click);
+            // 
+            // cboProcesador2
+            // 
+            this.cboProcesador2.FormattingEnabled = true;
+            this.cboProcesador2.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador2.Location = new System.Drawing.Point(134, 217);
+            this.cboProcesador2.Name = "cboProcesador2";
+            this.cboProcesador2.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador2.TabIndex = 12;
+            this.cboProcesador2.Text = "1";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.comboBox1.Location = new System.Drawing.Point(134, 217);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(46, 23);
+            this.comboBox1.TabIndex = 13;
+            this.comboBox1.Text = "1";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.comboBox2.Location = new System.Drawing.Point(134, 217);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(46, 23);
+            this.comboBox2.TabIndex = 14;
+            this.comboBox2.Text = "1";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.comboBox3.Location = new System.Drawing.Point(134, 217);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(46, 23);
+            this.comboBox3.TabIndex = 12;
+            this.comboBox3.Text = "1";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.comboBox4.Location = new System.Drawing.Point(134, 217);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(46, 23);
+            this.comboBox4.TabIndex = 12;
+            this.comboBox4.Text = "1";
             // 
             // FormProcesadorRyzen
             // 
@@ -545,5 +680,10 @@
         private Label label17;
         private PictureBox pictureBox9;
         private PictureBox btnCerrar1;
+        private ComboBox comboBox1;
+        private ComboBox cboProcesador2;
+        private ComboBox comboBox2;
+        private ComboBox comboBox4;
+        private ComboBox comboBox3;
     }
 }
