@@ -1,0 +1,554 @@
+﻿namespace TiendaPerrona
+{
+    partial class FormAlmacenamiento
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnCerrar1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioCase1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblCaseGamer1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnCerrar1
+            // 
+            this.btnCerrar1.Image = global::TiendaPerrona.Properties.Resources.x;
+            this.btnCerrar1.Location = new System.Drawing.Point(12, 12);
+            this.btnCerrar1.Name = "btnCerrar1";
+            this.btnCerrar1.Size = new System.Drawing.Size(26, 29);
+            this.btnCerrar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar1.TabIndex = 6;
+            this.btnCerrar1.TabStop = false;
+            this.btnCerrar1.Click += new System.EventHandler(this.btnCerrar1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.btnComprarCase1);
+            this.panel1.Controls.Add(this.lblPrecioCase1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblCaseGamer1);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Location = new System.Drawing.Point(44, 40);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(189, 243);
+            this.panel1.TabIndex = 8;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(68, 224);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 13);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Cantidad :";
+            // 
+            // btnComprarCase1
+            // 
+            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarCase1.Name = "btnComprarCase1";
+            this.btnComprarCase1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarCase1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarCase1.TabIndex = 6;
+            this.btnComprarCase1.TabStop = false;
+            // 
+            // lblPrecioCase1
+            // 
+            this.lblPrecioCase1.AutoSize = true;
+            this.lblPrecioCase1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioCase1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioCase1.Name = "lblPrecioCase1";
+            this.lblPrecioCase1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioCase1.TabIndex = 3;
+            this.lblPrecioCase1.Text = "$ 73.50 + IVA";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(33, 193);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Precio :";
+            // 
+            // lblCaseGamer1
+            // 
+            this.lblCaseGamer1.AutoSize = true;
+            this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblCaseGamer1.Location = new System.Drawing.Point(16, 158);
+            this.lblCaseGamer1.Name = "lblCaseGamer1";
+            this.lblCaseGamer1.Size = new System.Drawing.Size(155, 26);
+            this.lblCaseGamer1.TabIndex = 4;
+            this.lblCaseGamer1.Text = "SSD M2 NVME 512GB AS40G-\r\n  512GT-C M2 XPG SPECTR";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_NVME_512GB_AS40G_512GT_C_M2_XPG_SPECTR;
+            this.pictureBox5.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Location = new System.Drawing.Point(266, 40);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(189, 243);
+            this.panel2.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(68, 224);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Cantidad :";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label2.Location = new System.Drawing.Point(83, 193);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 15);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "$ 173.00 + IVA";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(33, 193);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Precio :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label5.Location = new System.Drawing.Point(0, 158);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(194, 26);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "SSD SATA 1.92TB ASU630SS-1T92Q-R \r\n                         ADATA";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.SSD_SATA_1_92TB_ASU630SS_1T92Q_R_ADATA;
+            this.pictureBox2.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.pictureBox4);
+            this.panel3.Location = new System.Drawing.Point(488, 40);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(189, 243);
+            this.panel3.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(68, 224);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Cantidad :";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label7.Location = new System.Drawing.Point(83, 193);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(74, 15);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "$ 49.50 + IVA";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(33, 193);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 13);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Precio :";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label9.Location = new System.Drawing.Point(0, 158);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(193, 26);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "SSD SATA 512GB ASU650SS-512GT-R \r\n                        ADATA";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TiendaPerrona.Properties.Resources.SSD_SATA_512GB_ASU650SS_512GT_R_ADATA;
+            this.pictureBox4.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.pictureBox6);
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.pictureBox7);
+            this.panel4.Location = new System.Drawing.Point(376, 299);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(189, 243);
+            this.panel4.TabIndex = 10;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(68, 224);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(60, 13);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Cantidad :";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.pictureBox6.Location = new System.Drawing.Point(3, 212);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(56, 28);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 6;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label11.Location = new System.Drawing.Point(83, 193);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(74, 15);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "$ 97.00 + IVA";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(33, 193);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(44, 13);
+            this.label12.TabIndex = 3;
+            this.label12.Text = "Precio :";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label13.Location = new System.Drawing.Point(0, 158);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(195, 26);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "SSD M2 SATA 1TB ASU650NS38-1TT-C\r\n                         ADATA";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_SATA_1TB_ASU650NS38_1TT_C_ADATA;
+            this.pictureBox7.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.Controls.Add(this.label14);
+            this.panel5.Controls.Add(this.pictureBox8);
+            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.label16);
+            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.pictureBox9);
+            this.panel5.Location = new System.Drawing.Point(127, 299);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(189, 243);
+            this.panel5.TabIndex = 10;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(68, 224);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 13);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Cantidad :";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.pictureBox8.Location = new System.Drawing.Point(3, 212);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(56, 28);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 6;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label15.Location = new System.Drawing.Point(83, 193);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(74, 15);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "$ 35.50 + IVA";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(33, 193);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(44, 13);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Precio :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.label17.Location = new System.Drawing.Point(2, 158);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(180, 26);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "SSD M2 SATA 256GB ASU650NS38-\r\n               256GT-C ADATA";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.SSD_M2_SATA_256GB_ASU650NS38_256GT_C_ADATA;
+            this.pictureBox9.Location = new System.Drawing.Point(33, -11);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(127, 155);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
+            // FormAlmacenamiento
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(699, 554);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnCerrar1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormAlmacenamiento";
+            this.Text = "FormAlmacenamiento";
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private PictureBox btnCerrar1;
+        private Panel panel1;
+        private Label label19;
+        private PictureBox btnComprarCase1;
+        private Label lblPrecioCase1;
+        private Label label4;
+        private Label lblCaseGamer1;
+        private PictureBox pictureBox5;
+        private Panel panel2;
+        private Label label1;
+        private PictureBox pictureBox1;
+        private Label label2;
+        private Label label3;
+        private Label label5;
+        private PictureBox pictureBox2;
+        private Panel panel3;
+        private Label label6;
+        private PictureBox pictureBox3;
+        private Label label7;
+        private Label label8;
+        private Label label9;
+        private PictureBox pictureBox4;
+        private Panel panel4;
+        private Label label10;
+        private PictureBox pictureBox6;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private PictureBox pictureBox7;
+        private Panel panel5;
+        private Label label14;
+        private PictureBox pictureBox8;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private PictureBox pictureBox9;
+    }
+}

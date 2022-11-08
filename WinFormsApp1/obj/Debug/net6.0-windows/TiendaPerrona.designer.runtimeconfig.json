@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\JADPA-30\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\JADPA-30\\.nuget\\packages"
+      "C:\\Users\\Wilman\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Wilman\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
