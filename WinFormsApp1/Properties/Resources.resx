@@ -151,17 +151,14 @@
   <data name="rtx 3080ti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rtx 3080ti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MEMORIA DDR4 16GB 2666MHZ CRUCIAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MEMORIA DDR4 16GB 2666MHZ CRUCIAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SSD SATA 1.92TB ASU630SS-1T92Q-R ADATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSD SATA 1.92TB ASU630SS-1T92Q-R ADATA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TARJETA DE VIDEO INNOVISION GEFORCE RTX3050 TWIN X2 OC 8GB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TARJETA DE VIDEO INNOVISION GEFORCE RTX3050 TWIN X2 OC 8GB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TECLADO-MECANICO-60-GLORIOUS-USB-GMMK-COMPACT-BRN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TECLADO-MECANICO-60-GLORIOUS-USB-GMMK-COMPACT-BRN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="perro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TARJETA MADRE ATX ASUS PRIME Z690-P WIFI INTEL LGA 1700 12GEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TARJETA MADRE ATX ASUS PRIME Z690-P WIFI INTEL LGA 1700 12GEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,6 +171,9 @@
   </data>
   <data name="FUENTE-DE-PODER-CORSAIR-CV450-BRONZE-CP-9020209-NA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FUENTE-DE-PODER-CORSAIR-CV450-BRONZE-CP-9020209-NA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MONITOR-AOC-LED-21.5P-22B2HM-75HZ-VGA-HDMI-1080P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MONITOR-AOC-LED-21.5P-22B2HM-75HZ-VGA-HDMI-1080P.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FUENTE-DE-PODER-EAGLE-WARRIOR-EW600-80-PLUZ-BRONZE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FUENTE-DE-PODER-EAGLE-WARRIOR-EW600-80-PLUZ-BRONZE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -189,6 +189,9 @@
   </data>
   <data name="ryzen 7 3800x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ryzen 7 3800x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEMORIA DDR4 8GB 3200MHZ HYPERX KINGSTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEMORIA DDR4 8GB 3200MHZ HYPERX KINGSTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TECLADO-MECANICO-LOGITECH-USB-G-PRO-LEAGUE-OF-LEGENDS-920-010533" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TECLADO-MECANICO-LOGITECH-USB-G-PRO-LEAGUE-OF-LEGENDS-920-010533.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,14 +217,20 @@
   <data name="TARJETA MADRE MICRO ATX GIGABYTE B560M AORUS ELITE INTEL 1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TARJETA MADRE MICRO ATX GIGABYTE B560M AORUS ELITE INTEL 1200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MEMORIA DDR4 16G 3200 MHZ XPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MEMORIA DDR4 16G 3200 MHZ XPG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MONITOR-LG-IPS-23.8-24GN600-B-144HZ-VGA-HDMI-DP-1080P-1-320x320" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MONITOR-LG-IPS-23.8-24GN600-B-144HZ-VGA-HDMI-DP-1080P-1-320x320.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="torre-de-la-cpu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torre-de-la-cpu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TECLADO-RAZER-CYNOSA-LITE-US-LAYOUT-FRML-RZ03-02740600-R3M1-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECLADO-RAZER-CYNOSA-LITE-US-LAYOUT-FRML-RZ03-02740600-R3M1-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FUENTE-DE-PODER-COOLER-MASTER-GOLD-V2-FM-550W-MPE-5501-AFFAAG-U2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FUENTE-DE-PODER-COOLER-MASTER-GOLD-V2-FM-550W-MPE-5501-AFFAAG-U2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +247,9 @@
   <data name="MOUSE-LOGITECH-USB-G203-LIGHTSYNC-GAMING-BLACK-910-005790" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOUSE-LOGITECH-USB-G203-LIGHTSYNC-GAMING-BLACK-910-005790.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="609dfb52-b520-4ed3-a364-7ff8d66a2aba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\609dfb52-b520-4ed3-a364-7ff8d66a2aba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MOUSE ASUS USB P511 ROG CHAKRAM CORE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOUSE ASUS USB P511 ROG CHAKRAM CORE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -253,8 +265,8 @@
   <data name="visual-studio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visual-studio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MEMORIA DDR4 8GB 3200MHZ HYPERX KINGSTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MEMORIA DDR4 8GB 3200MHZ HYPERX KINGSTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MEMORIA DDR4 16GB 2666MHZ CRUCIAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEMORIA DDR4 16GB 2666MHZ CRUCIAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MEMORIA 16G DDR5 5200MHZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MEMORIA 16G DDR5 5200MHZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,23 +295,14 @@
   <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngegg (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngegg (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RYZEN 5 3600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RYZEN 5 3600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngegg (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MOUSE LOGITECH INALAMBRICO G604 LIGHTSPEED GAMING" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOUSE LOGITECH INALAMBRICO G604 LIGHTSPEED GAMING.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TECLADO-MECANICO-CORSAIR-K60-PRO-RED-CHERRY-LED-CH-910D029-SP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TECLADO-MECANICO-CORSAIR-K60-PRO-RED-CHERRY-LED-CH-910D029-SP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SSD M2 SATA 256GB ASU650NS38-256GT-C ADATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SSD M2 SATA 256GB ASU650NS38-256GT-C ADATA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,17 +313,20 @@
   <data name="d24c9fea7a406d8ff08e8ea854bee32c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d24c9fea7a406d8ff08e8ea854bee32c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RYZEN 5 5600X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RYZEN 5 5600X.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="perro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MONITOR-LG-IPS-23.8-24GN600-B-144HZ-VGA-HDMI-DP-1080P-1-320x320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MONITOR-LG-IPS-23.8-24GN600-B-144HZ-VGA-HDMI-DP-1080P-1-320x320.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MOUSE RAZER GAMER DEATHADDER V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOUSE RAZER GAMER DEATHADDER V2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MONITOR-AOC-LED-21.5P-22B2HM-75HZ-VGA-HDMI-1080P" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MONITOR-AOC-LED-21.5P-22B2HM-75HZ-VGA-HDMI-1080P.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rtx 4090" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rtx 4090.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,8 +340,8 @@
   <data name="SSD SATA 512GB ASU650SS-512GT-R ADATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SSD SATA 512GB ASU650SS-512GT-R ADATA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="609dfb52-b520-4ed3-a364-7ff8d66a2aba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\609dfb52-b520-4ed3-a364-7ff8d66a2aba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngegg (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngegg (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perro2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,19 +352,16 @@
   <data name="MOUSE ASUS USB P511 ROG CHAKRAM CORE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOUSE ASUS USB P511 ROG CHAKRAM CORE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SSD SATA 1.92TB ASU630SS-1T92Q-R ADATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SSD SATA 1.92TB ASU630SS-1T92Q-R ADATA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TECLADO-MECANICO-CORSAIR-K60-PRO-RED-CHERRY-LED-CH-910D029-SP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECLADO-MECANICO-CORSAIR-K60-PRO-RED-CHERRY-LED-CH-910D029-SP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RYZEN 5 3600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RYZEN 5 3600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="torre-de-la-cpu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\torre-de-la-cpu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximizar-tamano" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximizar-tamano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TECLADO-RAZER-CYNOSA-LITE-US-LAYOUT-FRML-RZ03-02740600-R3M1-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TECLADO-RAZER-CYNOSA-LITE-US-LAYOUT-FRML-RZ03-02740600-R3M1-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TARJETA MADRE MICRO ATX GIGABYTE H610M H D4 INTEL LGA 1700 12VA GEN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TARJETA MADRE MICRO ATX GIGABYTE H610M H D4 INTEL LGA 1700 12VA GEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

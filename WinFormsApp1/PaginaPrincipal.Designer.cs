@@ -89,6 +89,9 @@
             this.BarraDeTitulo.Size = new System.Drawing.Size(919, 29);
             this.BarraDeTitulo.TabIndex = 0;
             this.BarraDeTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraDeTitulo_Paint);
+            this.BarraDeTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraDeTitulo_MouseDown);
+            this.BarraDeTitulo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BarraDeTitulo_MouseMove);
+            this.BarraDeTitulo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BarraDeTitulo_MouseUp);
             // 
             // btnRestaurar
             // 
