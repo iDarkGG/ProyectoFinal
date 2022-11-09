@@ -783,6 +783,16 @@ namespace TiendaPerrona.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_GIGABYTE_H610M_H_D4_INTEL_LGA_1700_12VA_GEN1 {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX GIGABYTE H610M H D4 INTEL LGA 1700 12VA GEN1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TECLADO_MECANICO_60_GLORIOUS_USB_GMMK_COMPACT_BRN {
             get {
                 object obj = ResourceManager.GetObject("TECLADO-MECANICO-60-GLORIOUS-USB-GMMK-COMPACT-BRN", resourceCulture);
