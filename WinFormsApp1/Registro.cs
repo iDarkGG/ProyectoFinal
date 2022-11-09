@@ -19,19 +19,19 @@ namespace TiendaPerrona
 
         private void txtNombreCompleto_Enter(object sender, EventArgs e)
         {
-            if (txtNombreCompleto.Text == "NOMBRE COMPLETO")
+            if (txtUsuario.Text == "NOMBRE DE USUARIO")
             {
-                txtNombreCompleto.Text = "";
-                txtNombreCompleto.ForeColor = Color.LightGray;
+                txtUsuario.Text = "";
+                txtUsuario.ForeColor = Color.LightGray;
             }
         }
 
         private void txtNombreCompleto_Leave(object sender, EventArgs e)
         {
-            if (txtNombreCompleto.Text == "")
+            if (txtUsuario.Text == "")
             {
-                txtNombreCompleto.Text = "NOMBRE COMPLETO";
-                txtNombreCompleto.ForeColor = Color.DimGray;
+                txtUsuario.Text = "NOMBRE DE USUARIO";
+                txtUsuario.ForeColor = Color.DimGray;
             }
         }
 
@@ -95,9 +95,33 @@ namespace TiendaPerrona
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Login uwu = new Login();
-            uwu.Show();
-            this.Close();
+            //Null Checker
+            if(txtUsuario == null)
+            {
+               DialogResult r = MessageBox.Show("Alguno de los campos esta vacio por favor revisa y rellena todos los campos", "ERROR", MessageBoxButtons.OK);
+            }
+            else
+            {
+                Login uwu = new Login();
+                uwu.Show();
+                this.Close();
+            }
+            
+        }
+
+        private void Registro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
