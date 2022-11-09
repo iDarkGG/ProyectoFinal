@@ -26,6 +26,7 @@ namespace TiendaPerrona
         private void btnAcceder_Click(object sender, EventArgs e)
         {
         uwu.Show();
+            this.Visible = false;
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)

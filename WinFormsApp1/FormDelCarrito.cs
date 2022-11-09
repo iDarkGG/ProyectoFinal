@@ -23,7 +23,7 @@ namespace TiendaPerrona
         private void btnSeguirComprando_Click(object sender, EventArgs e)
         {
             this.Close();
-            uwu.Show();
+           
         }
 
         private void CargarProductos()
@@ -58,8 +58,11 @@ namespace TiendaPerrona
         private void btnPagar_Click(object sender, EventArgs e)
         {
             TarjetaCredito uwu = new TarjetaCredito();
-            
+
             uwu.Show();
+           
+            
+            
         }
 
         private void CargarLabels()

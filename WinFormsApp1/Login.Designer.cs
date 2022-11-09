@@ -147,6 +147,7 @@
             this.btnRegistrar.AutoSize = true;
             this.btnRegistrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.btnRegistrar.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
+            this.btnRegistrar.LinkColor = System.Drawing.Color.White;
             this.btnRegistrar.Location = new System.Drawing.Point(29, 280);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(85, 20);

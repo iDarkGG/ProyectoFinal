@@ -23,7 +23,9 @@ namespace TiendaPerrona
 
         }
 
-
-
+        private void btnPagarTarjeta_Click(object sender, EventArgs e)
+        {
+                
+        }
     }
 }
