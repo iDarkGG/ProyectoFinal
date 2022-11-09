@@ -96,9 +96,9 @@ namespace TiendaPerrona
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             //Null Checker
-            if(txtUsuario == null)
+            if(txtUsuario.Text == "NOMBRE DE USUARIO" | txtCorreo.Text == "CORREO" | txtContraseñaRegistro.Text == "CONTRASEÑA" | txtContraseñaConfirmar.Text == "CONFIRMAR CONTRASEÑA")
             {
-               DialogResult r = MessageBox.Show("Alguno de los campos esta vacio por favor revisa y rellena todos los campos", "ERROR", MessageBoxButtons.OK);
+               DialogResult r = MessageBox.Show("UNO O MAS CAMPOS ESTAN VACIOS POR FAVOR REVISA Y RELLENA LOS CAMPOS", "ERROR", MessageBoxButtons.OK);
             }
             else
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {}
+    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal1\\WinFormsApp1\\TiendaPerrona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj": {
+    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal1\\WinFormsApp1\\TiendaPerrona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal1\\WinFormsApp1\\TiendaPerrona.csproj",
         "projectName": "TiendaPerrona",
-        "projectPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+        "projectPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal1\\WinFormsApp1\\TiendaPerrona.csproj",
         "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
