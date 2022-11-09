@@ -113,6 +113,16 @@ namespace TiendaPerrona.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AMD_RYZEN_7_5700G {
+            get {
+                object obj = ResourceManager.GetObject("AMD RYZEN 7 5700G", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancelar {
             get {
                 object obj = ResourceManager.GetObject("cancelar", resourceCulture);
@@ -126,6 +136,56 @@ namespace TiendaPerrona.Properties {
         internal static System.Drawing.Bitmap d24c9fea7a406d8ff08e8ea854bee32c {
             get {
                 object obj = ResourceManager.GetObject("d24c9fea7a406d8ff08e8ea854bee32c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUENTE_DE_PODER_ASUS_ROG_STRIX_850W_GOLD_90YE00A3_B0AA00 {
+            get {
+                object obj = ResourceManager.GetObject("FUENTE-DE-PODER-ASUS-ROG-STRIX-850W-GOLD-90YE00A3-B0AA00", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUENTE_DE_PODER_COOLER_MASTER_GOLD_V2_FM_550W_MPE_5501_AFFAAG_U2 {
+            get {
+                object obj = ResourceManager.GetObject("FUENTE-DE-PODER-COOLER-MASTER-GOLD-V2-FM-550W-MPE-5501-AFFAAG-U2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUENTE_DE_PODER_CORSAIR_CV450_BRONZE_CP_9020209_NA {
+            get {
+                object obj = ResourceManager.GetObject("FUENTE-DE-PODER-CORSAIR-CV450-BRONZE-CP-9020209-NA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUENTE_DE_PODER_EAGLE_WARRIOR_EW600_80_PLUZ_BRONZE {
+            get {
+                object obj = ResourceManager.GetObject("FUENTE-DE-PODER-EAGLE-WARRIOR-EW600-80-PLUZ-BRONZE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUENTE_DE_PODER_EVGA_1600W_GP_GOLD_220_GP_1600_X1 {
+            get {
+                object obj = ResourceManager.GetObject("FUENTE-DE-PODER-EVGA-1600W-GP-GOLD-220-GP-1600-X1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +223,109 @@ namespace TiendaPerrona.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("image (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("image (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_3 {
+            get {
+                object obj = ResourceManager.GetObject("image (2)3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_4 {
+            get {
+                object obj = ResourceManager.GetObject("image (2)4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image__3_ {
             get {
                 object obj = ResourceManager.GetObject("image (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("image (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__3_2 {
+            get {
+                object obj = ResourceManager.GetObject("image (3)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image1 {
+            get {
+                object obj = ResourceManager.GetObject("image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image2 {
+            get {
+                object obj = ResourceManager.GetObject("image2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image3 {
+            get {
+                object obj = ResourceManager.GetObject("image3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image4 {
+            get {
+                object obj = ResourceManager.GetObject("image4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +363,56 @@ namespace TiendaPerrona.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MEMORIA_16G_DDR5_5200MHZ {
+            get {
+                object obj = ResourceManager.GetObject("MEMORIA 16G DDR5 5200MHZ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MEMORIA_DDR4_16G_3200_MHZ_XPG {
+            get {
+                object obj = ResourceManager.GetObject("MEMORIA DDR4 16G 3200 MHZ XPG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MEMORIA_DDR4_16GB_2666MHZ_CRUCIAL {
+            get {
+                object obj = ResourceManager.GetObject("MEMORIA DDR4 16GB 2666MHZ CRUCIAL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MEMORIA_DDR4_8G_3200_MHZ {
+            get {
+                object obj = ResourceManager.GetObject("MEMORIA DDR4 8G 3200 MHZ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MEMORIA_DDR4_8GB_3200MHZ_HYPERX_KINGSTON {
+            get {
+                object obj = ResourceManager.GetObject("MEMORIA DDR4 8GB 3200MHZ HYPERX KINGSTON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap minimizar {
             get {
                 object obj = ResourceManager.GetObject("minimizar", resourceCulture);
@@ -216,6 +426,126 @@ namespace TiendaPerrona.Properties {
         internal static System.Drawing.Bitmap minimizar_signo {
             get {
                 object obj = ResourceManager.GetObject("minimizar-signo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimizar1 {
+            get {
+                object obj = ResourceManager.GetObject("minimizar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MONITOR_AOC_LED_21_5P_22B2HM_75HZ_VGA_HDMI_1080P {
+            get {
+                object obj = ResourceManager.GetObject("MONITOR-AOC-LED-21.5P-22B2HM-75HZ-VGA-HDMI-1080P", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MONITOR_AOC_VA_32_C32G2_CURVED_165HZ_HDMIDP_1080P_1 {
+            get {
+                object obj = ResourceManager.GetObject("MONITOR-AOC-VA-32-C32G2-CURVED-165HZ-HDMIDP-1080P-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MONITOR_DELL_LED_19_5P_E2020H_60HZ_VGA_DP_768_1_320x320 {
+            get {
+                object obj = ResourceManager.GetObject("MONITOR-DELL-LED-19.5P-E2020H-60HZ-VGA-DP-768-1-320x320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MONITOR_LG_IPS_23_8_24GN600_B_144HZ_VGA_HDMI_DP_1080P_1_320x320 {
+            get {
+                object obj = ResourceManager.GetObject("MONITOR-LG-IPS-23.8-24GN600-B-144HZ-VGA-HDMI-DP-1080P-1-320x320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MONITOR_LG_VA_31_5_32UN500_W_60HZ_HDMI_DP_4K_1_320x320 {
+            get {
+                object obj = ResourceManager.GetObject("MONITOR-LG-VA-31.5-32UN500-W-60HZ-HDMI-DP-4K-1-320x320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_ASUS_USB_P511_ROG_CHAKRAM_CORE {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE ASUS USB P511 ROG CHAKRAM CORE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_ASUS_USB_P511_ROG_CHAKRAM_CORE1 {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE ASUS USB P511 ROG CHAKRAM CORE1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_CORSAIR_GAMING_M65_PRO {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE CORSAIR GAMING M65 PRO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_LOGITECH_INALAMBRICO_G604_LIGHTSPEED_GAMING {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE LOGITECH INALAMBRICO G604 LIGHTSPEED GAMING", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_LOGITECH_USB_G203_LIGHTSYNC_GAMING_BLACK_910_005790 {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE-LOGITECH-USB-G203-LIGHTSYNC-GAMING-BLACK-910-005790", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MOUSE_RAZER_GAMER_DEATHADDER_V2 {
+            get {
+                object obj = ResourceManager.GetObject("MOUSE RAZER GAMER DEATHADDER V2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +676,276 @@ namespace TiendaPerrona.Properties {
         internal static System.Drawing.Bitmap pngwing1 {
             get {
                 object obj = ResourceManager.GetObject("pngwing1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Recurso_1 {
+            get {
+                object obj = ResourceManager.GetObject("Recurso 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Recurso_11 {
+            get {
+                object obj = ResourceManager.GetObject("Recurso 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rtx_3070ti {
+            get {
+                object obj = ResourceManager.GetObject("rtx 3070ti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rtx_3080ti {
+            get {
+                object obj = ResourceManager.GetObject("rtx 3080ti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rtx_3090 {
+            get {
+                object obj = ResourceManager.GetObject("rtx 3090", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rtx_4090 {
+            get {
+                object obj = ResourceManager.GetObject("rtx 4090", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RYZEN_5_3600 {
+            get {
+                object obj = ResourceManager.GetObject("RYZEN 5 3600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RYZEN_5_5600G {
+            get {
+                object obj = ResourceManager.GetObject("RYZEN 5 5600G", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RYZEN_5_5600X {
+            get {
+                object obj = ResourceManager.GetObject("RYZEN 5 5600X", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ryzen_7_3800x {
+            get {
+                object obj = ResourceManager.GetObject("ryzen 7 3800x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD_M2_NVME_512GB_AS40G_512GT_C_M2_XPG_SPECTR {
+            get {
+                object obj = ResourceManager.GetObject("SSD M2 NVME 512GB AS40G-512GT-C M2 XPG SPECTR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD_M2_SATA_1TB_ASU650NS38_1TT_C_ADATA {
+            get {
+                object obj = ResourceManager.GetObject("SSD M2 SATA 1TB ASU650NS38-1TT-C ADATA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD_M2_SATA_256GB_ASU650NS38_256GT_C_ADATA {
+            get {
+                object obj = ResourceManager.GetObject("SSD M2 SATA 256GB ASU650NS38-256GT-C ADATA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD_SATA_1_92TB_ASU630SS_1T92Q_R_ADATA {
+            get {
+                object obj = ResourceManager.GetObject("SSD SATA 1.92TB ASU630SS-1T92Q-R ADATA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD_SATA_512GB_ASU650SS_512GT_R_ADATA {
+            get {
+                object obj = ResourceManager.GetObject("SSD SATA 512GB ASU650SS-512GT-R ADATA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_DE_VIDEO_INNOVISION_GEFORCE_RTX3050_TWIN_X2_OC_8GB {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA DE VIDEO INNOVISION GEFORCE RTX3050 TWIN X2 OC 8GB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_ATX_ASUS_PRIME_Z690_P_WIFI_INTEL_LGA_1700_12GEN {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE ATX ASUS PRIME Z690-P WIFI INTEL LGA 1700 12GEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_BIOSTAR_H510MH_2_0_INTEL_LGA_1200 {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX BIOSTAR H510MH 2.0 INTEL LGA 1200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_GIGABYTE_B560M_AORUS_ELITE_INTEL_1200 {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX GIGABYTE B560M AORUS ELITE INTEL 1200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_GIGABYTE_B660M_DS3H_DDR4_INTEL_LGA_1700_12VA_GEN {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX GIGABYTE B660M DS3H DDR4 INTEL LGA 1700 12VA GEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_GIGABYTE_H610M_H_D4_INTEL_LGA_1700_12VA_GEN {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX GIGABYTE H610M H D4 INTEL LGA 1700 12VA GEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TARJETA_MADRE_MICRO_ATX_GIGABYTE_H610M_H_D4_INTEL_LGA_1700_12VA_GEN1 {
+            get {
+                object obj = ResourceManager.GetObject("TARJETA MADRE MICRO ATX GIGABYTE H610M H D4 INTEL LGA 1700 12VA GEN1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TECLADO_MECANICO_60_GLORIOUS_USB_GMMK_COMPACT_BRN {
+            get {
+                object obj = ResourceManager.GetObject("TECLADO-MECANICO-60-GLORIOUS-USB-GMMK-COMPACT-BRN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TECLADO_MECANICO_CORSAIR_K60_PRO_RED_CHERRY_LED_CH_910D029_SP {
+            get {
+                object obj = ResourceManager.GetObject("TECLADO-MECANICO-CORSAIR-K60-PRO-RED-CHERRY-LED-CH-910D029-SP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TECLADO_MECANICO_LOGITECH_USB_G_PRO_LEAGUE_OF_LEGENDS_920_010533 {
+            get {
+                object obj = ResourceManager.GetObject("TECLADO-MECANICO-LOGITECH-USB-G-PRO-LEAGUE-OF-LEGENDS-920-010533", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TECLADO_MECANICO_LOGITECH_USB_K835_TKL_BLUE_920_010086 {
+            get {
+                object obj = ResourceManager.GetObject("TECLADO-MECANICO-LOGITECH-USB-K835-TKL-BLUE-920-010086", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TECLADO_RAZER_CYNOSA_LITE_US_LAYOUT_FRML_RZ03_02740600_R3M1_1 {
+            get {
+                object obj = ResourceManager.GetObject("TECLADO-RAZER-CYNOSA-LITE-US-LAYOUT-FRML-RZ03-02740600-R3M1-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
