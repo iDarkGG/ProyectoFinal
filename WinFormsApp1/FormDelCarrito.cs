@@ -13,10 +13,13 @@ namespace TiendaPerrona
     public partial class FormDelCarrito : Form
     {
         PaginaPrincipal uwu = new PaginaPrincipal();
+        private string _user;
+        public string User { get { return _user; } set { _user = value; } }
         public FormDelCarrito()
         {
             InitializeComponent();
             CargarProductos();
+            lblNombreDeUsuario.Text = _user;
         }
         
 
@@ -87,6 +90,11 @@ namespace TiendaPerrona
             lblNombreDeUsuario.Text = "C$ 0.00";
             lblSubTotal.Text = "C$ 0.00";
             lblTotal.Text = "C$ 0.00";
+        }
+
+        private void lblNombreDeUsuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

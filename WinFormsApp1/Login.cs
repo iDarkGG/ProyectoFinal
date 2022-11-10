@@ -12,6 +12,10 @@ namespace TiendaPerrona
 {
     public partial class Login : Form
     {
+        FormDelCarrito fmc = new FormDelCarrito();
+        InicioDeSesion iN = new InicioDeSesion();
+        DataBase dB = new DataBase();
+
         public Login()
         {
             InitializeComponent();
@@ -20,13 +24,27 @@ namespace TiendaPerrona
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            dB.starter();
         }
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-        uwu.Show();
-            this.Visible = false;
+
+            string Input = txtUsuario.Text, Contraseña = txtContraseña.Text;
+            
+            if (iN.PasswordAnUserQuerying(Input, Contraseña))
+            {
+
+                DialogResult r = MessageBox.Show("INGRESASTE CORRECTAMENTE", "EXITO", MessageBoxButtons.OK);
+                uwu.Show();
+                this.Visible = false;
+            }
+            else
+            {
+                DialogResult r = MessageBox.Show("ERROR EN LOS DATOS", "ERROR", MessageBoxButtons.OK);
+
+            }
+
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
@@ -36,7 +54,7 @@ namespace TiendaPerrona
                 txtUsuario.Text = "";
                 txtUsuario.ForeColor = Color.LightGray;
             }
-           
+
         }
 
         private void txtUsuario_Leave(object sender, EventArgs e)
@@ -75,8 +93,8 @@ namespace TiendaPerrona
             Registro uwu = new Registro();
             uwu.Show();
             this.Hide();
-            
-           
+
+
 
 
         }

@@ -118,6 +118,7 @@
             this.lblNombreDeUsuario.Size = new System.Drawing.Size(165, 15);
             this.lblNombreDeUsuario.TabIndex = 3;
             this.lblNombreDeUsuario.Text = "Aqui va el nombre del usuario";
+            this.lblNombreDeUsuario.Click += new System.EventHandler(this.lblNombreDeUsuario_Click);
             // 
             // pictureBox1
             // 
