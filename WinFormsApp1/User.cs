@@ -62,7 +62,10 @@ namespace TiendaPerrona
             get { return usernameValid; }
             set { usernameValid = value; }
         }
-
+        public int UserID
+        {
+            get { return userID;}
+        }
 
         public static int Counter() => ++_counter;
 

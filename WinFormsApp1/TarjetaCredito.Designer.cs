@@ -30,18 +30,19 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNombreTitular = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNumeroTarjeta = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtExpiracion = new System.Windows.Forms.TextBox();
+            this.txtCodigoDeSeguridad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnPagarTarjeta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,12 +64,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre del titular";
             // 
-            // textBox1
+            // txtNombreTitular
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 119);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(266, 23);
-            this.textBox1.TabIndex = 2;
+            this.txtNombreTitular.Location = new System.Drawing.Point(58, 119);
+            this.txtNombreTitular.Name = "txtNombreTitular";
+            this.txtNombreTitular.Size = new System.Drawing.Size(266, 23);
+            this.txtNombreTitular.TabIndex = 2;
             // 
             // label2
             // 
@@ -80,12 +81,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Numero de la tarjeta";
             // 
-            // textBox2
+            // txtNumeroTarjeta
             // 
-            this.textBox2.Location = new System.Drawing.Point(58, 189);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 23);
-            this.textBox2.TabIndex = 4;
+            this.txtNumeroTarjeta.Location = new System.Drawing.Point(58, 189);
+            this.txtNumeroTarjeta.Name = "txtNumeroTarjeta";
+            this.txtNumeroTarjeta.Size = new System.Drawing.Size(266, 23);
+            this.txtNumeroTarjeta.TabIndex = 4;
             // 
             // label3
             // 
@@ -97,19 +98,19 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Expiracion (mm/yy )";
             // 
-            // textBox3
+            // txtExpiracion
             // 
-            this.textBox3.Location = new System.Drawing.Point(58, 260);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(110, 23);
-            this.textBox3.TabIndex = 6;
+            this.txtExpiracion.Location = new System.Drawing.Point(58, 260);
+            this.txtExpiracion.Name = "txtExpiracion";
+            this.txtExpiracion.Size = new System.Drawing.Size(110, 23);
+            this.txtExpiracion.TabIndex = 6;
             // 
-            // textBox4
+            // txtCodigoDeSeguridad
             // 
-            this.textBox4.Location = new System.Drawing.Point(207, 260);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(117, 23);
-            this.textBox4.TabIndex = 8;
+            this.txtCodigoDeSeguridad.Location = new System.Drawing.Point(207, 260);
+            this.txtCodigoDeSeguridad.Name = "txtCodigoDeSeguridad";
+            this.txtCodigoDeSeguridad.Size = new System.Drawing.Size(117, 23);
+            this.txtCodigoDeSeguridad.TabIndex = 8;
             // 
             // label4
             // 
@@ -120,23 +121,6 @@
             this.label4.Size = new System.Drawing.Size(91, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "C. de seguridad";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(58, 336);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(266, 23);
-            this.textBox5.TabIndex = 10;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(58, 318);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 15);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Email";
             // 
             // label6
             // 
@@ -151,30 +135,57 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.perro;
-            this.pictureBox1.Location = new System.Drawing.Point(470, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(502, 55);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(137, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 87);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.Recurso_11;
+            this.pictureBox2.Location = new System.Drawing.Point(366, 148);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(241, 144);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnPagarTarjeta
+            // 
+            this.btnPagarTarjeta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnPagarTarjeta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPagarTarjeta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPagarTarjeta.FlatAppearance.BorderSize = 0;
+            this.btnPagarTarjeta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagarTarjeta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPagarTarjeta.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnPagarTarjeta.Location = new System.Drawing.Point(514, 297);
+            this.btnPagarTarjeta.Name = "btnPagarTarjeta";
+            this.btnPagarTarjeta.Size = new System.Drawing.Size(93, 45);
+            this.btnPagarTarjeta.TabIndex = 14;
+            this.btnPagarTarjeta.Text = "Pagar";
+            this.btnPagarTarjeta.UseVisualStyleBackColor = false;
+            this.btnPagarTarjeta.Click += new System.EventHandler(this.btnPagarTarjeta_Click);
             // 
             // TarjetaCredito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(619, 437);
+            this.ClientSize = new System.Drawing.Size(619, 354);
+            this.Controls.Add(this.btnPagarTarjeta);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtCodigoDeSeguridad);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtExpiracion);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNumeroTarjeta);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNombreTitular);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -183,6 +194,7 @@
             this.Text = "TarjetaCredito";
             this.Load += new System.EventHandler(this.TarjetaCredito_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,16 +204,16 @@
 
         private Panel panel1;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtNombreTitular;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox txtNumeroTarjeta;
         private Label label3;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox txtExpiracion;
+        private TextBox txtCodigoDeSeguridad;
         private Label label4;
-        private TextBox textBox5;
-        private Label label5;
         private Label label6;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Button btnPagarTarjeta;
     }
 }

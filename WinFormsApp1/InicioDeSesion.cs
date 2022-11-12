@@ -14,7 +14,8 @@ namespace TiendaPerrona
         User user = new User();
         DataBase db = new DataBase();
 
-         protected bool PasswordAnUserQuerying(string user, string password)
+
+         public bool PasswordAnUserQuerying(string user, string password)
         {
             for (int i = 0; i < db.Users.Count; i++)
             {
@@ -23,12 +24,15 @@ namespace TiendaPerrona
                     if (db.Users[i].Password.Equals(password))
                     {
                         return true;
+                        
                     }
                 }
             }
 
             return false;
         }
+
+
 
     }
 }

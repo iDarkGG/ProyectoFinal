@@ -156,7 +156,7 @@
             // 
             // btnComprarCase1
             // 
-            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarCase1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(228)))), ((int)(((byte)(51)))));
             this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
             this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
             this.btnComprarCase1.Name = "btnComprarCase1";
