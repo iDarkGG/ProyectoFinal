@@ -10,7 +10,7 @@
 Miembros:
 
 - Yareth (Capitan)
-- Wilman
+- Wilman (Encargado Oficial de los Merges)
 - Harry
 
 

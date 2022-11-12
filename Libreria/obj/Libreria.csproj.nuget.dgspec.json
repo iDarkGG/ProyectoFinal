@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JADPA-30\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
+    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JADPA-30\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
+    "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA-30\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
         "projectName": "Libreria",
-        "projectPath": "C:\\Users\\JADPA-30\\source\\repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
-        "packagesPath": "C:\\Users\\JADPA-30\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA-30\\source\\repos\\ProyectoFinal\\Libreria\\obj\\",
+        "projectPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\Libreria\\Libreria.csproj",
+        "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\Libreria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JADPA-30\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

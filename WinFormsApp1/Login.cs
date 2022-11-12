@@ -12,6 +12,10 @@ namespace TiendaPerrona
 {
     public partial class Login : Form
     {
+        FormDelCarrito fmc = new FormDelCarrito();
+        InicioDeSesion iN = new InicioDeSesion();
+        DataBase dB = new DataBase();
+
         public Login()
         {
             InitializeComponent();
@@ -20,12 +24,80 @@ namespace TiendaPerrona
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            dB.starter();
         }
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-        uwu.Show();
+
+            string Input = txtUsuario.Text, Contraseña = txtContraseña.Text;
+            
+            if (iN.PasswordAnUserQuerying(Input, Contraseña))
+            {
+
+                DialogResult r = MessageBox.Show("INGRESASTE CORRECTAMENTE", "EXITO", MessageBoxButtons.OK);
+                uwu.Show();
+                this.Visible = false;
+                fmc.User = dB.UserShower(Input);
+            }
+            else
+            {
+                DialogResult r = MessageBox.Show("LOS DATOS INGRESADOS NO COICIDEN CON NINGUNOS EN NUESTRA BASE DE DATOS, POR FAVOR REINTENTE.", "ERROR", MessageBoxButtons.OK);
+
+            }
+
+        }
+
+        private void txtUsuario_Enter(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "USUARIO")
+            {
+                txtUsuario.Text = "";
+                txtUsuario.ForeColor = Color.LightGray;
+            }
+
+        }
+
+        private void txtUsuario_Leave(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "")
+            {
+                txtUsuario.Text = "USUARIO";
+                txtUsuario.ForeColor = Color.DimGray;
+            }
+
+        }
+
+        private void txtContraseña_Enter(object sender, EventArgs e)
+        {
+            if (txtContraseña.Text == "CONTRASEÑA")
+            {
+                txtContraseña.Text = "";
+                txtContraseña.ForeColor = Color.DimGray;
+                txtContraseña.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void txtContraseña_Leave(object sender, EventArgs e)
+        {
+            if (txtContraseña.Text == "")
+            {
+                txtContraseña.Text = "CONTRASEÑA";
+                txtContraseña.ForeColor = Color.DimGray;
+                txtContraseña.UseSystemPasswordChar = false;
+            }
+
+        }
+
+        private void btnRegistrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Registro uwu = new Registro();
+            uwu.Show();
+            this.Hide();
+
+
+
+
         }
     }
 }

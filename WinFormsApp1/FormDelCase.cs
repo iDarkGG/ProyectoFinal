@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace TiendaPerrona  
 {
   
-    public partial class FormDelCase : Form
+    public partial class FormDelCase : Form 
     {
        private MensajeAgregado form1 = new MensajeAgregado();
         public FormDelCase()
@@ -22,7 +22,7 @@ namespace TiendaPerrona
         
         private void btnCerrar1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();                         
         }
 
         private void btnComprarCase1_Click(object sender, EventArgs e)
@@ -37,7 +37,6 @@ namespace TiendaPerrona
 
         private void IdentifyButton(PictureBox b)
         {
-         
             decimal precio = 0;
             switch (b.Name)
             {
