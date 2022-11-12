@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\harry\\.nuget\\packages\\": {}
+    "C:\\Users\\Wilman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+      "projectUniqueName": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
       "projectName": "TiendaPerrona",
-      "projectPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
-      "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harry\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\TiendaPerrona.csproj",
+      "packagesPath": "C:\\Users\\Wilman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wilman\\Source\\Repos\\ProyectoFinal\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wilman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

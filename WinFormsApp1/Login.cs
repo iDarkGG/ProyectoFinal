@@ -12,15 +12,15 @@ namespace TiendaPerrona
 {
     public partial class Login : Form
     {
-        FormDelCarrito fmc = new FormDelCarrito();
-        InicioDeSesion iN = new InicioDeSesion();
-        DataBase dB = new DataBase();
+        private FormDelCarrito fmc = new FormDelCarrito();
+        private InicioDeSesion iN = new InicioDeSesion();
+        private DataBase dB = new DataBase();
 
         public Login()
         {
             InitializeComponent();
         }
-        PaginaPrincipal uwu = new PaginaPrincipal();
+        private PaginaPrincipal uwu = new PaginaPrincipal();
 
         private void Login_Load(object sender, EventArgs e)
         {
