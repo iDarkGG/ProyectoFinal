@@ -38,10 +38,11 @@ namespace TiendaPerrona
                 DialogResult r = MessageBox.Show("INGRESASTE CORRECTAMENTE", "EXITO", MessageBoxButtons.OK);
                 uwu.Show();
                 this.Visible = false;
+                fmc.User = dB.UserShower(Input);
             }
             else
             {
-                DialogResult r = MessageBox.Show("ERROR EN LOS DATOS", "ERROR", MessageBoxButtons.OK);
+                DialogResult r = MessageBox.Show("LOS DATOS INGRESADOS NO COICIDEN CON NINGUNOS EN NUESTRA BASE DE DATOS, POR FAVOR REINTENTE.", "ERROR", MessageBoxButtons.OK);
 
             }
 

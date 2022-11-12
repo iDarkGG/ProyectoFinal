@@ -13,7 +13,7 @@ namespace TiendaPerrona
     public partial class FormDelCarrito : Form
     {
         PaginaPrincipal uwu = new PaginaPrincipal();
-        private string _user;
+        private static string _user;
         public string User { get { return _user; } set { _user = value; } }
         public FormDelCarrito()
         {
