@@ -12,8 +12,14 @@ namespace TiendaPerrona
 {
     public partial class Registro : Form
     {
+        RegisterBase rb = new RegisterBase();
+        InicioDeSesion iN = new InicioDeSesion();
+        DataBase dB = new DataBase();
+        Login uwu = new Login();
+        
         public Registro()
         {
+            
             InitializeComponent();
         }
 
@@ -95,6 +101,7 @@ namespace TiendaPerrona
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
+            string Email = txtCorreo.Text, Contraseña= txtContraseñaRegistro.Text, ConfContraseña= txtContraseñaConfirmar.Text, User= txtUsuario.Text;
             //Null Checker
             if(txtUsuario.Text == "NOMBRE DE USUARIO" | txtCorreo.Text == "CORREO" | txtContraseñaRegistro.Text == "CONTRASEÑA" | txtContraseñaConfirmar.Text == "CONFIRMAR CONTRASEÑA")
             {
@@ -102,16 +109,29 @@ namespace TiendaPerrona
             }
             else
             {
-                Login uwu = new Login();
-                uwu.Show();
-                this.Close();
+                if(!rb.UserNameChecker(User) & rb.PasswordChecker(Contraseña, ConfContraseña) & !rb.EmailChecker(Email) & rb.EmailVerifier(Email))
+                {
+                    DialogResult r = MessageBox.Show("TE REGISTRASTE CORRECTAMENTE, POR FAVOR CONTINUA AL LOGIN", "EXITO", MessageBoxButtons.OK);
+
+                    if(r == DialogResult.OK)
+                    {
+                        dB.Users.Add(new TiendaPerrona.User(User, Email, Contraseña));
+                        uwu.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        DialogResult g = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
+                    }
+
+                }
+                else
+                {
+                    DialogResult h = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
+                }
+                
             }
             
-        }
-
-        private void Registro_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void txtUsuario_TextChanged(object sender, EventArgs e)
@@ -120,6 +140,11 @@ namespace TiendaPerrona
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registro_Load(object sender, EventArgs e)
         {
 
         }

@@ -18,15 +18,16 @@ namespace Libreria
 
             User user = new User();
 
-            bool UserNameChecker(string username)
+            bool UserNameAvailable(string input)
             {
                 for (int i = 0; i < dataBase.Users.Count; i++)
                 {
+
                     if (username.Equals(dataBase.Users[i].UserName) ^ username.Equals(dataBase.Users[i].Email))
                     {
                         return true;
                     }
-                }
+
                 return false;
             }
 

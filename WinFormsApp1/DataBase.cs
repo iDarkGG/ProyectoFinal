@@ -19,5 +19,18 @@ namespace TiendaPerrona
             _users.Add(new User(UserName = "Admin", Email = "Admin@gmail.com", Password= "Admin123"));
         }
 
+        public string UserShower(string input)
+        {
+            for (int i = 0; i < _users.Count; i++)
+            {
+                if(_users[i].Email.Equals(input) | _users[i].UserName.Equals(input))
+                {
+                    return _users[i].UserName;
+                }
+
+            }
+            return "Usuario Por Defecto.";
+        }
+
     }
 }
