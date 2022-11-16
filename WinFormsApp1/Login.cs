@@ -12,9 +12,9 @@ namespace TiendaPerrona
 {
     public partial class Login : Form
     {
-        FormDelCarrito fmc = new FormDelCarrito();
-        InicioDeSesion iN = new InicioDeSesion();
-        DataBase dB = new DataBase();
+        private FormDelCarrito fmc = new FormDelCarrito();
+        private InicioDeSesion iN = new InicioDeSesion();
+        private DataBase dB = new DataBase();
 
         public Login()
         {
@@ -24,7 +24,17 @@ namespace TiendaPerrona
 
         private void Login_Load(object sender, EventArgs e)
         {
+            this.ActiveControl = label1;
+            label1.Focus();
+
             dB.starter();
+            try
+            {
+                dB.generarArchivo();
+                MessageBox.Show(dB.obtenerPath(), "desde el login (llamando al metodo obtener path)");
+            }
+            catch (Exception ex) { iN.cargarArchivo(); }
+
         }
 
         private void btnAcceder_Click(object sender, EventArgs e)

@@ -116,6 +116,9 @@ namespace TiendaPerrona
                     if(r == DialogResult.OK)
                     {
                         dB.Users.Add(new TiendaPerrona.User(User, Email, Contraseña));
+                        string s = dB.obtenerPath();
+                        s += Path.Combine(s, @"\DataBaseUsers.xml");
+                        File.Delete(s);
                         uwu.Show();
                         this.Close();
                     }

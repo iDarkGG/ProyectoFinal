@@ -34,13 +34,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNumeroTarjeta = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtExpiracion = new System.Windows.Forms.TextBox();
-            this.txtCodigoDeSeguridad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnPagarTarjeta = new System.Windows.Forms.Button();
+            this.mtxtExpiracion = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtCodigoDeSeguridad = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -97,20 +97,6 @@
             this.label3.Size = new System.Drawing.Size(117, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Expiracion (mm/yy )";
-            // 
-            // txtExpiracion
-            // 
-            this.txtExpiracion.Location = new System.Drawing.Point(58, 260);
-            this.txtExpiracion.Name = "txtExpiracion";
-            this.txtExpiracion.Size = new System.Drawing.Size(110, 23);
-            this.txtExpiracion.TabIndex = 6;
-            // 
-            // txtCodigoDeSeguridad
-            // 
-            this.txtCodigoDeSeguridad.Location = new System.Drawing.Point(207, 260);
-            this.txtCodigoDeSeguridad.Name = "txtCodigoDeSeguridad";
-            this.txtCodigoDeSeguridad.Size = new System.Drawing.Size(117, 23);
-            this.txtCodigoDeSeguridad.TabIndex = 8;
             // 
             // label4
             // 
@@ -169,19 +155,38 @@
             this.btnPagarTarjeta.UseVisualStyleBackColor = false;
             this.btnPagarTarjeta.Click += new System.EventHandler(this.btnPagarTarjeta_Click);
             // 
+            // mtxtExpiracion
+            // 
+            this.mtxtExpiracion.Location = new System.Drawing.Point(58, 260);
+            this.mtxtExpiracion.Mask = "00/00";
+            this.mtxtExpiracion.Name = "mtxtExpiracion";
+            this.mtxtExpiracion.Size = new System.Drawing.Size(110, 23);
+            this.mtxtExpiracion.TabIndex = 15;
+            this.mtxtExpiracion.ValidatingType = typeof(System.DateTime);
+            this.mtxtExpiracion.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtExpiracion_MaskInputRejected);
+            // 
+            // mtxtCodigoDeSeguridad
+            // 
+            this.mtxtCodigoDeSeguridad.Location = new System.Drawing.Point(207, 260);
+            this.mtxtCodigoDeSeguridad.Mask = "999";
+            this.mtxtCodigoDeSeguridad.Name = "mtxtCodigoDeSeguridad";
+            this.mtxtCodigoDeSeguridad.Size = new System.Drawing.Size(117, 23);
+            this.mtxtCodigoDeSeguridad.TabIndex = 16;
+            this.mtxtCodigoDeSeguridad.ValidatingType = typeof(int);
+            // 
             // TarjetaCredito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(619, 354);
+            this.Controls.Add(this.mtxtCodigoDeSeguridad);
+            this.Controls.Add(this.mtxtExpiracion);
             this.Controls.Add(this.btnPagarTarjeta);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtCodigoDeSeguridad);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtExpiracion);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNumeroTarjeta);
             this.Controls.Add(this.label2);
@@ -208,12 +213,12 @@
         private Label label2;
         private TextBox txtNumeroTarjeta;
         private Label label3;
-        private TextBox txtExpiracion;
-        private TextBox txtCodigoDeSeguridad;
         private Label label4;
         private Label label6;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Button btnPagarTarjeta;
+        private MaskedTextBox mtxtExpiracion;
+        private MaskedTextBox mtxtCodigoDeSeguridad;
     }
 }

@@ -21,5 +21,10 @@ namespace TiendaPerrona
         {
             this.Close();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

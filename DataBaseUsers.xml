@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Lista_de_Usuarios-->
+<Users>
+  <User User_Name="Admin">
+    <User_ID>1</User_ID>
+    <Email>Admin@gmail.com</Email>
+    <Password>Admin123</Password>
+  </User>
+  <User User_Name="kkkkk">
+    <User_ID>2</User_ID>
+    <Email>kkk@gmail.com</Email>
+    <Password>111</Password>
+  </User>
+  <User User_Name="xddd">
+    <User_ID>3</User_ID>
+    <Email>xd@gmail.com</Email>
+    <Password>777</Password>
+  </User>
+  <User User_Name="Holaaa">
+    <User_ID>4</User_ID>
+    <Email>jaslkjdaslk@gmail.com</Email>
+    <Password>1234</Password>
+  </User>
+  <User User_Name="Creoquefunciona">
+    <User_ID>5</User_ID>
+    <Email>nose@gmail.com</Email>
+    <Password>753</Password>
+  </User>
+  <User User_Name="Admin">
+    <User_ID>6</User_ID>
+    <Email>Admin@gmail.com</Email>
+    <Password>Admin123</Password>
+  </User>
+</Users>
