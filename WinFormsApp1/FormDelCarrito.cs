@@ -61,11 +61,10 @@ namespace TiendaPerrona
         private void btnPagar_Click(object sender, EventArgs e)
         {
             TarjetaCredito uwu = new TarjetaCredito();
-
+            if(lvListaDelCarritoDeCompras.Items.Count > 0)
             uwu.Show();
-           
-            
-            
+            else
+                MessageBox.Show("¡El Carrito de compras Esta Vacio!","Mensaje",MessageBoxButtons.OK,MessageBoxIcon.Warning);
         }
 
         private void CargarLabels()

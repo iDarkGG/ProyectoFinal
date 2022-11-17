@@ -51,7 +51,6 @@ namespace TiendaPerrona
                 )));
 
             path += Path.Combine(path, @"\DataBaseUsers.xml");
-            MessageBox.Show(path,"desde el metodo generar archivo");
 
             doc.Save(path);
 
@@ -91,7 +90,6 @@ namespace TiendaPerrona
         {
             string s = obtenerPath();
             s += (Path.Combine(s, @"\DataBaseUsers.xml"));
-            MessageBox.Show(s,"añadir elemento");
             XDocument doc = XDocument.Load(@"C:\Users\Wilman\source\repos\ProyectoFinal\DataBaseUsers.xml");
 
             doc.Element("Users").Add(
@@ -102,9 +100,6 @@ namespace TiendaPerrona
                 ));
 
             doc.Save(path);
-
         }
-
     }
-
 }

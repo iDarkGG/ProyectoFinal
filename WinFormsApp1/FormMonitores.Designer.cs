@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cboCantMonitor1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnComprarMonitor1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMonitor1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblMonitor1 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprarMonitor2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMonitor2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblMonitor2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnComprarMonitor3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMonitor3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblMonitor3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.btnComprarMonitor5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMonitor5 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblMonitor5 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnComprarMonitor4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMonitor4 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblMonitor4 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboCantMonitor2 = new System.Windows.Forms.ComboBox();
+            this.cboCantMonitor3 = new System.Windows.Forms.ComboBox();
+            this.cboCantMonitor4 = new System.Windows.Forms.ComboBox();
+            this.cboCantMonitor5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +101,42 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cboCantMonitor1);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.btnComprarMonitor1);
+            this.panel2.Controls.Add(this.lblPrecioMonitor1);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblMonitor1);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 35);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 12;
+            // 
+            // cboCantMonitor1
+            // 
+            this.cboCantMonitor1.FormattingEnabled = true;
+            this.cboCantMonitor1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMonitor1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMonitor1.Name = "cboCantMonitor1";
+            this.cboCantMonitor1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMonitor1.TabIndex = 14;
+            this.cboCantMonitor1.Text = "1";
             // 
             // label5
             // 
@@ -123,26 +148,27 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad :";
             // 
-            // pictureBox5
+            // btnComprarMonitor1
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.btnComprarMonitor1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMonitor1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMonitor1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMonitor1.Name = "btnComprarMonitor1";
+            this.btnComprarMonitor1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMonitor1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMonitor1.TabIndex = 6;
+            this.btnComprarMonitor1.TabStop = false;
+            this.btnComprarMonitor1.Click += new System.EventHandler(this.btnComprarMonitor1_Click);
             // 
-            // label10
+            // lblPrecioMonitor1
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$ 546.89 + IVA";
+            this.lblPrecioMonitor1.AutoSize = true;
+            this.lblPrecioMonitor1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMonitor1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMonitor1.Name = "lblPrecioMonitor1";
+            this.lblPrecioMonitor1.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioMonitor1.TabIndex = 3;
+            this.lblPrecioMonitor1.Text = "$ 546.89 + IVA";
             // 
             // label11
             // 
@@ -154,16 +180,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblMonitor1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(8, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(173, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "    MONITOR AOC VA 32 C32G2 \r\nCURVED 165HZ (HDMI,DP) 1080P";
+            this.lblMonitor1.AutoSize = true;
+            this.lblMonitor1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMonitor1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMonitor1.Location = new System.Drawing.Point(8, 158);
+            this.lblMonitor1.Name = "lblMonitor1";
+            this.lblMonitor1.Size = new System.Drawing.Size(173, 26);
+            this.lblMonitor1.TabIndex = 4;
+            this.lblMonitor1.Text = "    MONITOR AOC VA 32 C32G2 \r\nCURVED 165HZ (HDMI,DP) 1080P";
             // 
             // pictureBox6
             // 
@@ -178,12 +204,12 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.cboCantMonitor2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnComprarMonitor2);
+            this.panel1.Controls.Add(this.lblPrecioMonitor2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblMonitor2);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(271, 35);
             this.panel1.Name = "panel1";
@@ -200,26 +226,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnComprarMonitor2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarMonitor2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMonitor2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMonitor2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMonitor2.Name = "btnComprarMonitor2";
+            this.btnComprarMonitor2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMonitor2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMonitor2.TabIndex = 6;
+            this.btnComprarMonitor2.TabStop = false;
+            this.btnComprarMonitor2.Click += new System.EventHandler(this.btnComprarMonitor1_Click);
             // 
-            // label2
+            // lblPrecioMonitor2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 89.38 + IVA";
+            this.lblPrecioMonitor2.AutoSize = true;
+            this.lblPrecioMonitor2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMonitor2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMonitor2.Name = "lblPrecioMonitor2";
+            this.lblPrecioMonitor2.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMonitor2.TabIndex = 3;
+            this.lblPrecioMonitor2.Text = "$ 89.38 + IVA";
             // 
             // label3
             // 
@@ -231,16 +258,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label4
+            // lblMonitor2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(0, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "MONITOR AOC LED 21.5P 22B2HM\r\n       75HZ (VGA/HDMI) 1080P";
+            this.lblMonitor2.AutoSize = true;
+            this.lblMonitor2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMonitor2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMonitor2.Location = new System.Drawing.Point(0, 158);
+            this.lblMonitor2.Name = "lblMonitor2";
+            this.lblMonitor2.Size = new System.Drawing.Size(181, 26);
+            this.lblMonitor2.TabIndex = 4;
+            this.lblMonitor2.Text = "MONITOR AOC LED 21.5P 22B2HM\r\n       75HZ (VGA/HDMI) 1080P";
             // 
             // pictureBox2
             // 
@@ -255,12 +282,12 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox5);
+            this.panel3.Controls.Add(this.cboCantMonitor3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarMonitor3);
+            this.panel3.Controls.Add(this.lblPrecioMonitor3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblMonitor3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(498, 35);
             this.panel3.Name = "panel3";
@@ -277,26 +304,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnComprarMonitor3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnComprarMonitor3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMonitor3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMonitor3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMonitor3.Name = "btnComprarMonitor3";
+            this.btnComprarMonitor3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMonitor3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMonitor3.TabIndex = 6;
+            this.btnComprarMonitor3.TabStop = false;
+            this.btnComprarMonitor3.Click += new System.EventHandler(this.btnComprarMonitor1_Click);
             // 
-            // label7
+            // lblPrecioMonitor3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 255.02 + IVA";
+            this.lblPrecioMonitor3.AutoSize = true;
+            this.lblPrecioMonitor3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMonitor3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMonitor3.Name = "lblPrecioMonitor3";
+            this.lblPrecioMonitor3.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioMonitor3.TabIndex = 3;
+            this.lblPrecioMonitor3.Text = "$ 255.02 + IVA";
             // 
             // label8
             // 
@@ -308,16 +336,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblMonitor3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(3, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(181, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "MONITOR DELL LED 19.5P E2020H \r\n            60HZ (VGA/DP) 768";
+            this.lblMonitor3.AutoSize = true;
+            this.lblMonitor3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMonitor3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMonitor3.Location = new System.Drawing.Point(3, 158);
+            this.lblMonitor3.Name = "lblMonitor3";
+            this.lblMonitor3.Size = new System.Drawing.Size(181, 26);
+            this.lblMonitor3.TabIndex = 4;
+            this.lblMonitor3.Text = "MONITOR DELL LED 19.5P E2020H \r\n            60HZ (VGA/DP) 768";
             // 
             // pictureBox4
             // 
@@ -332,12 +360,12 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox3);
+            this.panel4.Controls.Add(this.cboCantMonitor5);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.btnComprarMonitor5);
+            this.panel4.Controls.Add(this.lblPrecioMonitor5);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.lblMonitor5);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Location = new System.Drawing.Point(386, 284);
             this.panel4.Name = "panel4";
@@ -354,26 +382,27 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Cantidad :";
             // 
-            // pictureBox7
+            // btnComprarMonitor5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.btnComprarMonitor5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMonitor5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMonitor5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMonitor5.Name = "btnComprarMonitor5";
+            this.btnComprarMonitor5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMonitor5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMonitor5.TabIndex = 6;
+            this.btnComprarMonitor5.TabStop = false;
+            this.btnComprarMonitor5.Click += new System.EventHandler(this.btnComprarMonitor1_Click);
             // 
-            // label14
+            // lblPrecioMonitor5
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(83, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(80, 15);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "$ 536.49 + IVA";
+            this.lblPrecioMonitor5.AutoSize = true;
+            this.lblPrecioMonitor5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMonitor5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMonitor5.Name = "lblPrecioMonitor5";
+            this.lblPrecioMonitor5.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioMonitor5.TabIndex = 3;
+            this.lblPrecioMonitor5.Text = "$ 536.49 + IVA";
             // 
             // label15
             // 
@@ -385,16 +414,16 @@
             this.label15.TabIndex = 3;
             this.label15.Text = "Precio :";
             // 
-            // label16
+            // lblMonitor5
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(5, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(178, 26);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "MONITOR LG VA 31.5 32UN500-W\r\n            60HZ (HDMI/DP) 4K";
+            this.lblMonitor5.AutoSize = true;
+            this.lblMonitor5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMonitor5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMonitor5.Location = new System.Drawing.Point(5, 158);
+            this.lblMonitor5.Name = "lblMonitor5";
+            this.lblMonitor5.Size = new System.Drawing.Size(178, 26);
+            this.lblMonitor5.TabIndex = 4;
+            this.lblMonitor5.Text = "MONITOR LG VA 31.5 32UN500-W\r\n            60HZ (HDMI/DP) 4K";
             // 
             // pictureBox8
             // 
@@ -409,12 +438,12 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.cboCantMonitor4);
             this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.pictureBox9);
-            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.btnComprarMonitor4);
+            this.panel5.Controls.Add(this.lblPrecioMonitor4);
             this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.lblMonitor4);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Location = new System.Drawing.Point(141, 284);
             this.panel5.Name = "panel5";
@@ -431,26 +460,27 @@
             this.label17.TabIndex = 8;
             this.label17.Text = "Cantidad :";
             // 
-            // pictureBox9
+            // btnComprarMonitor4
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.btnComprarMonitor4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMonitor4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMonitor4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMonitor4.Name = "btnComprarMonitor4";
+            this.btnComprarMonitor4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMonitor4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMonitor4.TabIndex = 6;
+            this.btnComprarMonitor4.TabStop = false;
+            this.btnComprarMonitor4.Click += new System.EventHandler(this.btnComprarMonitor1_Click);
             // 
-            // label18
+            // lblPrecioMonitor4
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(83, 193);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 15);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "$ 323.01 + IVA";
+            this.lblPrecioMonitor4.AutoSize = true;
+            this.lblPrecioMonitor4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMonitor4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMonitor4.Name = "lblPrecioMonitor4";
+            this.lblPrecioMonitor4.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioMonitor4.TabIndex = 3;
+            this.lblPrecioMonitor4.Text = "$ 323.01 + IVA";
             // 
             // label19
             // 
@@ -462,16 +492,16 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Precio :";
             // 
-            // label20
+            // lblMonitor4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(5, 158);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(178, 26);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "MONITOR LG IPS 23.8 24GN600-B \r\n   144HZ (VGA/HDMI/DP) 1080P";
+            this.lblMonitor4.AutoSize = true;
+            this.lblMonitor4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMonitor4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMonitor4.Location = new System.Drawing.Point(5, 158);
+            this.lblMonitor4.Name = "lblMonitor4";
+            this.lblMonitor4.Size = new System.Drawing.Size(178, 26);
+            this.lblMonitor4.TabIndex = 4;
+            this.lblMonitor4.Text = "MONITOR LG IPS 23.8 24GN600-B \r\n   144HZ (VGA/HDMI/DP) 1080P";
             // 
             // pictureBox10
             // 
@@ -483,10 +513,11 @@
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
-            // comboBox1
+            // cboCantMonitor2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboCantMonitor2.FormattingEnabled = true;
+            this.cboCantMonitor2.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -501,16 +532,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Text = "1";
+            this.cboCantMonitor2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMonitor2.Name = "cboCantMonitor2";
+            this.cboCantMonitor2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMonitor2.TabIndex = 15;
+            this.cboCantMonitor2.Text = "1";
             // 
-            // comboBox2
+            // cboCantMonitor3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboCantMonitor3.FormattingEnabled = true;
+            this.cboCantMonitor3.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -525,16 +557,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "1";
+            this.cboCantMonitor3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMonitor3.Name = "cboCantMonitor3";
+            this.cboCantMonitor3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMonitor3.TabIndex = 15;
+            this.cboCantMonitor3.Text = "1";
             // 
-            // comboBox3
+            // cboCantMonitor4
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboCantMonitor4.FormattingEnabled = true;
+            this.cboCantMonitor4.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -549,16 +582,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 14;
-            this.comboBox3.Text = "1";
+            this.cboCantMonitor4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMonitor4.Name = "cboCantMonitor4";
+            this.cboCantMonitor4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMonitor4.TabIndex = 15;
+            this.cboCantMonitor4.Text = "1";
             // 
-            // comboBox4
+            // cboCantMonitor5
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboCantMonitor5.FormattingEnabled = true;
+            this.cboCantMonitor5.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -573,35 +607,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 14;
-            this.comboBox4.Text = "1";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 14;
-            this.comboBox5.Text = "1";
+            this.cboCantMonitor5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMonitor5.Name = "cboCantMonitor5";
+            this.cboCantMonitor5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMonitor5.TabIndex = 15;
+            this.cboCantMonitor5.Text = "1";
             // 
             // FormMonitores
             // 
@@ -620,23 +630,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMonitor4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -647,43 +657,43 @@
         private PictureBox btnCerrar1;
         private Panel panel2;
         private Label label5;
-        private PictureBox pictureBox5;
-        private Label label10;
+        private PictureBox btnComprarMonitor1;
+        private Label lblPrecioMonitor1;
         private Label label11;
-        private Label label12;
+        private Label lblMonitor1;
         private PictureBox pictureBox6;
         private Panel panel1;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnComprarMonitor2;
+        private Label lblPrecioMonitor2;
         private Label label3;
-        private Label label4;
+        private Label lblMonitor2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnComprarMonitor3;
+        private Label lblPrecioMonitor3;
         private Label label8;
-        private Label label9;
+        private Label lblMonitor3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label13;
-        private PictureBox pictureBox7;
-        private Label label14;
+        private PictureBox btnComprarMonitor5;
+        private Label lblPrecioMonitor5;
         private Label label15;
-        private Label label16;
+        private Label lblMonitor5;
         private PictureBox pictureBox8;
         private Panel panel5;
         private Label label17;
-        private PictureBox pictureBox9;
-        private Label label18;
+        private PictureBox btnComprarMonitor4;
+        private Label lblPrecioMonitor4;
         private Label label19;
-        private Label label20;
+        private Label lblMonitor4;
         private PictureBox pictureBox10;
-        private ComboBox comboBox1;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
+        private ComboBox cboCantMonitor1;
+        private ComboBox cboCantMonitor2;
+        private ComboBox cboCantMonitor3;
+        private ComboBox cboCantMonitor5;
+        private ComboBox cboCantMonitor4;
     }
 }

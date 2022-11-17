@@ -16,9 +16,6 @@ namespace TiendaPerrona
 
         public bool PasswordAnUserQuerying(string user, string password)
         {
-
-            //cargarArchivo();
-
             for (int i = 0; i < db.Users.Count; i++)
             {
                 if (db.Users[i].UserName == user ^ db.Users[i].Email == user)
@@ -37,7 +34,6 @@ namespace TiendaPerrona
         {
             var xd = db.obtenerPath();
              xd += Path.Combine(xd, @"\DataBaseUsers.xml");
-            MessageBox.Show(xd,"Cargar Archivo");
 
             usuarios = XDocument.Load(xd);
 

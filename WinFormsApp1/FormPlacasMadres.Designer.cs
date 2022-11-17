@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cboCantPlaca1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnComprarPlaca1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioPlaca1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblPlaca1 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprarPlaca2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioPlaca2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblPlaca2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnComprarPlaca3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioPlaca3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblPlaca3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.btnComprarPlaca5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioPlaca5 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblPlaca5 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnComprarPlaca4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioPlaca4 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblPlaca4 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboCantPlaca2 = new System.Windows.Forms.ComboBox();
+            this.cboCantPlaca3 = new System.Windows.Forms.ComboBox();
+            this.cboCantPlaca4 = new System.Windows.Forms.ComboBox();
+            this.cboCantPlaca5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +101,42 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cboCantPlaca1);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.btnComprarPlaca1);
+            this.panel2.Controls.Add(this.lblPrecioPlaca1);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblPlaca1);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 36);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 12;
+            // 
+            // cboCantPlaca1
+            // 
+            this.cboCantPlaca1.FormattingEnabled = true;
+            this.cboCantPlaca1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantPlaca1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantPlaca1.Name = "cboCantPlaca1";
+            this.cboCantPlaca1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantPlaca1.TabIndex = 14;
+            this.cboCantPlaca1.Text = "1";
             // 
             // label5
             // 
@@ -123,26 +148,27 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad :";
             // 
-            // pictureBox5
+            // btnComprarPlaca1
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.btnComprarPlaca1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarPlaca1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarPlaca1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarPlaca1.Name = "btnComprarPlaca1";
+            this.btnComprarPlaca1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarPlaca1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarPlaca1.TabIndex = 6;
+            this.btnComprarPlaca1.TabStop = false;
+            this.btnComprarPlaca1.Click += new System.EventHandler(this.btnComprarPlaca1_Click);
             // 
-            // label10
+            // lblPrecioPlaca1
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$295.25 + IVA";
+            this.lblPrecioPlaca1.AutoSize = true;
+            this.lblPrecioPlaca1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioPlaca1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioPlaca1.Name = "lblPrecioPlaca1";
+            this.lblPrecioPlaca1.Size = new System.Drawing.Size(77, 15);
+            this.lblPrecioPlaca1.TabIndex = 3;
+            this.lblPrecioPlaca1.Text = "$295.25 + IVA";
             // 
             // label11
             // 
@@ -154,16 +180,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblPlaca1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(1, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(185, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "TARJETA MADRE ATX ASUS PRIME \r\nZ690-P WIFI INTEL LGA 1700 12GEN";
+            this.lblPlaca1.AutoSize = true;
+            this.lblPlaca1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPlaca1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPlaca1.Location = new System.Drawing.Point(1, 158);
+            this.lblPlaca1.Name = "lblPlaca1";
+            this.lblPlaca1.Size = new System.Drawing.Size(185, 26);
+            this.lblPlaca1.TabIndex = 4;
+            this.lblPlaca1.Text = "TARJETA MADRE ATX ASUS PRIME \r\nZ690-P WIFI INTEL LGA 1700 12GEN";
             // 
             // pictureBox6
             // 
@@ -178,12 +204,12 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.cboCantPlaca2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnComprarPlaca2);
+            this.panel1.Controls.Add(this.lblPrecioPlaca2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblPlaca2);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(271, 36);
             this.panel1.Name = "panel1";
@@ -200,26 +226,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnComprarPlaca2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarPlaca2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarPlaca2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarPlaca2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarPlaca2.Name = "btnComprarPlaca2";
+            this.btnComprarPlaca2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarPlaca2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarPlaca2.TabIndex = 6;
+            this.btnComprarPlaca2.TabStop = false;
+            this.btnComprarPlaca2.Click += new System.EventHandler(this.btnComprarPlaca1_Click);
             // 
-            // label2
+            // lblPrecioPlaca2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 81.84 + IVA";
+            this.lblPrecioPlaca2.AutoSize = true;
+            this.lblPrecioPlaca2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioPlaca2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioPlaca2.Name = "lblPrecioPlaca2";
+            this.lblPrecioPlaca2.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioPlaca2.TabIndex = 3;
+            this.lblPrecioPlaca2.Text = "$ 81.84 + IVA";
             // 
             // label3
             // 
@@ -231,16 +258,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label4
+            // lblPlaca2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(6, 154);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(178, 39);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "    TARJETA MADRE MICRO ATX \r\n  BIOSTAR H510MH 2.0 INTEL LGA \r\n                  " +
+            this.lblPlaca2.AutoSize = true;
+            this.lblPlaca2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPlaca2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPlaca2.Location = new System.Drawing.Point(6, 154);
+            this.lblPlaca2.Name = "lblPlaca2";
+            this.lblPlaca2.Size = new System.Drawing.Size(178, 39);
+            this.lblPlaca2.TabIndex = 4;
+            this.lblPlaca2.Text = "    TARJETA MADRE MICRO ATX \r\n  BIOSTAR H510MH 2.0 INTEL LGA \r\n                  " +
     "      1200";
             // 
             // pictureBox2
@@ -256,12 +283,12 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.cboCantPlaca3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarPlaca3);
+            this.panel3.Controls.Add(this.lblPrecioPlaca3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblPlaca3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(498, 36);
             this.panel3.Name = "panel3";
@@ -278,26 +305,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnComprarPlaca3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnComprarPlaca3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarPlaca3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarPlaca3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarPlaca3.Name = "btnComprarPlaca3";
+            this.btnComprarPlaca3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarPlaca3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarPlaca3.TabIndex = 6;
+            this.btnComprarPlaca3.TabStop = false;
+            this.btnComprarPlaca3.Click += new System.EventHandler(this.btnComprarPlaca1_Click);
             // 
-            // label7
+            // lblPrecioPlaca3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 166.87 + IVA";
+            this.lblPrecioPlaca3.AutoSize = true;
+            this.lblPrecioPlaca3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioPlaca3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioPlaca3.Name = "lblPrecioPlaca3";
+            this.lblPrecioPlaca3.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioPlaca3.TabIndex = 3;
+            this.lblPrecioPlaca3.Text = "$ 166.87 + IVA";
             // 
             // label8
             // 
@@ -309,16 +337,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblPlaca3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(12, 154);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(165, 39);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "   TARJETA MADRE MICRO ATX \r\nGIGABYTE B560M AORUS ELITE \r\n                  INTEL" +
+            this.lblPlaca3.AutoSize = true;
+            this.lblPlaca3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPlaca3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPlaca3.Location = new System.Drawing.Point(12, 154);
+            this.lblPlaca3.Name = "lblPlaca3";
+            this.lblPlaca3.Size = new System.Drawing.Size(165, 39);
+            this.lblPlaca3.TabIndex = 4;
+            this.lblPlaca3.Text = "   TARJETA MADRE MICRO ATX \r\nGIGABYTE B560M AORUS ELITE \r\n                  INTEL" +
     " 1200";
             // 
             // pictureBox4
@@ -334,12 +362,12 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox5);
+            this.panel4.Controls.Add(this.cboCantPlaca5);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.btnComprarPlaca5);
+            this.panel4.Controls.Add(this.lblPrecioPlaca5);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.lblPlaca5);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Location = new System.Drawing.Point(386, 299);
             this.panel4.Name = "panel4";
@@ -356,26 +384,27 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Cantidad :";
             // 
-            // pictureBox7
+            // btnComprarPlaca5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.btnComprarPlaca5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarPlaca5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarPlaca5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarPlaca5.Name = "btnComprarPlaca5";
+            this.btnComprarPlaca5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarPlaca5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarPlaca5.TabIndex = 6;
+            this.btnComprarPlaca5.TabStop = false;
+            this.btnComprarPlaca5.Click += new System.EventHandler(this.btnComprarPlaca1_Click);
             // 
-            // label14
+            // lblPrecioPlaca5
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(83, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(80, 15);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "$ 106.52 + IVA";
+            this.lblPrecioPlaca5.AutoSize = true;
+            this.lblPrecioPlaca5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioPlaca5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioPlaca5.Name = "lblPrecioPlaca5";
+            this.lblPrecioPlaca5.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioPlaca5.TabIndex = 3;
+            this.lblPrecioPlaca5.Text = "$ 106.52 + IVA";
             // 
             // label15
             // 
@@ -387,16 +416,16 @@
             this.label15.TabIndex = 3;
             this.label15.Text = "Precio :";
             // 
-            // label16
+            // lblPlaca5
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(4, 154);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(180, 39);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "     TARJETA MADRE MICRO ATX \r\nGIGABYTE H610M H D4 INTEL LGA \r\n                 1" +
+            this.lblPlaca5.AutoSize = true;
+            this.lblPlaca5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPlaca5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPlaca5.Location = new System.Drawing.Point(4, 154);
+            this.lblPlaca5.Name = "lblPlaca5";
+            this.lblPlaca5.Size = new System.Drawing.Size(180, 39);
+            this.lblPlaca5.TabIndex = 4;
+            this.lblPlaca5.Text = "     TARJETA MADRE MICRO ATX \r\nGIGABYTE H610M H D4 INTEL LGA \r\n                 1" +
     "700 12VA GEN";
             // 
             // pictureBox8
@@ -412,12 +441,12 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox4);
+            this.panel5.Controls.Add(this.cboCantPlaca4);
             this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.pictureBox9);
-            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.btnComprarPlaca4);
+            this.panel5.Controls.Add(this.lblPrecioPlaca4);
             this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.lblPlaca4);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Location = new System.Drawing.Point(141, 299);
             this.panel5.Name = "panel5";
@@ -434,26 +463,27 @@
             this.label17.TabIndex = 8;
             this.label17.Text = "Cantidad :";
             // 
-            // pictureBox9
+            // btnComprarPlaca4
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.btnComprarPlaca4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarPlaca4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarPlaca4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarPlaca4.Name = "btnComprarPlaca4";
+            this.btnComprarPlaca4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarPlaca4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarPlaca4.TabIndex = 6;
+            this.btnComprarPlaca4.TabStop = false;
+            this.btnComprarPlaca4.Click += new System.EventHandler(this.btnComprarPlaca1_Click);
             // 
-            // label18
+            // lblPrecioPlaca4
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(83, 193);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 15);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "$ 173.06 + IVA";
+            this.lblPrecioPlaca4.AutoSize = true;
+            this.lblPrecioPlaca4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioPlaca4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioPlaca4.Name = "lblPrecioPlaca4";
+            this.lblPrecioPlaca4.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioPlaca4.TabIndex = 3;
+            this.lblPrecioPlaca4.Text = "$ 173.06 + IVA";
             // 
             // label19
             // 
@@ -465,17 +495,18 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Precio :";
             // 
-            // label20
+            // lblPlaca4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(1, 154);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(187, 39);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "       TARJETA MADRE MICRO ATX \r\nGIGABYTE B660M DS3H DDR4 INTEL\r\n              LG" +
+            this.lblPlaca4.AutoSize = true;
+            this.lblPlaca4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPlaca4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPlaca4.Location = new System.Drawing.Point(1, 154);
+            this.lblPlaca4.Name = "lblPlaca4";
+            this.lblPlaca4.Size = new System.Drawing.Size(187, 39);
+            this.lblPlaca4.TabIndex = 4;
+            this.lblPlaca4.Text = "       TARJETA MADRE MICRO ATX \r\nGIGABYTE B660M DS3H DDR4 INTEL\r\n              LG" +
     "A 1700 12VA GEN";
+            this.lblPlaca4.Click += new System.EventHandler(this.label20_Click);
             // 
             // pictureBox10
             // 
@@ -487,10 +518,11 @@
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
-            // comboBox1
+            // cboCantPlaca2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboCantPlaca2.FormattingEnabled = true;
+            this.cboCantPlaca2.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -505,16 +537,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Text = "1";
+            this.cboCantPlaca2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantPlaca2.Name = "cboCantPlaca2";
+            this.cboCantPlaca2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantPlaca2.TabIndex = 15;
+            this.cboCantPlaca2.Text = "1";
             // 
-            // comboBox2
+            // cboCantPlaca3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboCantPlaca3.FormattingEnabled = true;
+            this.cboCantPlaca3.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -529,16 +562,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "1";
+            this.cboCantPlaca3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantPlaca3.Name = "cboCantPlaca3";
+            this.cboCantPlaca3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantPlaca3.TabIndex = 15;
+            this.cboCantPlaca3.Text = "1";
             // 
-            // comboBox3
+            // cboCantPlaca4
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboCantPlaca4.FormattingEnabled = true;
+            this.cboCantPlaca4.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -553,16 +587,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 15;
-            this.comboBox3.Text = "1";
+            this.cboCantPlaca4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantPlaca4.Name = "cboCantPlaca4";
+            this.cboCantPlaca4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantPlaca4.TabIndex = 15;
+            this.cboCantPlaca4.Text = "1";
             // 
-            // comboBox4
+            // cboCantPlaca5
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboCantPlaca5.FormattingEnabled = true;
+            this.cboCantPlaca5.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -577,35 +612,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 14;
-            this.comboBox4.Text = "1";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 15;
-            this.comboBox5.Text = "1";
+            this.cboCantPlaca5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantPlaca5.Name = "cboCantPlaca5";
+            this.cboCantPlaca5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantPlaca5.TabIndex = 15;
+            this.cboCantPlaca5.Text = "1";
             // 
             // FormPlacasMadres
             // 
@@ -624,23 +635,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarPlaca4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -651,43 +662,43 @@
         private PictureBox btnCerrar1;
         private Panel panel2;
         private Label label5;
-        private PictureBox pictureBox5;
-        private Label label10;
+        private PictureBox btnComprarPlaca1;
+        private Label lblPrecioPlaca1;
         private Label label11;
-        private Label label12;
+        private Label lblPlaca1;
         private PictureBox pictureBox6;
         private Panel panel1;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnComprarPlaca2;
+        private Label lblPrecioPlaca2;
         private Label label3;
-        private Label label4;
+        private Label lblPlaca2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnComprarPlaca3;
+        private Label lblPrecioPlaca3;
         private Label label8;
-        private Label label9;
+        private Label lblPlaca3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label13;
-        private PictureBox pictureBox7;
-        private Label label14;
+        private PictureBox btnComprarPlaca5;
+        private Label lblPrecioPlaca5;
         private Label label15;
-        private Label label16;
+        private Label lblPlaca5;
         private PictureBox pictureBox8;
         private Panel panel5;
         private Label label17;
-        private PictureBox pictureBox9;
-        private Label label18;
+        private PictureBox btnComprarPlaca4;
+        private Label lblPrecioPlaca4;
         private Label label19;
-        private Label label20;
+        private Label lblPlaca4;
         private PictureBox pictureBox10;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox5;
-        private ComboBox comboBox4;
+        private ComboBox cboCantPlaca1;
+        private ComboBox cboCantPlaca2;
+        private ComboBox cboCantPlaca3;
+        private ComboBox cboCantPlaca5;
+        private ComboBox cboCantPlaca4;
     }
 }

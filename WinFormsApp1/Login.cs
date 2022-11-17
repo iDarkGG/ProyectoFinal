@@ -31,7 +31,6 @@ namespace TiendaPerrona
             try
             {
                 dB.generarArchivo();
-                MessageBox.Show(dB.obtenerPath(), "desde el login (llamando al metodo obtener path)");
             }
             catch (Exception ex) { iN.cargarArchivo(); }
 

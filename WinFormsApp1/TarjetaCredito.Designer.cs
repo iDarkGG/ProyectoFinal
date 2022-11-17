@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TarjetaCredito));
+            this.pnlBarra = new System.Windows.Forms.Panel();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombreTitular = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,18 +43,37 @@
             this.btnPagarTarjeta = new System.Windows.Forms.Button();
             this.mtxtExpiracion = new System.Windows.Forms.MaskedTextBox();
             this.mtxtCodigoDeSeguridad = new System.Windows.Forms.MaskedTextBox();
+            this.pnlBarra.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlBarra
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(50)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(619, 49);
-            this.panel1.TabIndex = 0;
+            this.pnlBarra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(50)))));
+            this.pnlBarra.Controls.Add(this.btnCerrar);
+            this.pnlBarra.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlBarra.Location = new System.Drawing.Point(0, 0);
+            this.pnlBarra.Name = "pnlBarra";
+            this.pnlBarra.Size = new System.Drawing.Size(619, 49);
+            this.pnlBarra.TabIndex = 0;
+            this.pnlBarra.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarra_MouseDown);
+            this.pnlBarra.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlBarra_MouseMove);
+            this.pnlBarra.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlBarra_MouseUp);
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrar.Image = global::TiendaPerrona.Properties.Resources.image__2_1;
+            this.btnCerrar.Location = new System.Drawing.Point(582, 12);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar.TabIndex = 17;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // label1
             // 
@@ -192,12 +213,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNombreTitular);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBarra);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TarjetaCredito";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TarjetaCredito";
             this.Load += new System.EventHandler(this.TarjetaCredito_Load);
+            this.pnlBarra.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -207,7 +231,7 @@
 
         #endregion
 
-        private Panel panel1;
+        private Panel pnlBarra;
         private Label label1;
         private TextBox txtNombreTitular;
         private Label label2;
@@ -220,5 +244,6 @@
         private Button btnPagarTarjeta;
         private MaskedTextBox mtxtExpiracion;
         private MaskedTextBox mtxtCodigoDeSeguridad;
+        private PictureBox btnCerrar;
     }
 }

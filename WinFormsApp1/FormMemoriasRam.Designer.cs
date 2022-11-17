@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboCantMemoria1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnComprarMemoria1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMemoria1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblMemoria1 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboCantMemoria2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprarMemoria2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMemoria2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblMemoria2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cboCantMemoria3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnComprarMemoria3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMemoria3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblMemoria3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cboCantMemoria4 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.btnComprarMemoria4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMemoria4 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblMemoria4 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboCantMemoria5 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnComprarMemoria5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMemoria5 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblMemoria5 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,22 +101,23 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cboCantMemoria1);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.btnComprarMemoria1);
+            this.panel2.Controls.Add(this.lblPrecioMemoria1);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblMemoria1);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 40);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 11;
             // 
-            // comboBox1
+            // cboCantMemoria1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboCantMemoria1.FormattingEnabled = true;
+            this.cboCantMemoria1.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -131,11 +132,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Text = "1";
+            this.cboCantMemoria1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMemoria1.Name = "cboCantMemoria1";
+            this.cboCantMemoria1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMemoria1.TabIndex = 14;
+            this.cboCantMemoria1.Text = "1";
             // 
             // label5
             // 
@@ -147,27 +148,27 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad :";
             // 
-            // pictureBox5
+            // btnComprarMemoria1
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.btnComprarMemoria1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMemoria1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMemoria1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMemoria1.Name = "btnComprarMemoria1";
+            this.btnComprarMemoria1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMemoria1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMemoria1.TabIndex = 6;
+            this.btnComprarMemoria1.TabStop = false;
+            this.btnComprarMemoria1.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label10
+            // lblPrecioMemoria1
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$63.00 + IVA";
+            this.lblPrecioMemoria1.AutoSize = true;
+            this.lblPrecioMemoria1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMemoria1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMemoria1.Name = "lblPrecioMemoria1";
+            this.lblPrecioMemoria1.Size = new System.Drawing.Size(71, 15);
+            this.lblPrecioMemoria1.TabIndex = 3;
+            this.lblPrecioMemoria1.Text = "$63.00 + IVA";
             // 
             // label11
             // 
@@ -179,16 +180,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblMemoria1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(12, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(168, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "MEMORIA DDR4 8GB 3200MHZ \r\n           HYPERX KINGSTON";
+            this.lblMemoria1.AutoSize = true;
+            this.lblMemoria1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMemoria1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMemoria1.Location = new System.Drawing.Point(12, 158);
+            this.lblMemoria1.Name = "lblMemoria1";
+            this.lblMemoria1.Size = new System.Drawing.Size(168, 26);
+            this.lblMemoria1.TabIndex = 4;
+            this.lblMemoria1.Text = "MEMORIA DDR4 8GB 3200MHZ \r\n           HYPERX KINGSTON";
             // 
             // pictureBox6
             // 
@@ -203,22 +204,23 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.cboCantMemoria2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnComprarMemoria2);
+            this.panel1.Controls.Add(this.lblPrecioMemoria2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblMemoria2);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(266, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 12;
             // 
-            // comboBox2
+            // cboCantMemoria2
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboCantMemoria2.FormattingEnabled = true;
+            this.cboCantMemoria2.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -233,11 +235,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 15;
-            this.comboBox2.Text = "1";
+            this.cboCantMemoria2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMemoria2.Name = "cboCantMemoria2";
+            this.cboCantMemoria2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMemoria2.TabIndex = 15;
+            this.cboCantMemoria2.Text = "1";
             // 
             // label1
             // 
@@ -249,26 +251,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnComprarMemoria2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarMemoria2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMemoria2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMemoria2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMemoria2.Name = "btnComprarMemoria2";
+            this.btnComprarMemoria2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMemoria2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMemoria2.TabIndex = 6;
+            this.btnComprarMemoria2.TabStop = false;
+            this.btnComprarMemoria2.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label2
+            // lblPrecioMemoria2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 89.00 + IVA";
+            this.lblPrecioMemoria2.AutoSize = true;
+            this.lblPrecioMemoria2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMemoria2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMemoria2.Name = "lblPrecioMemoria2";
+            this.lblPrecioMemoria2.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMemoria2.TabIndex = 3;
+            this.lblPrecioMemoria2.Text = "$ 89.00 + IVA";
             // 
             // label3
             // 
@@ -280,16 +283,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label4
+            // lblMemoria2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(8, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "MEMORIA DDR4 16GB 2666MHZ \r\n                   CRUCIAL";
+            this.lblMemoria2.AutoSize = true;
+            this.lblMemoria2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMemoria2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMemoria2.Location = new System.Drawing.Point(8, 158);
+            this.lblMemoria2.Name = "lblMemoria2";
+            this.lblMemoria2.Size = new System.Drawing.Size(174, 26);
+            this.lblMemoria2.TabIndex = 4;
+            this.lblMemoria2.Text = "MEMORIA DDR4 16GB 2666MHZ \r\n                   CRUCIAL";
             // 
             // pictureBox2
             // 
@@ -304,22 +307,23 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.cboCantMemoria3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarMemoria3);
+            this.panel3.Controls.Add(this.lblPrecioMemoria3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblMemoria3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(488, 40);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 12;
             // 
-            // comboBox3
+            // cboCantMemoria3
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboCantMemoria3.FormattingEnabled = true;
+            this.cboCantMemoria3.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -334,11 +338,12 @@
             "13",
             "14",
             "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 16;
-            this.comboBox3.Text = "1";
+            this.cboCantMemoria3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMemoria3.Name = "cboCantMemoria3";
+            this.cboCantMemoria3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMemoria3.TabIndex = 16;
+            this.cboCantMemoria3.Text = "1";
+            this.cboCantMemoria3.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -350,26 +355,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnComprarMemoria3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnComprarMemoria3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMemoria3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMemoria3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMemoria3.Name = "btnComprarMemoria3";
+            this.btnComprarMemoria3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMemoria3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMemoria3.TabIndex = 6;
+            this.btnComprarMemoria3.TabStop = false;
+            this.btnComprarMemoria3.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label7
+            // lblPrecioMemoria3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 118.00 + IVA";
+            this.lblPrecioMemoria3.AutoSize = true;
+            this.lblPrecioMemoria3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMemoria3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMemoria3.Name = "lblPrecioMemoria3";
+            this.lblPrecioMemoria3.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioMemoria3.TabIndex = 3;
+            this.lblPrecioMemoria3.Text = "$ 118.00 + IVA";
             // 
             // label8
             // 
@@ -381,16 +387,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblMemoria3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(188, 13);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "XPG MEMORIA 16G DDR5 5200MHZ";
+            this.lblMemoria3.AutoSize = true;
+            this.lblMemoria3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMemoria3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMemoria3.Location = new System.Drawing.Point(0, 158);
+            this.lblMemoria3.Name = "lblMemoria3";
+            this.lblMemoria3.Size = new System.Drawing.Size(188, 13);
+            this.lblMemoria3.TabIndex = 4;
+            this.lblMemoria3.Text = "XPG MEMORIA 16G DDR5 5200MHZ";
             // 
             // pictureBox4
             // 
@@ -405,22 +411,23 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox4);
+            this.panel4.Controls.Add(this.cboCantMemoria4);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.btnComprarMemoria4);
+            this.panel4.Controls.Add(this.lblPrecioMemoria4);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.lblMemoria4);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Location = new System.Drawing.Point(154, 289);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 12;
             // 
-            // comboBox4
+            // cboCantMemoria4
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboCantMemoria4.FormattingEnabled = true;
+            this.cboCantMemoria4.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -435,11 +442,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 14;
-            this.comboBox4.Text = "1";
+            this.cboCantMemoria4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMemoria4.Name = "cboCantMemoria4";
+            this.cboCantMemoria4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMemoria4.TabIndex = 15;
+            this.cboCantMemoria4.Text = "1";
             // 
             // label13
             // 
@@ -451,26 +458,27 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Cantidad :";
             // 
-            // pictureBox7
+            // btnComprarMemoria4
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.btnComprarMemoria4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMemoria4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMemoria4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMemoria4.Name = "btnComprarMemoria4";
+            this.btnComprarMemoria4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMemoria4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMemoria4.TabIndex = 6;
+            this.btnComprarMemoria4.TabStop = false;
+            this.btnComprarMemoria4.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label14
+            // lblPrecioMemoria4
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(83, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 15);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "$ 54.00 + IVA";
+            this.lblPrecioMemoria4.AutoSize = true;
+            this.lblPrecioMemoria4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMemoria4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMemoria4.Name = "lblPrecioMemoria4";
+            this.lblPrecioMemoria4.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMemoria4.TabIndex = 3;
+            this.lblPrecioMemoria4.Text = "$ 54.00 + IVA";
             // 
             // label15
             // 
@@ -482,16 +490,16 @@
             this.label15.TabIndex = 3;
             this.label15.Text = "Precio :";
             // 
-            // label16
+            // lblMemoria4
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(3, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(185, 26);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "KINGSTONE FURY MEMORIA DDR4 \r\n                  8G 3200 MHZ ";
+            this.lblMemoria4.AutoSize = true;
+            this.lblMemoria4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMemoria4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMemoria4.Location = new System.Drawing.Point(3, 158);
+            this.lblMemoria4.Name = "lblMemoria4";
+            this.lblMemoria4.Size = new System.Drawing.Size(185, 26);
+            this.lblMemoria4.TabIndex = 4;
+            this.lblMemoria4.Text = "KINGSTONE FURY MEMORIA DDR4 \r\n                  8G 3200 MHZ ";
             // 
             // pictureBox8
             // 
@@ -506,22 +514,23 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox5);
+            this.panel5.Controls.Add(this.cboCantMemoria5);
             this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.pictureBox9);
-            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.btnComprarMemoria5);
+            this.panel5.Controls.Add(this.lblPrecioMemoria5);
             this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.lblMemoria5);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Location = new System.Drawing.Point(389, 289);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 12;
             // 
-            // comboBox5
+            // cboCantMemoria5
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cboCantMemoria5.FormattingEnabled = true;
+            this.cboCantMemoria5.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -536,11 +545,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 14;
-            this.comboBox5.Text = "1";
+            this.cboCantMemoria5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMemoria5.Name = "cboCantMemoria5";
+            this.cboCantMemoria5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMemoria5.TabIndex = 15;
+            this.cboCantMemoria5.Text = "1";
             // 
             // label17
             // 
@@ -552,26 +561,27 @@
             this.label17.TabIndex = 8;
             this.label17.Text = "Cantidad :";
             // 
-            // pictureBox9
+            // btnComprarMemoria5
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.btnComprarMemoria5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMemoria5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMemoria5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMemoria5.Name = "btnComprarMemoria5";
+            this.btnComprarMemoria5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMemoria5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMemoria5.TabIndex = 6;
+            this.btnComprarMemoria5.TabStop = false;
+            this.btnComprarMemoria5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label18
+            // lblPrecioMemoria5
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(83, 193);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 15);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "$ 69.00 + IVA";
+            this.lblPrecioMemoria5.AutoSize = true;
+            this.lblPrecioMemoria5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMemoria5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMemoria5.Name = "lblPrecioMemoria5";
+            this.lblPrecioMemoria5.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMemoria5.TabIndex = 3;
+            this.lblPrecioMemoria5.Text = "$ 69.00 + IVA";
             // 
             // label19
             // 
@@ -583,16 +593,16 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Precio :";
             // 
-            // label20
+            // lblMemoria5
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(0, 158);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(191, 13);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "MEMORIA DDR4 16G 3200 MHZ XPG";
+            this.lblMemoria5.AutoSize = true;
+            this.lblMemoria5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMemoria5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMemoria5.Location = new System.Drawing.Point(0, 158);
+            this.lblMemoria5.Name = "lblMemoria5";
+            this.lblMemoria5.Size = new System.Drawing.Size(191, 13);
+            this.lblMemoria5.TabIndex = 4;
+            this.lblMemoria5.Text = "MEMORIA DDR4 16G 3200 MHZ XPG";
             // 
             // pictureBox10
             // 
@@ -621,23 +631,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMemoria5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -648,43 +658,43 @@
         private PictureBox btnCerrar1;
         private Panel panel2;
         private Label label5;
-        private PictureBox pictureBox5;
-        private Label label10;
+        private PictureBox btnComprarMemoria1;
+        private Label lblPrecioMemoria1;
         private Label label11;
-        private Label label12;
+        private Label lblMemoria1;
         private PictureBox pictureBox6;
         private Panel panel1;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnComprarMemoria2;
+        private Label lblPrecioMemoria2;
         private Label label3;
-        private Label label4;
+        private Label lblMemoria2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnComprarMemoria3;
+        private Label lblPrecioMemoria3;
         private Label label8;
-        private Label label9;
+        private Label lblMemoria3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label13;
-        private PictureBox pictureBox7;
-        private Label label14;
+        private PictureBox btnComprarMemoria4;
+        private Label lblPrecioMemoria4;
         private Label label15;
-        private Label label16;
+        private Label lblMemoria4;
         private PictureBox pictureBox8;
         private Panel panel5;
         private Label label17;
-        private PictureBox pictureBox9;
-        private Label label18;
+        private PictureBox btnComprarMemoria5;
+        private Label lblPrecioMemoria5;
         private Label label19;
-        private Label label20;
+        private Label lblMemoria5;
         private PictureBox pictureBox10;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
+        private ComboBox cboCantMemoria1;
+        private ComboBox cboCantMemoria2;
+        private ComboBox cboCantMemoria3;
+        private ComboBox cboCantMemoria4;
+        private ComboBox cboCantMemoria5;
     }
 }

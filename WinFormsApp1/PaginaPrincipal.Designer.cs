@@ -31,6 +31,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PaginaPrincipal));
             this.BarraDeTitulo = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
@@ -174,7 +175,7 @@
             // 
             this.btnAbrirCarrito.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAbrirCarrito.Image = global::TiendaPerrona.Properties.Resources.image1;
-            this.btnAbrirCarrito.Location = new System.Drawing.Point(3, 503);
+            this.btnAbrirCarrito.Location = new System.Drawing.Point(3, 497);
             this.btnAbrirCarrito.Name = "btnAbrirCarrito";
             this.btnAbrirCarrito.Size = new System.Drawing.Size(56, 39);
             this.btnAbrirCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -236,7 +237,7 @@
             this.lblHora.AutoSize = true;
             this.lblHora.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblHora.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblHora.Location = new System.Drawing.Point(102, 519);
+            this.lblHora.Location = new System.Drawing.Point(102, 513);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(15, 23);
             this.lblHora.TabIndex = 7;
@@ -501,7 +502,7 @@
             this.lblFecha.BackColor = System.Drawing.Color.Transparent;
             this.lblFecha.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFecha.Location = new System.Drawing.Point(187, 465);
+            this.lblFecha.Location = new System.Drawing.Point(187, 462);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(15, 23);
             this.lblFecha.TabIndex = 13;
@@ -513,7 +514,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Book Antiqua", 21.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(201, 426);
+            this.label2.Location = new System.Drawing.Point(201, 423);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(258, 35);
             this.label2.TabIndex = 6;
@@ -524,7 +525,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(85, 375);
+            this.label1.Location = new System.Drawing.Point(85, 372);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(479, 57);
             this.label1.TabIndex = 5;
@@ -534,7 +535,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::TiendaPerrona.Properties.Resources.perro1;
-            this.pictureBox2.Location = new System.Drawing.Point(149, 112);
+            this.pictureBox2.Location = new System.Drawing.Point(149, 109);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(369, 282);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -555,6 +556,7 @@
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraDeTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PaginaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

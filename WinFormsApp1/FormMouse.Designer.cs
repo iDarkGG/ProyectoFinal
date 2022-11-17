@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cboCantMouse1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnComprarMouse1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMouse1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblMouse1 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cboCantMouse2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprarMouse2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMouse2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblMouse2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cboCantMouse3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnComprarMouse3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMouse3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblMouse3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.cboCantMouse5 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.btnComprarMouse5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMouse5 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblMouse5 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.cboCantMouse4 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnComprarMouse4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioMouse4 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblMouse4 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +101,42 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cboCantMouse1);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.btnComprarMouse1);
+            this.panel2.Controls.Add(this.lblPrecioMouse1);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblMouse1);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(44, 37);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 12;
+            // 
+            // cboCantMouse1
+            // 
+            this.cboCantMouse1.FormattingEnabled = true;
+            this.cboCantMouse1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMouse1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMouse1.Name = "cboCantMouse1";
+            this.cboCantMouse1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMouse1.TabIndex = 14;
+            this.cboCantMouse1.Text = "1";
             // 
             // label5
             // 
@@ -123,26 +148,27 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad :";
             // 
-            // pictureBox5
+            // btnComprarMouse1
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.btnComprarMouse1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMouse1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMouse1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMouse1.Name = "btnComprarMouse1";
+            this.btnComprarMouse1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMouse1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMouse1.TabIndex = 6;
+            this.btnComprarMouse1.TabStop = false;
+            this.btnComprarMouse1.Click += new System.EventHandler(this.btnComprarMouse1_Click);
             // 
-            // label10
+            // lblPrecioMouse1
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$ 58.18 + IVA";
+            this.lblPrecioMouse1.AutoSize = true;
+            this.lblPrecioMouse1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMouse1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMouse1.Name = "lblPrecioMouse1";
+            this.lblPrecioMouse1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMouse1.TabIndex = 3;
+            this.lblPrecioMouse1.Text = "$ 58.18 + IVA";
             // 
             // label11
             // 
@@ -154,16 +180,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblMouse1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(16, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(156, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "MOUSE ASUS USB P511 ROG \r\n            CHAKRAM CORE\r\n";
+            this.lblMouse1.AutoSize = true;
+            this.lblMouse1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMouse1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMouse1.Location = new System.Drawing.Point(16, 158);
+            this.lblMouse1.Name = "lblMouse1";
+            this.lblMouse1.Size = new System.Drawing.Size(156, 26);
+            this.lblMouse1.TabIndex = 4;
+            this.lblMouse1.Text = "MOUSE ASUS USB P511 ROG \r\n            CHAKRAM CORE\r\n";
             // 
             // pictureBox6
             // 
@@ -178,17 +204,42 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.cboCantMouse2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnComprarMouse2);
+            this.panel1.Controls.Add(this.lblPrecioMouse2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblMouse2);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(269, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 12;
+            // 
+            // cboCantMouse2
+            // 
+            this.cboCantMouse2.FormattingEnabled = true;
+            this.cboCantMouse2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMouse2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMouse2.Name = "cboCantMouse2";
+            this.cboCantMouse2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMouse2.TabIndex = 16;
+            this.cboCantMouse2.Text = "1";
             // 
             // label1
             // 
@@ -200,26 +251,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnComprarMouse2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarMouse2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMouse2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMouse2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMouse2.Name = "btnComprarMouse2";
+            this.btnComprarMouse2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMouse2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMouse2.TabIndex = 6;
+            this.btnComprarMouse2.TabStop = false;
+            this.btnComprarMouse2.Click += new System.EventHandler(this.btnComprarMouse1_Click);
             // 
-            // label2
+            // lblPrecioMouse2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 88.44 + IVA";
+            this.lblPrecioMouse2.AutoSize = true;
+            this.lblPrecioMouse2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMouse2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMouse2.Name = "lblPrecioMouse2";
+            this.lblPrecioMouse2.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMouse2.TabIndex = 3;
+            this.lblPrecioMouse2.Text = "$ 88.44 + IVA";
             // 
             // label3
             // 
@@ -231,16 +283,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label4
+            // lblMouse2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(5, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(179, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "MOUSE LOGITECH INALAMBRICO \r\n       G604 LIGHTSPEED GAMING";
+            this.lblMouse2.AutoSize = true;
+            this.lblMouse2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMouse2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMouse2.Location = new System.Drawing.Point(5, 158);
+            this.lblMouse2.Name = "lblMouse2";
+            this.lblMouse2.Size = new System.Drawing.Size(179, 26);
+            this.lblMouse2.TabIndex = 4;
+            this.lblMouse2.Text = "MOUSE LOGITECH INALAMBRICO \r\n       G604 LIGHTSPEED GAMING";
             // 
             // pictureBox2
             // 
@@ -255,17 +307,42 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox5);
+            this.panel3.Controls.Add(this.cboCantMouse3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarMouse3);
+            this.panel3.Controls.Add(this.lblPrecioMouse3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblMouse3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(498, 37);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 12;
+            // 
+            // cboCantMouse3
+            // 
+            this.cboCantMouse3.FormattingEnabled = true;
+            this.cboCantMouse3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMouse3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMouse3.Name = "cboCantMouse3";
+            this.cboCantMouse3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMouse3.TabIndex = 15;
+            this.cboCantMouse3.Text = "1";
             // 
             // label6
             // 
@@ -277,26 +354,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnComprarMouse3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnComprarMouse3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMouse3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMouse3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMouse3.Name = "btnComprarMouse3";
+            this.btnComprarMouse3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMouse3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMouse3.TabIndex = 6;
+            this.btnComprarMouse3.TabStop = false;
+            this.btnComprarMouse3.Click += new System.EventHandler(this.btnComprarMouse1_Click);
             // 
-            // label7
+            // lblPrecioMouse3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 35.45 + IVA";
+            this.lblPrecioMouse3.AutoSize = true;
+            this.lblPrecioMouse3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMouse3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMouse3.Name = "lblPrecioMouse3";
+            this.lblPrecioMouse3.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMouse3.TabIndex = 3;
+            this.lblPrecioMouse3.Text = "$ 35.45 + IVA";
             // 
             // label8
             // 
@@ -308,16 +386,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblMouse3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(33, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "MOUSE RAZER GAMER \r\n     DEATHADDER V2";
+            this.lblMouse3.AutoSize = true;
+            this.lblMouse3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMouse3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMouse3.Location = new System.Drawing.Point(33, 158);
+            this.lblMouse3.Name = "lblMouse3";
+            this.lblMouse3.Size = new System.Drawing.Size(126, 26);
+            this.lblMouse3.TabIndex = 4;
+            this.lblMouse3.Text = "MOUSE RAZER GAMER \r\n     DEATHADDER V2";
             // 
             // pictureBox4
             // 
@@ -332,17 +410,42 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox3);
+            this.panel4.Controls.Add(this.cboCantMouse5);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.btnComprarMouse5);
+            this.panel4.Controls.Add(this.lblPrecioMouse5);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.lblMouse5);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Location = new System.Drawing.Point(386, 286);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 12;
+            // 
+            // cboCantMouse5
+            // 
+            this.cboCantMouse5.FormattingEnabled = true;
+            this.cboCantMouse5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMouse5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMouse5.Name = "cboCantMouse5";
+            this.cboCantMouse5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMouse5.TabIndex = 15;
+            this.cboCantMouse5.Text = "1";
             // 
             // label13
             // 
@@ -354,26 +457,27 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Cantidad :";
             // 
-            // pictureBox7
+            // btnComprarMouse5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.btnComprarMouse5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMouse5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMouse5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMouse5.Name = "btnComprarMouse5";
+            this.btnComprarMouse5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMouse5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMouse5.TabIndex = 6;
+            this.btnComprarMouse5.TabStop = false;
+            this.btnComprarMouse5.Click += new System.EventHandler(this.btnComprarMouse1_Click);
             // 
-            // label14
+            // lblPrecioMouse5
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(83, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 15);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "$ 84.64 + IVA";
+            this.lblPrecioMouse5.AutoSize = true;
+            this.lblPrecioMouse5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMouse5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMouse5.Name = "lblPrecioMouse5";
+            this.lblPrecioMouse5.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMouse5.TabIndex = 3;
+            this.lblPrecioMouse5.Text = "$ 84.64 + IVA";
             // 
             // label15
             // 
@@ -385,16 +489,16 @@
             this.label15.TabIndex = 3;
             this.label15.Text = "Precio :";
             // 
-            // label16
+            // lblMouse5
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(7, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(170, 26);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "MOUSE CORSAIR GAMING M65 \r\n                       PRO";
+            this.lblMouse5.AutoSize = true;
+            this.lblMouse5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMouse5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMouse5.Location = new System.Drawing.Point(7, 158);
+            this.lblMouse5.Name = "lblMouse5";
+            this.lblMouse5.Size = new System.Drawing.Size(170, 26);
+            this.lblMouse5.TabIndex = 4;
+            this.lblMouse5.Text = "MOUSE CORSAIR GAMING M65 \r\n                       PRO";
             // 
             // pictureBox8
             // 
@@ -409,17 +513,42 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.cboCantMouse4);
             this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.pictureBox9);
-            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.btnComprarMouse4);
+            this.panel5.Controls.Add(this.lblPrecioMouse4);
             this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.lblMouse4);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Location = new System.Drawing.Point(139, 286);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 12;
+            // 
+            // cboCantMouse4
+            // 
+            this.cboCantMouse4.FormattingEnabled = true;
+            this.cboCantMouse4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantMouse4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantMouse4.Name = "cboCantMouse4";
+            this.cboCantMouse4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantMouse4.TabIndex = 16;
+            this.cboCantMouse4.Text = "1";
             // 
             // label17
             // 
@@ -431,26 +560,27 @@
             this.label17.TabIndex = 8;
             this.label17.Text = "Cantidad :";
             // 
-            // pictureBox9
+            // btnComprarMouse4
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.btnComprarMouse4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarMouse4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarMouse4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarMouse4.Name = "btnComprarMouse4";
+            this.btnComprarMouse4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarMouse4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarMouse4.TabIndex = 6;
+            this.btnComprarMouse4.TabStop = false;
+            this.btnComprarMouse4.Click += new System.EventHandler(this.btnComprarMouse1_Click);
             // 
-            // label18
+            // lblPrecioMouse4
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(83, 193);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 15);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "$ 22.83 + IVA";
+            this.lblPrecioMouse4.AutoSize = true;
+            this.lblPrecioMouse4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioMouse4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioMouse4.Name = "lblPrecioMouse4";
+            this.lblPrecioMouse4.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioMouse4.TabIndex = 3;
+            this.lblPrecioMouse4.Text = "$ 22.83 + IVA";
             // 
             // label19
             // 
@@ -462,16 +592,16 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Precio :";
             // 
-            // label20
+            // lblMouse4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(16, 158);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(156, 26);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "MOUSE LOGITECH USB G203 \r\n      LIGHTSYNC GAMING";
+            this.lblMouse4.AutoSize = true;
+            this.lblMouse4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMouse4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblMouse4.Location = new System.Drawing.Point(16, 158);
+            this.lblMouse4.Name = "lblMouse4";
+            this.lblMouse4.Size = new System.Drawing.Size(156, 26);
+            this.lblMouse4.TabIndex = 4;
+            this.lblMouse4.Text = "MOUSE LOGITECH USB G203 \r\n      LIGHTSYNC GAMING";
             // 
             // pictureBox10
             // 
@@ -482,126 +612,6 @@
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Text = "1";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 15;
-            this.comboBox2.Text = "1";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 16;
-            this.comboBox3.Text = "1";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 14;
-            this.comboBox4.Text = "1";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 15;
-            this.comboBox5.Text = "1";
             // 
             // FormMouse
             // 
@@ -620,23 +630,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarMouse4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -647,43 +657,43 @@
         private PictureBox btnCerrar1;
         private Panel panel2;
         private Label label5;
-        private PictureBox pictureBox5;
-        private Label label10;
+        private PictureBox btnComprarMouse1;
+        private Label lblPrecioMouse1;
         private Label label11;
-        private Label label12;
+        private Label lblMouse1;
         private PictureBox pictureBox6;
         private Panel panel1;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnComprarMouse2;
+        private Label lblPrecioMouse2;
         private Label label3;
-        private Label label4;
+        private Label lblMouse2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnComprarMouse3;
+        private Label lblPrecioMouse3;
         private Label label8;
-        private Label label9;
+        private Label lblMouse3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label13;
-        private PictureBox pictureBox7;
-        private Label label14;
+        private PictureBox btnComprarMouse5;
+        private Label lblPrecioMouse5;
         private Label label15;
-        private Label label16;
+        private Label lblMouse5;
         private PictureBox pictureBox8;
         private Panel panel5;
         private Label label17;
-        private PictureBox pictureBox9;
-        private Label label18;
+        private PictureBox btnComprarMouse4;
+        private Label lblPrecioMouse4;
         private Label label19;
-        private Label label20;
+        private Label lblMouse4;
         private PictureBox pictureBox10;
-        private ComboBox comboBox1;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
+        private ComboBox cboCantMouse1;
+        private ComboBox cboCantMouse2;
+        private ComboBox cboCantMouse3;
+        private ComboBox cboCantMouse5;
+        private ComboBox cboCantMouse4;
     }
 }

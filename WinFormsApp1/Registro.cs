@@ -149,7 +149,8 @@ namespace TiendaPerrona
 
         private void Registro_Load(object sender, EventArgs e)
         {
-
+            this.ActiveControl = label2;
+            label2.Focus();
         }
     }
 }

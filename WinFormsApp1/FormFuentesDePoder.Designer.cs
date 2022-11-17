@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cboCantFuente1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnFuente1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioFuente1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblFuente1 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnFuente2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioFuente2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblFuente2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnFuente3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioFuente3 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblFuente3 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.btnFuente5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioFuente5 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblFuente5 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnFuente4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioFuente4 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblFuente4 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboCantFuente2 = new System.Windows.Forms.ComboBox();
+            this.cboCantFuente3 = new System.Windows.Forms.ComboBox();
+            this.cboCantFuente4 = new System.Windows.Forms.ComboBox();
+            this.cboCantFuente5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +101,42 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.cboCantFuente1);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnFuente1);
+            this.panel3.Controls.Add(this.lblPrecioFuente1);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblFuente1);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(44, 44);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 10;
+            // 
+            // cboCantFuente1
+            // 
+            this.cboCantFuente1.FormattingEnabled = true;
+            this.cboCantFuente1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantFuente1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantFuente1.Name = "cboCantFuente1";
+            this.cboCantFuente1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantFuente1.TabIndex = 14;
+            this.cboCantFuente1.Text = "1";
             // 
             // label6
             // 
@@ -123,26 +148,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnFuente1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnFuente1.BackColor = System.Drawing.Color.Yellow;
+            this.btnFuente1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnFuente1.Location = new System.Drawing.Point(3, 212);
+            this.btnFuente1.Name = "btnFuente1";
+            this.btnFuente1.Size = new System.Drawing.Size(56, 28);
+            this.btnFuente1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFuente1.TabIndex = 6;
+            this.btnFuente1.TabStop = false;
+            this.btnFuente1.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label7
+            // lblPrecioFuente1
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 49.30 + IVA";
+            this.lblPrecioFuente1.AutoSize = true;
+            this.lblPrecioFuente1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioFuente1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioFuente1.Name = "lblPrecioFuente1";
+            this.lblPrecioFuente1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioFuente1.TabIndex = 3;
+            this.lblPrecioFuente1.Text = "$ 49.30 + IVA";
             // 
             // label8
             // 
@@ -154,16 +180,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblFuente1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(195, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "FUENTE DE PODER EAGLE WARRIOR \r\n           EW600 80 PLUZ BRONZE";
+            this.lblFuente1.AutoSize = true;
+            this.lblFuente1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuente1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblFuente1.Location = new System.Drawing.Point(0, 158);
+            this.lblFuente1.Name = "lblFuente1";
+            this.lblFuente1.Size = new System.Drawing.Size(195, 26);
+            this.lblFuente1.TabIndex = 4;
+            this.lblFuente1.Text = "FUENTE DE PODER EAGLE WARRIOR \r\n           EW600 80 PLUZ BRONZE";
             // 
             // pictureBox4
             // 
@@ -178,12 +204,12 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.cboCantFuente2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnFuente2);
+            this.panel1.Controls.Add(this.lblPrecioFuente2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.lblFuente2);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(265, 44);
             this.panel1.Name = "panel1";
@@ -200,26 +226,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnFuente2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnFuente2.BackColor = System.Drawing.Color.Yellow;
+            this.btnFuente2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnFuente2.Location = new System.Drawing.Point(3, 212);
+            this.btnFuente2.Name = "btnFuente2";
+            this.btnFuente2.Size = new System.Drawing.Size(56, 28);
+            this.btnFuente2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFuente2.TabIndex = 6;
+            this.btnFuente2.TabStop = false;
+            this.btnFuente2.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label2
+            // lblPrecioFuente2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 423.87 + IVA";
+            this.lblPrecioFuente2.AutoSize = true;
+            this.lblPrecioFuente2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioFuente2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioFuente2.Name = "lblPrecioFuente2";
+            this.lblPrecioFuente2.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioFuente2.TabIndex = 3;
+            this.lblPrecioFuente2.Text = "$ 423.87 + IVA";
             // 
             // label3
             // 
@@ -231,16 +258,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label4
+            // lblFuente2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label4.Location = new System.Drawing.Point(11, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "FUENTE DE PODER EVGA 1600W\r\n                     GP GOLD";
+            this.lblFuente2.AutoSize = true;
+            this.lblFuente2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuente2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblFuente2.Location = new System.Drawing.Point(11, 158);
+            this.lblFuente2.Name = "lblFuente2";
+            this.lblFuente2.Size = new System.Drawing.Size(172, 26);
+            this.lblFuente2.TabIndex = 4;
+            this.lblFuente2.Text = "FUENTE DE PODER EVGA 1600W\r\n                     GP GOLD";
             // 
             // pictureBox2
             // 
@@ -255,12 +282,12 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox5);
+            this.panel2.Controls.Add(this.cboCantFuente3);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.btnFuente3);
+            this.panel2.Controls.Add(this.lblPrecioFuente3);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblFuente3);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(483, 44);
             this.panel2.Name = "panel2";
@@ -277,26 +304,27 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad :";
             // 
-            // pictureBox5
+            // btnFuente3
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.btnFuente3.BackColor = System.Drawing.Color.Yellow;
+            this.btnFuente3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnFuente3.Location = new System.Drawing.Point(3, 212);
+            this.btnFuente3.Name = "btnFuente3";
+            this.btnFuente3.Size = new System.Drawing.Size(56, 28);
+            this.btnFuente3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFuente3.TabIndex = 6;
+            this.btnFuente3.TabStop = false;
+            this.btnFuente3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label10
+            // lblPrecioFuente3
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(83, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$ 42.04 + IVA";
+            this.lblPrecioFuente3.AutoSize = true;
+            this.lblPrecioFuente3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioFuente3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioFuente3.Name = "lblPrecioFuente3";
+            this.lblPrecioFuente3.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioFuente3.TabIndex = 3;
+            this.lblPrecioFuente3.Text = "$ 42.04 + IVA";
             // 
             // label11
             // 
@@ -308,16 +336,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblFuente3
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(0, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(190, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "FUENTE DE PODER CORSAIR CV450 \r\n                           BRONZE";
+            this.lblFuente3.AutoSize = true;
+            this.lblFuente3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuente3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblFuente3.Location = new System.Drawing.Point(0, 158);
+            this.lblFuente3.Name = "lblFuente3";
+            this.lblFuente3.Size = new System.Drawing.Size(190, 26);
+            this.lblFuente3.TabIndex = 4;
+            this.lblFuente3.Text = "FUENTE DE PODER CORSAIR CV450 \r\n                           BRONZE";
             // 
             // pictureBox6
             // 
@@ -332,12 +360,12 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox3);
+            this.panel4.Controls.Add(this.cboCantFuente5);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox7);
-            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.btnFuente5);
+            this.panel4.Controls.Add(this.lblPrecioFuente5);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.lblFuente5);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Location = new System.Drawing.Point(371, 299);
             this.panel4.Name = "panel4";
@@ -354,26 +382,27 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Cantidad :";
             // 
-            // pictureBox7
+            // btnFuente5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.btnFuente5.BackColor = System.Drawing.Color.Yellow;
+            this.btnFuente5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnFuente5.Location = new System.Drawing.Point(3, 212);
+            this.btnFuente5.Name = "btnFuente5";
+            this.btnFuente5.Size = new System.Drawing.Size(56, 28);
+            this.btnFuente5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFuente5.TabIndex = 6;
+            this.btnFuente5.TabStop = false;
+            this.btnFuente5.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label14
+            // lblPrecioFuente5
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label14.Location = new System.Drawing.Point(83, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(71, 15);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "$ 87.48+ IVA";
+            this.lblPrecioFuente5.AutoSize = true;
+            this.lblPrecioFuente5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioFuente5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioFuente5.Name = "lblPrecioFuente5";
+            this.lblPrecioFuente5.Size = new System.Drawing.Size(71, 15);
+            this.lblPrecioFuente5.TabIndex = 3;
+            this.lblPrecioFuente5.Text = "$ 87.48+ IVA";
             // 
             // label15
             // 
@@ -385,16 +414,16 @@
             this.label15.TabIndex = 3;
             this.label15.Text = "Precio :";
             // 
-            // label16
+            // lblFuente5
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label16.Location = new System.Drawing.Point(0, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(197, 26);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "FUENTE DE PODER COOLER MASTER \r\n             GOLD V2 FM 550W\r\n";
+            this.lblFuente5.AutoSize = true;
+            this.lblFuente5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuente5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblFuente5.Location = new System.Drawing.Point(0, 158);
+            this.lblFuente5.Name = "lblFuente5";
+            this.lblFuente5.Size = new System.Drawing.Size(197, 26);
+            this.lblFuente5.TabIndex = 4;
+            this.lblFuente5.Text = "FUENTE DE PODER COOLER MASTER \r\n             GOLD V2 FM 550W\r\n";
             // 
             // pictureBox8
             // 
@@ -409,12 +438,12 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.cboCantFuente4);
             this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.pictureBox9);
-            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.btnFuente4);
+            this.panel5.Controls.Add(this.lblPrecioFuente4);
             this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.lblFuente4);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Location = new System.Drawing.Point(153, 299);
             this.panel5.Name = "panel5";
@@ -431,26 +460,27 @@
             this.label17.TabIndex = 8;
             this.label17.Text = "Cantidad :";
             // 
-            // pictureBox9
+            // btnFuente4
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox9.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.btnFuente4.BackColor = System.Drawing.Color.Yellow;
+            this.btnFuente4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnFuente4.Location = new System.Drawing.Point(3, 212);
+            this.btnFuente4.Name = "btnFuente4";
+            this.btnFuente4.Size = new System.Drawing.Size(56, 28);
+            this.btnFuente4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFuente4.TabIndex = 6;
+            this.btnFuente4.TabStop = false;
+            this.btnFuente4.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label18
+            // lblPrecioFuente4
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label18.Location = new System.Drawing.Point(83, 193);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 15);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "$ 276.95 + IVA";
+            this.lblPrecioFuente4.AutoSize = true;
+            this.lblPrecioFuente4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioFuente4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioFuente4.Name = "lblPrecioFuente4";
+            this.lblPrecioFuente4.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioFuente4.TabIndex = 3;
+            this.lblPrecioFuente4.Text = "$ 276.95 + IVA";
             // 
             // label19
             // 
@@ -462,16 +492,16 @@
             this.label19.TabIndex = 3;
             this.label19.Text = "Precio :";
             // 
-            // label20
+            // lblFuente4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label20.Location = new System.Drawing.Point(14, 158);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(166, 26);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "FUENTE DE PODER ASUS ROG  \r\n         STRIX 850W GOLD";
+            this.lblFuente4.AutoSize = true;
+            this.lblFuente4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuente4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblFuente4.Location = new System.Drawing.Point(14, 158);
+            this.lblFuente4.Name = "lblFuente4";
+            this.lblFuente4.Size = new System.Drawing.Size(166, 26);
+            this.lblFuente4.TabIndex = 4;
+            this.lblFuente4.Text = "FUENTE DE PODER ASUS ROG  \r\n         STRIX 850W GOLD";
             // 
             // pictureBox10
             // 
@@ -483,10 +513,11 @@
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
-            // comboBox1
+            // cboCantFuente2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboCantFuente2.FormattingEnabled = true;
+            this.cboCantFuente2.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -501,16 +532,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.Text = "1";
+            this.cboCantFuente2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantFuente2.Name = "cboCantFuente2";
+            this.cboCantFuente2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantFuente2.TabIndex = 15;
+            this.cboCantFuente2.Text = "1";
             // 
-            // comboBox2
+            // cboCantFuente3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboCantFuente3.FormattingEnabled = true;
+            this.cboCantFuente3.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -525,16 +557,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 15;
-            this.comboBox2.Text = "1";
+            this.cboCantFuente3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantFuente3.Name = "cboCantFuente3";
+            this.cboCantFuente3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantFuente3.TabIndex = 15;
+            this.cboCantFuente3.Text = "1";
             // 
-            // comboBox3
+            // cboCantFuente4
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboCantFuente4.FormattingEnabled = true;
+            this.cboCantFuente4.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -549,16 +582,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 16;
-            this.comboBox3.Text = "1";
+            this.cboCantFuente4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantFuente4.Name = "cboCantFuente4";
+            this.cboCantFuente4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantFuente4.TabIndex = 15;
+            this.cboCantFuente4.Text = "1";
             // 
-            // comboBox4
+            // cboCantFuente5
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboCantFuente5.FormattingEnabled = true;
+            this.cboCantFuente5.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -573,35 +607,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 14;
-            this.comboBox4.Text = "1";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 14;
-            this.comboBox5.Text = "1";
+            this.cboCantFuente5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantFuente5.Name = "cboCantFuente5";
+            this.cboCantFuente5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantFuente5.TabIndex = 15;
+            this.cboCantFuente5.Text = "1";
             // 
             // FormFuentesDePoder
             // 
@@ -620,23 +630,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFuente4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -647,43 +657,43 @@
         private PictureBox btnCerrar1;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnFuente1;
+        private Label lblPrecioFuente1;
         private Label label8;
-        private Label label9;
+        private Label lblFuente1;
         private PictureBox pictureBox4;
         private Panel panel1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnFuente2;
+        private Label lblPrecioFuente2;
         private Label label3;
-        private Label label4;
+        private Label lblFuente2;
         private PictureBox pictureBox2;
         private Panel panel2;
         private Label label5;
-        private PictureBox pictureBox5;
-        private Label label10;
+        private PictureBox btnFuente3;
+        private Label lblPrecioFuente3;
         private Label label11;
-        private Label label12;
+        private Label lblFuente3;
         private PictureBox pictureBox6;
         private Label label1;
         private Panel panel4;
         private Label label13;
-        private PictureBox pictureBox7;
-        private Label label14;
+        private PictureBox btnFuente5;
+        private Label lblPrecioFuente5;
         private Label label15;
-        private Label label16;
+        private Label lblFuente5;
         private PictureBox pictureBox8;
         private Panel panel5;
         private Label label17;
-        private PictureBox pictureBox9;
-        private Label label18;
+        private PictureBox btnFuente4;
+        private Label lblPrecioFuente4;
         private Label label19;
-        private Label label20;
+        private Label lblFuente4;
         private PictureBox pictureBox10;
-        private ComboBox comboBox1;
-        private ComboBox comboBox4;
-        private ComboBox comboBox5;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
+        private ComboBox cboCantFuente1;
+        private ComboBox cboCantFuente2;
+        private ComboBox cboCantFuente3;
+        private ComboBox cboCantFuente5;
+        private ComboBox cboCantFuente4;
     }
 }

@@ -31,7 +31,6 @@
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.lbCantidadCase1 = new System.Windows.Forms.ListBox();
             this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,7 +38,6 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
-            this.lbCantidadCase4 = new System.Windows.Forms.ListBox();
             this.btnComprarCase4 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,7 +45,6 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
-            this.lbCantidadCase2 = new System.Windows.Forms.ListBox();
             this.btnComprarCase2 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -55,7 +52,6 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
-            this.lbCantidadCase3 = new System.Windows.Forms.ListBox();
             this.btnComprarCase3 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase3 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -63,7 +59,6 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
-            this.lbCantidadCase5 = new System.Windows.Forms.ListBox();
             this.btnComprarCase5 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -71,12 +66,17 @@
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
-            this.lbCantidadCase6 = new System.Windows.Forms.ListBox();
             this.btnComprarCase6 = new System.Windows.Forms.PictureBox();
             this.lblPrecioCase6 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.lblCaseGamer6 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.cboCantidadCase2 = new System.Windows.Forms.ComboBox();
+            this.cboCantidadCase1 = new System.Windows.Forms.ComboBox();
+            this.cboCantidadCase3 = new System.Windows.Forms.ComboBox();
+            this.cboCantidadCase4 = new System.Windows.Forms.ComboBox();
+            this.cboCantidadCase5 = new System.Windows.Forms.ComboBox();
+            this.cboCantidadCase6 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
@@ -112,8 +112,8 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.cboCantidadCase1);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.lbCantidadCase1);
             this.panel1.Controls.Add(this.btnComprarCase1);
             this.panel1.Controls.Add(this.lblPrecioCase1);
             this.panel1.Controls.Add(this.label4);
@@ -134,29 +134,9 @@
             this.label19.TabIndex = 8;
             this.label19.Text = "Cantidad :";
             // 
-            // lbCantidadCase1
-            // 
-            this.lbCantidadCase1.FormattingEnabled = true;
-            this.lbCantidadCase1.ItemHeight = 15;
-            this.lbCantidadCase1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase1.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase1.Name = "lbCantidadCase1";
-            this.lbCantidadCase1.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase1.TabIndex = 7;
-            // 
             // btnComprarCase1
             // 
-            this.btnComprarCase1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(228)))), ((int)(((byte)(51)))));
+            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
             this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
             this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
             this.btnComprarCase1.Name = "btnComprarCase1";
@@ -210,8 +190,8 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.Controls.Add(this.cboCantidadCase4);
             this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.lbCantidadCase4);
             this.panel2.Controls.Add(this.btnComprarCase4);
             this.panel2.Controls.Add(this.lblPrecioCase4);
             this.panel2.Controls.Add(this.label2);
@@ -231,26 +211,6 @@
             this.label22.Size = new System.Drawing.Size(60, 13);
             this.label22.TabIndex = 10;
             this.label22.Text = "Cantidad :";
-            // 
-            // lbCantidadCase4
-            // 
-            this.lbCantidadCase4.FormattingEnabled = true;
-            this.lbCantidadCase4.ItemHeight = 15;
-            this.lbCantidadCase4.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase4.Location = new System.Drawing.Point(133, 221);
-            this.lbCantidadCase4.Name = "lbCantidadCase4";
-            this.lbCantidadCase4.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase4.TabIndex = 9;
             // 
             // btnComprarCase4
             // 
@@ -308,8 +268,8 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.cboCantidadCase2);
             this.panel3.Controls.Add(this.label20);
-            this.panel3.Controls.Add(this.lbCantidadCase2);
             this.panel3.Controls.Add(this.btnComprarCase2);
             this.panel3.Controls.Add(this.lblPrecioCase2);
             this.panel3.Controls.Add(this.label8);
@@ -329,26 +289,6 @@
             this.label20.Size = new System.Drawing.Size(60, 13);
             this.label20.TabIndex = 9;
             this.label20.Text = "Cantidad :";
-            // 
-            // lbCantidadCase2
-            // 
-            this.lbCantidadCase2.FormattingEnabled = true;
-            this.lbCantidadCase2.ItemHeight = 15;
-            this.lbCantidadCase2.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase2.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase2.Name = "lbCantidadCase2";
-            this.lbCantidadCase2.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase2.TabIndex = 9;
             // 
             // btnComprarCase2
             // 
@@ -407,8 +347,8 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.Controls.Add(this.cboCantidadCase3);
             this.panel4.Controls.Add(this.label21);
-            this.panel4.Controls.Add(this.lbCantidadCase3);
             this.panel4.Controls.Add(this.btnComprarCase3);
             this.panel4.Controls.Add(this.lblPrecioCase3);
             this.panel4.Controls.Add(this.label11);
@@ -428,26 +368,6 @@
             this.label21.Size = new System.Drawing.Size(60, 13);
             this.label21.TabIndex = 10;
             this.label21.Text = "Cantidad :";
-            // 
-            // lbCantidadCase3
-            // 
-            this.lbCantidadCase3.FormattingEnabled = true;
-            this.lbCantidadCase3.ItemHeight = 15;
-            this.lbCantidadCase3.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase3.Location = new System.Drawing.Point(133, 218);
-            this.lbCantidadCase3.Name = "lbCantidadCase3";
-            this.lbCantidadCase3.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase3.TabIndex = 10;
             // 
             // btnComprarCase3
             // 
@@ -505,8 +425,8 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.Controls.Add(this.cboCantidadCase5);
             this.panel5.Controls.Add(this.label23);
-            this.panel5.Controls.Add(this.lbCantidadCase5);
             this.panel5.Controls.Add(this.btnComprarCase5);
             this.panel5.Controls.Add(this.lblPrecioCase5);
             this.panel5.Controls.Add(this.label14);
@@ -526,26 +446,6 @@
             this.label23.Size = new System.Drawing.Size(60, 13);
             this.label23.TabIndex = 11;
             this.label23.Text = "Cantidad :";
-            // 
-            // lbCantidadCase5
-            // 
-            this.lbCantidadCase5.FormattingEnabled = true;
-            this.lbCantidadCase5.ItemHeight = 15;
-            this.lbCantidadCase5.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase5.Location = new System.Drawing.Point(133, 221);
-            this.lbCantidadCase5.Name = "lbCantidadCase5";
-            this.lbCantidadCase5.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase5.TabIndex = 10;
             // 
             // btnComprarCase5
             // 
@@ -603,8 +503,8 @@
             // panel6
             // 
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel6.Controls.Add(this.cboCantidadCase6);
             this.panel6.Controls.Add(this.label24);
-            this.panel6.Controls.Add(this.lbCantidadCase6);
             this.panel6.Controls.Add(this.btnComprarCase6);
             this.panel6.Controls.Add(this.lblPrecioCase6);
             this.panel6.Controls.Add(this.label17);
@@ -624,26 +524,6 @@
             this.label24.Size = new System.Drawing.Size(60, 13);
             this.label24.TabIndex = 12;
             this.label24.Text = "Cantidad :";
-            // 
-            // lbCantidadCase6
-            // 
-            this.lbCantidadCase6.FormattingEnabled = true;
-            this.lbCantidadCase6.ItemHeight = 15;
-            this.lbCantidadCase6.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.lbCantidadCase6.Location = new System.Drawing.Point(133, 221);
-            this.lbCantidadCase6.Name = "lbCantidadCase6";
-            this.lbCantidadCase6.Size = new System.Drawing.Size(56, 19);
-            this.lbCantidadCase6.TabIndex = 11;
             // 
             // btnComprarCase6
             // 
@@ -697,6 +577,156 @@
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox18.TabIndex = 0;
             this.pictureBox18.TabStop = false;
+            // 
+            // cboCantidadCase2
+            // 
+            this.cboCantidadCase2.FormattingEnabled = true;
+            this.cboCantidadCase2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase2.Location = new System.Drawing.Point(133, 217);
+            this.cboCantidadCase2.Name = "cboCantidadCase2";
+            this.cboCantidadCase2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase2.TabIndex = 16;
+            this.cboCantidadCase2.Text = "1";
+            // 
+            // cboCantidadCase1
+            // 
+            this.cboCantidadCase1.FormattingEnabled = true;
+            this.cboCantidadCase1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantidadCase1.Name = "cboCantidadCase1";
+            this.cboCantidadCase1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase1.TabIndex = 17;
+            this.cboCantidadCase1.Text = "1";
+            // 
+            // cboCantidadCase3
+            // 
+            this.cboCantidadCase3.FormattingEnabled = true;
+            this.cboCantidadCase3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase3.Location = new System.Drawing.Point(134, 214);
+            this.cboCantidadCase3.Name = "cboCantidadCase3";
+            this.cboCantidadCase3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase3.TabIndex = 17;
+            this.cboCantidadCase3.Text = "1";
+            // 
+            // cboCantidadCase4
+            // 
+            this.cboCantidadCase4.FormattingEnabled = true;
+            this.cboCantidadCase4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantidadCase4.Name = "cboCantidadCase4";
+            this.cboCantidadCase4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase4.TabIndex = 18;
+            this.cboCantidadCase4.Text = "1";
+            // 
+            // cboCantidadCase5
+            // 
+            this.cboCantidadCase5.FormattingEnabled = true;
+            this.cboCantidadCase5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase5.Location = new System.Drawing.Point(133, 217);
+            this.cboCantidadCase5.Name = "cboCantidadCase5";
+            this.cboCantidadCase5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase5.TabIndex = 19;
+            this.cboCantidadCase5.Text = "1";
+            // 
+            // cboCantidadCase6
+            // 
+            this.cboCantidadCase6.FormattingEnabled = true;
+            this.cboCantidadCase6.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantidadCase6.Location = new System.Drawing.Point(134, 217);
+            this.cboCantidadCase6.Name = "cboCantidadCase6";
+            this.cboCantidadCase6.Size = new System.Drawing.Size(46, 23);
+            this.cboCantidadCase6.TabIndex = 20;
+            this.cboCantidadCase6.Text = "1";
             // 
             // FormDelCase
             // 
@@ -783,16 +813,16 @@
         private PictureBox btnComprarCase1;
         private PictureBox btnComprarCase2;
         private Label label19;
-        private ListBox lbCantidadCase1;
         private Label label22;
-        private ListBox lbCantidadCase4;
         private Label label20;
-        private ListBox lbCantidadCase2;
         private Label label21;
-        private ListBox lbCantidadCase3;
         private Label label23;
-        private ListBox lbCantidadCase5;
         private Label label24;
-        private ListBox lbCantidadCase6;
+        private ComboBox cboCantidadCase2;
+        private ComboBox cboCantidadCase1;
+        private ComboBox cboCantidadCase4;
+        private ComboBox cboCantidadCase3;
+        private ComboBox cboCantidadCase5;
+        private ComboBox cboCantidadCase6;
     }
 }

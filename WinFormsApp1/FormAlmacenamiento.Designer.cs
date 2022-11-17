@@ -30,60 +30,60 @@
         {
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cboCantAlmacenamieto1 = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
-            this.lblPrecioCase1 = new System.Windows.Forms.Label();
+            this.btnAlmacenamieto1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioAlmacenamieto1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblCaseGamer1 = new System.Windows.Forms.Label();
+            this.lblAlmacenamieto1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnAlmacenamieto2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioAlmacenamieto2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblAlmacenamieto2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnAlmacenamieto3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioAlmacenamieto3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblAlmacenamieto3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.btnAlmacenamieto5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioAlmacenamieto5 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblAlmacenamieto5 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.btnAlmacenamieto4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioAlmacenamieto4 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblAlmacenamieto4 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cboCantAlmacenamieto2 = new System.Windows.Forms.ComboBox();
+            this.cboCantAlmacenamieto3 = new System.Windows.Forms.ComboBox();
+            this.cboCantAlmacenamieto4 = new System.Windows.Forms.ComboBox();
+            this.cboCantAlmacenamieto5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,17 +101,42 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cboCantAlmacenamieto1);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.btnComprarCase1);
-            this.panel1.Controls.Add(this.lblPrecioCase1);
+            this.panel1.Controls.Add(this.btnAlmacenamieto1);
+            this.panel1.Controls.Add(this.lblPrecioAlmacenamieto1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.lblCaseGamer1);
+            this.panel1.Controls.Add(this.lblAlmacenamieto1);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(44, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 8;
+            // 
+            // cboCantAlmacenamieto1
+            // 
+            this.cboCantAlmacenamieto1.FormattingEnabled = true;
+            this.cboCantAlmacenamieto1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboCantAlmacenamieto1.Location = new System.Drawing.Point(134, 217);
+            this.cboCantAlmacenamieto1.Name = "cboCantAlmacenamieto1";
+            this.cboCantAlmacenamieto1.Size = new System.Drawing.Size(46, 23);
+            this.cboCantAlmacenamieto1.TabIndex = 15;
+            this.cboCantAlmacenamieto1.Text = "1";
             // 
             // label19
             // 
@@ -123,26 +148,27 @@
             this.label19.TabIndex = 8;
             this.label19.Text = "Cantidad :";
             // 
-            // btnComprarCase1
+            // btnAlmacenamieto1
             // 
-            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
-            this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
-            this.btnComprarCase1.Name = "btnComprarCase1";
-            this.btnComprarCase1.Size = new System.Drawing.Size(56, 28);
-            this.btnComprarCase1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnComprarCase1.TabIndex = 6;
-            this.btnComprarCase1.TabStop = false;
+            this.btnAlmacenamieto1.BackColor = System.Drawing.Color.Yellow;
+            this.btnAlmacenamieto1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAlmacenamieto1.Location = new System.Drawing.Point(3, 212);
+            this.btnAlmacenamieto1.Name = "btnAlmacenamieto1";
+            this.btnAlmacenamieto1.Size = new System.Drawing.Size(56, 28);
+            this.btnAlmacenamieto1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAlmacenamieto1.TabIndex = 6;
+            this.btnAlmacenamieto1.TabStop = false;
+            this.btnAlmacenamieto1.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // lblPrecioCase1
+            // lblPrecioAlmacenamieto1
             // 
-            this.lblPrecioCase1.AutoSize = true;
-            this.lblPrecioCase1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblPrecioCase1.Location = new System.Drawing.Point(83, 193);
-            this.lblPrecioCase1.Name = "lblPrecioCase1";
-            this.lblPrecioCase1.Size = new System.Drawing.Size(74, 15);
-            this.lblPrecioCase1.TabIndex = 3;
-            this.lblPrecioCase1.Text = "$ 73.50 + IVA";
+            this.lblPrecioAlmacenamieto1.AutoSize = true;
+            this.lblPrecioAlmacenamieto1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioAlmacenamieto1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioAlmacenamieto1.Name = "lblPrecioAlmacenamieto1";
+            this.lblPrecioAlmacenamieto1.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioAlmacenamieto1.TabIndex = 3;
+            this.lblPrecioAlmacenamieto1.Text = "$ 73.50 + IVA";
             // 
             // label4
             // 
@@ -154,16 +180,16 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Precio :";
             // 
-            // lblCaseGamer1
+            // lblAlmacenamieto1
             // 
-            this.lblCaseGamer1.AutoSize = true;
-            this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer1.Location = new System.Drawing.Point(16, 158);
-            this.lblCaseGamer1.Name = "lblCaseGamer1";
-            this.lblCaseGamer1.Size = new System.Drawing.Size(155, 26);
-            this.lblCaseGamer1.TabIndex = 4;
-            this.lblCaseGamer1.Text = "SSD M2 NVME 512GB AS40G-\r\n  512GT-C M2 XPG SPECTR";
+            this.lblAlmacenamieto1.AutoSize = true;
+            this.lblAlmacenamieto1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAlmacenamieto1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblAlmacenamieto1.Location = new System.Drawing.Point(16, 158);
+            this.lblAlmacenamieto1.Name = "lblAlmacenamieto1";
+            this.lblAlmacenamieto1.Size = new System.Drawing.Size(155, 26);
+            this.lblAlmacenamieto1.TabIndex = 4;
+            this.lblAlmacenamieto1.Text = "SSD M2 NVME 512GB AS40G-\r\n  512GT-C M2 XPG SPECTR";
             // 
             // pictureBox5
             // 
@@ -178,12 +204,12 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.cboCantAlmacenamieto2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.btnAlmacenamieto2);
+            this.panel2.Controls.Add(this.lblPrecioAlmacenamieto2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.lblAlmacenamieto2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(266, 40);
             this.panel2.Name = "panel2";
@@ -200,26 +226,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnAlmacenamieto2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnAlmacenamieto2.BackColor = System.Drawing.Color.Yellow;
+            this.btnAlmacenamieto2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAlmacenamieto2.Location = new System.Drawing.Point(3, 212);
+            this.btnAlmacenamieto2.Name = "btnAlmacenamieto2";
+            this.btnAlmacenamieto2.Size = new System.Drawing.Size(56, 28);
+            this.btnAlmacenamieto2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAlmacenamieto2.TabIndex = 6;
+            this.btnAlmacenamieto2.TabStop = false;
+            this.btnAlmacenamieto2.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // label2
+            // lblPrecioAlmacenamieto2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 173.00 + IVA";
+            this.lblPrecioAlmacenamieto2.AutoSize = true;
+            this.lblPrecioAlmacenamieto2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioAlmacenamieto2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioAlmacenamieto2.Name = "lblPrecioAlmacenamieto2";
+            this.lblPrecioAlmacenamieto2.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioAlmacenamieto2.TabIndex = 3;
+            this.lblPrecioAlmacenamieto2.Text = "$ 173.00 + IVA";
             // 
             // label3
             // 
@@ -231,16 +258,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label5
+            // lblAlmacenamieto2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label5.Location = new System.Drawing.Point(0, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(194, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "SSD SATA 1.92TB ASU630SS-1T92Q-R \r\n                         ADATA";
+            this.lblAlmacenamieto2.AutoSize = true;
+            this.lblAlmacenamieto2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAlmacenamieto2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblAlmacenamieto2.Location = new System.Drawing.Point(0, 158);
+            this.lblAlmacenamieto2.Name = "lblAlmacenamieto2";
+            this.lblAlmacenamieto2.Size = new System.Drawing.Size(194, 26);
+            this.lblAlmacenamieto2.TabIndex = 4;
+            this.lblAlmacenamieto2.Text = "SSD SATA 1.92TB ASU630SS-1T92Q-R \r\n                         ADATA";
             // 
             // pictureBox2
             // 
@@ -255,12 +282,12 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.cboCantAlmacenamieto3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnAlmacenamieto3);
+            this.panel3.Controls.Add(this.lblPrecioAlmacenamieto3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblAlmacenamieto3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(488, 40);
             this.panel3.Name = "panel3";
@@ -277,26 +304,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnAlmacenamieto3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnAlmacenamieto3.BackColor = System.Drawing.Color.Yellow;
+            this.btnAlmacenamieto3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAlmacenamieto3.Location = new System.Drawing.Point(3, 212);
+            this.btnAlmacenamieto3.Name = "btnAlmacenamieto3";
+            this.btnAlmacenamieto3.Size = new System.Drawing.Size(56, 28);
+            this.btnAlmacenamieto3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAlmacenamieto3.TabIndex = 6;
+            this.btnAlmacenamieto3.TabStop = false;
+            this.btnAlmacenamieto3.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // label7
+            // lblPrecioAlmacenamieto3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 49.50 + IVA";
+            this.lblPrecioAlmacenamieto3.AutoSize = true;
+            this.lblPrecioAlmacenamieto3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioAlmacenamieto3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioAlmacenamieto3.Name = "lblPrecioAlmacenamieto3";
+            this.lblPrecioAlmacenamieto3.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioAlmacenamieto3.TabIndex = 3;
+            this.lblPrecioAlmacenamieto3.Text = "$ 49.50 + IVA";
             // 
             // label8
             // 
@@ -308,16 +336,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblAlmacenamieto3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(193, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "SSD SATA 512GB ASU650SS-512GT-R \r\n                        ADATA";
+            this.lblAlmacenamieto3.AutoSize = true;
+            this.lblAlmacenamieto3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAlmacenamieto3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblAlmacenamieto3.Location = new System.Drawing.Point(0, 158);
+            this.lblAlmacenamieto3.Name = "lblAlmacenamieto3";
+            this.lblAlmacenamieto3.Size = new System.Drawing.Size(193, 26);
+            this.lblAlmacenamieto3.TabIndex = 4;
+            this.lblAlmacenamieto3.Text = "SSD SATA 512GB ASU650SS-512GT-R \r\n                        ADATA";
             // 
             // pictureBox4
             // 
@@ -332,12 +360,12 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox5);
+            this.panel4.Controls.Add(this.cboCantAlmacenamieto5);
             this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.btnAlmacenamieto5);
+            this.panel4.Controls.Add(this.lblPrecioAlmacenamieto5);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.lblAlmacenamieto5);
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Location = new System.Drawing.Point(376, 299);
             this.panel4.Name = "panel4";
@@ -354,26 +382,27 @@
             this.label10.TabIndex = 8;
             this.label10.Text = "Cantidad :";
             // 
-            // pictureBox6
+            // btnAlmacenamieto5
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.btnAlmacenamieto5.BackColor = System.Drawing.Color.Yellow;
+            this.btnAlmacenamieto5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAlmacenamieto5.Location = new System.Drawing.Point(3, 212);
+            this.btnAlmacenamieto5.Name = "btnAlmacenamieto5";
+            this.btnAlmacenamieto5.Size = new System.Drawing.Size(56, 28);
+            this.btnAlmacenamieto5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAlmacenamieto5.TabIndex = 6;
+            this.btnAlmacenamieto5.TabStop = false;
+            this.btnAlmacenamieto5.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // label11
+            // lblPrecioAlmacenamieto5
             // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label11.Location = new System.Drawing.Point(83, 193);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 15);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "$ 97.00 + IVA";
+            this.lblPrecioAlmacenamieto5.AutoSize = true;
+            this.lblPrecioAlmacenamieto5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioAlmacenamieto5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioAlmacenamieto5.Name = "lblPrecioAlmacenamieto5";
+            this.lblPrecioAlmacenamieto5.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioAlmacenamieto5.TabIndex = 3;
+            this.lblPrecioAlmacenamieto5.Text = "$ 97.00 + IVA";
             // 
             // label12
             // 
@@ -385,16 +414,16 @@
             this.label12.TabIndex = 3;
             this.label12.Text = "Precio :";
             // 
-            // label13
+            // lblAlmacenamieto5
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label13.Location = new System.Drawing.Point(0, 158);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(195, 26);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "SSD M2 SATA 1TB ASU650NS38-1TT-C\r\n                         ADATA";
+            this.lblAlmacenamieto5.AutoSize = true;
+            this.lblAlmacenamieto5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAlmacenamieto5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblAlmacenamieto5.Location = new System.Drawing.Point(0, 158);
+            this.lblAlmacenamieto5.Name = "lblAlmacenamieto5";
+            this.lblAlmacenamieto5.Size = new System.Drawing.Size(195, 26);
+            this.lblAlmacenamieto5.TabIndex = 4;
+            this.lblAlmacenamieto5.Text = "SSD M2 SATA 1TB ASU650NS38-1TT-C\r\n                         ADATA";
             // 
             // pictureBox7
             // 
@@ -409,12 +438,12 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox4);
+            this.panel5.Controls.Add(this.cboCantAlmacenamieto4);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.btnAlmacenamieto4);
+            this.panel5.Controls.Add(this.lblPrecioAlmacenamieto4);
             this.panel5.Controls.Add(this.label16);
-            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.lblAlmacenamieto4);
             this.panel5.Controls.Add(this.pictureBox9);
             this.panel5.Location = new System.Drawing.Point(127, 299);
             this.panel5.Name = "panel5";
@@ -431,26 +460,27 @@
             this.label14.TabIndex = 8;
             this.label14.Text = "Cantidad :";
             // 
-            // pictureBox8
+            // btnAlmacenamieto4
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox8.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 6;
-            this.pictureBox8.TabStop = false;
+            this.btnAlmacenamieto4.BackColor = System.Drawing.Color.Yellow;
+            this.btnAlmacenamieto4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnAlmacenamieto4.Location = new System.Drawing.Point(3, 212);
+            this.btnAlmacenamieto4.Name = "btnAlmacenamieto4";
+            this.btnAlmacenamieto4.Size = new System.Drawing.Size(56, 28);
+            this.btnAlmacenamieto4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAlmacenamieto4.TabIndex = 6;
+            this.btnAlmacenamieto4.TabStop = false;
+            this.btnAlmacenamieto4.Click += new System.EventHandler(this.btnComprarCase1_Click);
             // 
-            // label15
+            // lblPrecioAlmacenamieto4
             // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label15.Location = new System.Drawing.Point(83, 193);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(74, 15);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "$ 35.50 + IVA";
+            this.lblPrecioAlmacenamieto4.AutoSize = true;
+            this.lblPrecioAlmacenamieto4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioAlmacenamieto4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioAlmacenamieto4.Name = "lblPrecioAlmacenamieto4";
+            this.lblPrecioAlmacenamieto4.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioAlmacenamieto4.TabIndex = 3;
+            this.lblPrecioAlmacenamieto4.Text = "$ 35.50 + IVA";
             // 
             // label16
             // 
@@ -462,16 +492,16 @@
             this.label16.TabIndex = 3;
             this.label16.Text = "Precio :";
             // 
-            // label17
+            // lblAlmacenamieto4
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label17.Location = new System.Drawing.Point(2, 158);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(180, 26);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "SSD M2 SATA 256GB ASU650NS38-\r\n               256GT-C ADATA";
+            this.lblAlmacenamieto4.AutoSize = true;
+            this.lblAlmacenamieto4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAlmacenamieto4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblAlmacenamieto4.Location = new System.Drawing.Point(2, 158);
+            this.lblAlmacenamieto4.Name = "lblAlmacenamieto4";
+            this.lblAlmacenamieto4.Size = new System.Drawing.Size(180, 26);
+            this.lblAlmacenamieto4.TabIndex = 4;
+            this.lblAlmacenamieto4.Text = "SSD M2 SATA 256GB ASU650NS38-\r\n               256GT-C ADATA";
             // 
             // pictureBox9
             // 
@@ -483,10 +513,11 @@
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             // 
-            // comboBox1
+            // cboCantAlmacenamieto2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboCantAlmacenamieto2.FormattingEnabled = true;
+            this.cboCantAlmacenamieto2.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -501,16 +532,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 15;
-            this.comboBox1.Text = "1";
+            this.cboCantAlmacenamieto2.Location = new System.Drawing.Point(134, 217);
+            this.cboCantAlmacenamieto2.Name = "cboCantAlmacenamieto2";
+            this.cboCantAlmacenamieto2.Size = new System.Drawing.Size(46, 23);
+            this.cboCantAlmacenamieto2.TabIndex = 16;
+            this.cboCantAlmacenamieto2.Text = "1";
             // 
-            // comboBox2
+            // cboCantAlmacenamieto3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboCantAlmacenamieto3.FormattingEnabled = true;
+            this.cboCantAlmacenamieto3.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -525,16 +557,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 15;
-            this.comboBox2.Text = "1";
+            this.cboCantAlmacenamieto3.Location = new System.Drawing.Point(134, 217);
+            this.cboCantAlmacenamieto3.Name = "cboCantAlmacenamieto3";
+            this.cboCantAlmacenamieto3.Size = new System.Drawing.Size(46, 23);
+            this.cboCantAlmacenamieto3.TabIndex = 16;
+            this.cboCantAlmacenamieto3.Text = "1";
             // 
-            // comboBox3
+            // cboCantAlmacenamieto4
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboCantAlmacenamieto4.FormattingEnabled = true;
+            this.cboCantAlmacenamieto4.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -549,16 +582,17 @@
             "13",
             "14",
             "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 15;
-            this.comboBox3.Text = "1";
+            this.cboCantAlmacenamieto4.Location = new System.Drawing.Point(134, 217);
+            this.cboCantAlmacenamieto4.Name = "cboCantAlmacenamieto4";
+            this.cboCantAlmacenamieto4.Size = new System.Drawing.Size(46, 23);
+            this.cboCantAlmacenamieto4.TabIndex = 16;
+            this.cboCantAlmacenamieto4.Text = "1";
             // 
-            // comboBox4
+            // cboCantAlmacenamieto5
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboCantAlmacenamieto5.FormattingEnabled = true;
+            this.cboCantAlmacenamieto5.Items.AddRange(new object[] {
+            "1",
             "2",
             "3",
             "4",
@@ -573,35 +607,11 @@
             "13",
             "14",
             "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 15;
-            this.comboBox4.Text = "1";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox5.Location = new System.Drawing.Point(134, 217);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(46, 23);
-            this.comboBox5.TabIndex = 15;
-            this.comboBox5.Text = "1";
+            this.cboCantAlmacenamieto5.Location = new System.Drawing.Point(134, 217);
+            this.cboCantAlmacenamieto5.Name = "cboCantAlmacenamieto5";
+            this.cboCantAlmacenamieto5.Size = new System.Drawing.Size(46, 23);
+            this.cboCantAlmacenamieto5.TabIndex = 17;
+            this.cboCantAlmacenamieto5.Text = "1";
             // 
             // FormAlmacenamiento
             // 
@@ -620,23 +630,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlmacenamieto4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
@@ -647,43 +657,43 @@
         private PictureBox btnCerrar1;
         private Panel panel1;
         private Label label19;
-        private PictureBox btnComprarCase1;
-        private Label lblPrecioCase1;
+        private PictureBox btnAlmacenamieto1;
+        private Label lblPrecioAlmacenamieto1;
         private Label label4;
-        private Label lblCaseGamer1;
+        private Label lblAlmacenamieto1;
         private PictureBox pictureBox5;
         private Panel panel2;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnAlmacenamieto2;
+        private Label lblPrecioAlmacenamieto2;
         private Label label3;
-        private Label label5;
+        private Label lblAlmacenamieto2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnAlmacenamieto3;
+        private Label lblPrecioAlmacenamieto3;
         private Label label8;
-        private Label label9;
+        private Label lblAlmacenamieto3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label10;
-        private PictureBox pictureBox6;
-        private Label label11;
+        private PictureBox btnAlmacenamieto5;
+        private Label lblPrecioAlmacenamieto5;
         private Label label12;
-        private Label label13;
+        private Label lblAlmacenamieto5;
         private PictureBox pictureBox7;
         private Panel panel5;
         private Label label14;
-        private PictureBox pictureBox8;
-        private Label label15;
+        private PictureBox btnAlmacenamieto4;
+        private Label lblPrecioAlmacenamieto4;
         private Label label16;
-        private Label label17;
+        private Label lblAlmacenamieto4;
         private PictureBox pictureBox9;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox5;
-        private ComboBox comboBox4;
+        private ComboBox cboCantAlmacenamieto1;
+        private ComboBox cboCantAlmacenamieto2;
+        private ComboBox cboCantAlmacenamieto3;
+        private ComboBox cboCantAlmacenamieto5;
+        private ComboBox cboCantAlmacenamieto4;
     }
 }

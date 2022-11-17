@@ -12,9 +12,10 @@ using System.Windows.Forms;
 namespace TiendaPerrona  
 {
   
-    public partial class FormDelCase : Form 
+    public partial class FormDelCase : Form
     {
        private MensajeAgregado form1 = new MensajeAgregado();
+
         public FormDelCase()
         {
             InitializeComponent();
@@ -32,7 +33,6 @@ namespace TiendaPerrona
             
             PictureBox btnSeleccionado = sender as PictureBox;
             IdentifyButton(btnSeleccionado);
-           // MessageBox.Show($"El nombre del producto es: {Carrito.ProductosComprados.ElementAt(n).NombreProducto}" ,"test");
         }
 
         private void IdentifyButton(PictureBox b)
@@ -42,27 +42,27 @@ namespace TiendaPerrona
             {
                 case "btnComprarCase1":
                     precio = sacarPrecio(lblPrecioCase1, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer1.Text,precio,Convert.ToInt32(lbCantidadCase1.Text));  
+                    Carrito.AddProduct(lblCaseGamer1.Text,precio, Convert.ToInt32(cboCantidadCase1.SelectedItem.ToString()));  
                     break;
                 case "btnComprarCase2":
                     precio = sacarPrecio(lblPrecioCase2, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer2.Text, precio, Convert.ToInt32(lbCantidadCase2.Text));
+                    Carrito.AddProduct(lblCaseGamer2.Text, precio, Convert.ToInt32(cboCantidadCase2.SelectedItem.ToString()));
                     break;
                 case "btnComprarCase3":
                     precio = sacarPrecio(lblPrecioCase3, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer3.Text, precio, Convert.ToInt32(lbCantidadCase3.Text));
+                    Carrito.AddProduct(lblCaseGamer3.Text, precio, Convert.ToInt32(cboCantidadCase3.SelectedItem.ToString()));
                     break;
                 case "btnComprarCase4":
                     precio = sacarPrecio(lblPrecioCase4, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer4.Text, precio, Convert.ToInt32(lbCantidadCase4.Text));
+                    Carrito.AddProduct(lblCaseGamer4.Text, precio, Convert.ToInt32(cboCantidadCase4.SelectedItem.ToString()));
                     break;
                 case "btnComprarCase5":
                     precio = sacarPrecio(lblPrecioCase5, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer5.Text, precio, Convert.ToInt32(lbCantidadCase5.Text));
+                    Carrito.AddProduct(lblCaseGamer5.Text, precio, Convert.ToInt32(cboCantidadCase5.SelectedItem.ToString()));
                     break;
                 case "btnComprarCase6":
                     precio = sacarPrecio(lblPrecioCase6, "$", "+ IVA");
-                    Carrito.AddProduct(lblCaseGamer6.Text, precio, Convert.ToInt32(lbCantidadCase6.Text));
+                    Carrito.AddProduct(lblCaseGamer6.Text, precio, Convert.ToInt32(cboCantidadCase6.SelectedItem.ToString()));
                     break;
             }
         }
@@ -79,5 +79,11 @@ namespace TiendaPerrona
         {
 
         }
+
+        private void lbCantidadCase6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

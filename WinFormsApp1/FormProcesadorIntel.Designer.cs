@@ -30,70 +30,70 @@
         {
             this.btnCerrar2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.cboProcesador1 = new System.Windows.Forms.ComboBox();
+            this.btnComprarProcesador1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioProcesador1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblProcesador1 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.cboProcesador2 = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnComprarProcesador2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioProcesador2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblProcesador2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.cboProcesador3 = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.btnComprarProcesador3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioProcesador3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblProcesador3 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.cboProcesador4 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnComprarProcesador4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioProcesador4 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblProcesador4 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.cboProcesador5 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.btnComprarProcesador5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioProcesador5 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblProcesador5 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.cboProcesador1 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -115,10 +115,10 @@
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.cboProcesador1);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.btnComprarProcesador1);
+            this.panel1.Controls.Add(this.lblPrecioProcesador1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.lblProcesador1);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(43, 43);
@@ -126,26 +126,62 @@
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 7;
             // 
-            // pictureBox3
+            // label16
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(72, 218);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(60, 13);
+            this.label16.TabIndex = 9;
+            this.label16.Text = "Cantidad :";
             // 
-            // label3
+            // cboProcesador1
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label3.Location = new System.Drawing.Point(80, 193);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "$ 569.00 + IVA";
+            this.cboProcesador1.FormattingEnabled = true;
+            this.cboProcesador1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador1.Location = new System.Drawing.Point(138, 214);
+            this.cboProcesador1.Name = "cboProcesador1";
+            this.cboProcesador1.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador1.TabIndex = 6;
+            this.cboProcesador1.Text = "1";
+            // 
+            // btnComprarProcesador1
+            // 
+            this.btnComprarProcesador1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarProcesador1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarProcesador1.Location = new System.Drawing.Point(15, 212);
+            this.btnComprarProcesador1.Name = "btnComprarProcesador1";
+            this.btnComprarProcesador1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarProcesador1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarProcesador1.TabIndex = 5;
+            this.btnComprarProcesador1.TabStop = false;
+            this.btnComprarProcesador1.Click += new System.EventHandler(this.btnComprarProcesador1_Click);
+            // 
+            // lblPrecioProcesador1
+            // 
+            this.lblPrecioProcesador1.AutoSize = true;
+            this.lblPrecioProcesador1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioProcesador1.Location = new System.Drawing.Point(80, 193);
+            this.lblPrecioProcesador1.Name = "lblPrecioProcesador1";
+            this.lblPrecioProcesador1.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioProcesador1.TabIndex = 3;
+            this.lblPrecioProcesador1.Text = "$ 569.00 + IVA";
             // 
             // label4
             // 
@@ -157,16 +193,16 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Precio :";
             // 
-            // label5
+            // lblProcesador1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label5.Location = new System.Drawing.Point(17, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "PROCESADOR CORE I7 -12700K \r\n               LGA 1700\r\n";
+            this.lblProcesador1.AutoSize = true;
+            this.lblProcesador1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblProcesador1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblProcesador1.Location = new System.Drawing.Point(17, 158);
+            this.lblProcesador1.Name = "lblProcesador1";
+            this.lblProcesador1.Size = new System.Drawing.Size(169, 26);
+            this.lblProcesador1.TabIndex = 4;
+            this.lblProcesador1.Text = "PROCESADOR CORE I7 -12700K \r\n               LGA 1700\r\n";
             // 
             // pictureBox4
             // 
@@ -191,12 +227,12 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.Controls.Add(this.cboProcesador2);
             this.panel2.Controls.Add(this.label17);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnComprarProcesador2);
+            this.panel2.Controls.Add(this.lblPrecioProcesador2);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.lblProcesador2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Location = new System.Drawing.Point(262, 43);
@@ -204,26 +240,62 @@
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 8;
             // 
-            // pictureBox1
+            // cboProcesador2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.cboProcesador2.FormattingEnabled = true;
+            this.cboProcesador2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador2.Location = new System.Drawing.Point(138, 214);
+            this.cboProcesador2.Name = "cboProcesador2";
+            this.cboProcesador2.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador2.TabIndex = 10;
+            this.cboProcesador2.Text = "1";
             // 
-            // label1
+            // label17
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label1.Location = new System.Drawing.Point(80, 193);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "$ 835.00 + IVA";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(74, 218);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(60, 13);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "Cantidad :";
+            // 
+            // btnComprarProcesador2
+            // 
+            this.btnComprarProcesador2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarProcesador2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarProcesador2.Location = new System.Drawing.Point(12, 212);
+            this.btnComprarProcesador2.Name = "btnComprarProcesador2";
+            this.btnComprarProcesador2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarProcesador2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarProcesador2.TabIndex = 5;
+            this.btnComprarProcesador2.TabStop = false;
+            this.btnComprarProcesador2.Click += new System.EventHandler(this.btnComprarProcesador1_Click);
+            // 
+            // lblPrecioProcesador2
+            // 
+            this.lblPrecioProcesador2.AutoSize = true;
+            this.lblPrecioProcesador2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioProcesador2.Location = new System.Drawing.Point(80, 193);
+            this.lblPrecioProcesador2.Name = "lblPrecioProcesador2";
+            this.lblPrecioProcesador2.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioProcesador2.TabIndex = 3;
+            this.lblPrecioProcesador2.Text = "$ 835.00 + IVA";
             // 
             // label2
             // 
@@ -235,16 +307,16 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Precio :";
             // 
-            // label6
+            // lblProcesador2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label6.Location = new System.Drawing.Point(12, 158);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 26);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "PROCESADOR CORE I9-12900K\r\n                 LGA 1700";
+            this.lblProcesador2.AutoSize = true;
+            this.lblProcesador2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblProcesador2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblProcesador2.Location = new System.Drawing.Point(12, 158);
+            this.lblProcesador2.Name = "lblProcesador2";
+            this.lblProcesador2.Size = new System.Drawing.Size(163, 26);
+            this.lblProcesador2.TabIndex = 4;
+            this.lblProcesador2.Text = "PROCESADOR CORE I9-12900K\r\n                 LGA 1700";
             // 
             // pictureBox2
             // 
@@ -269,12 +341,12 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.cboProcesador3);
             this.panel3.Controls.Add(this.label18);
-            this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.pictureBox7);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarProcesador3);
+            this.panel3.Controls.Add(this.lblPrecioProcesador3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblProcesador3);
             this.panel3.Controls.Add(this.pictureBox8);
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Location = new System.Drawing.Point(481, 43);
@@ -282,26 +354,62 @@
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 9;
             // 
-            // pictureBox7
+            // cboProcesador3
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox7.Location = new System.Drawing.Point(6, 209);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 5;
-            this.pictureBox7.TabStop = false;
+            this.cboProcesador3.FormattingEnabled = true;
+            this.cboProcesador3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador3.Location = new System.Drawing.Point(134, 214);
+            this.cboProcesador3.Name = "cboProcesador3";
+            this.cboProcesador3.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador3.TabIndex = 11;
+            this.cboProcesador3.Text = "1";
             // 
-            // label7
+            // label18
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(80, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 98.00 + IVA";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(68, 218);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(60, 13);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Cantidad :";
+            // 
+            // btnComprarProcesador3
+            // 
+            this.btnComprarProcesador3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarProcesador3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarProcesador3.Location = new System.Drawing.Point(6, 209);
+            this.btnComprarProcesador3.Name = "btnComprarProcesador3";
+            this.btnComprarProcesador3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarProcesador3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarProcesador3.TabIndex = 5;
+            this.btnComprarProcesador3.TabStop = false;
+            this.btnComprarProcesador3.Click += new System.EventHandler(this.btnComprarProcesador1_Click);
+            // 
+            // lblPrecioProcesador3
+            // 
+            this.lblPrecioProcesador3.AutoSize = true;
+            this.lblPrecioProcesador3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioProcesador3.Location = new System.Drawing.Point(80, 193);
+            this.lblPrecioProcesador3.Name = "lblPrecioProcesador3";
+            this.lblPrecioProcesador3.Size = new System.Drawing.Size(74, 15);
+            this.lblPrecioProcesador3.TabIndex = 3;
+            this.lblPrecioProcesador3.Text = "$ 98.00 + IVA";
             // 
             // label8
             // 
@@ -313,16 +421,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblProcesador3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(12, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(166, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "PROCESADOR CORE I3-10100F \r\n                   LGA 1200";
+            this.lblProcesador3.AutoSize = true;
+            this.lblProcesador3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblProcesador3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblProcesador3.Location = new System.Drawing.Point(12, 158);
+            this.lblProcesador3.Name = "lblProcesador3";
+            this.lblProcesador3.Size = new System.Drawing.Size(166, 26);
+            this.lblProcesador3.TabIndex = 4;
+            this.lblProcesador3.Text = "PROCESADOR CORE I3-10100F \r\n                   LGA 1200";
             // 
             // pictureBox8
             // 
@@ -347,12 +455,12 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.Controls.Add(this.cboProcesador4);
             this.panel4.Controls.Add(this.label19);
-            this.panel4.Controls.Add(this.comboBox3);
-            this.panel4.Controls.Add(this.pictureBox10);
-            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.btnComprarProcesador4);
+            this.panel4.Controls.Add(this.lblPrecioProcesador4);
             this.panel4.Controls.Add(this.label11);
-            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.lblProcesador4);
             this.panel4.Controls.Add(this.pictureBox11);
             this.panel4.Controls.Add(this.pictureBox12);
             this.panel4.Location = new System.Drawing.Point(150, 292);
@@ -360,26 +468,62 @@
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 8;
             // 
-            // pictureBox10
+            // cboProcesador4
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox10.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox10.Location = new System.Drawing.Point(3, 215);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 5;
-            this.pictureBox10.TabStop = false;
+            this.cboProcesador4.FormattingEnabled = true;
+            this.cboProcesador4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador4.Location = new System.Drawing.Point(131, 216);
+            this.cboProcesador4.Name = "cboProcesador4";
+            this.cboProcesador4.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador4.TabIndex = 11;
+            this.cboProcesador4.Text = "1";
             // 
-            // label10
+            // label19
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label10.Location = new System.Drawing.Point(80, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 15);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "$ 189.00 + IVA";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(65, 220);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 13);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "Cantidad :";
+            // 
+            // btnComprarProcesador4
+            // 
+            this.btnComprarProcesador4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarProcesador4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarProcesador4.Location = new System.Drawing.Point(3, 215);
+            this.btnComprarProcesador4.Name = "btnComprarProcesador4";
+            this.btnComprarProcesador4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarProcesador4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarProcesador4.TabIndex = 5;
+            this.btnComprarProcesador4.TabStop = false;
+            this.btnComprarProcesador4.Click += new System.EventHandler(this.btnComprarProcesador1_Click);
+            // 
+            // lblPrecioProcesador4
+            // 
+            this.lblPrecioProcesador4.AutoSize = true;
+            this.lblPrecioProcesador4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioProcesador4.Location = new System.Drawing.Point(80, 193);
+            this.lblPrecioProcesador4.Name = "lblPrecioProcesador4";
+            this.lblPrecioProcesador4.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioProcesador4.TabIndex = 3;
+            this.lblPrecioProcesador4.Text = "$ 189.00 + IVA";
             // 
             // label11
             // 
@@ -391,16 +535,16 @@
             this.label11.TabIndex = 3;
             this.label11.Text = "Precio :";
             // 
-            // label12
+            // lblProcesador4
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label12.Location = new System.Drawing.Point(17, 158);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(157, 39);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "PROCESADOR CORE I3-12100\r\n               LGA 1700\r\n\r\n";
+            this.lblProcesador4.AutoSize = true;
+            this.lblProcesador4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblProcesador4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblProcesador4.Location = new System.Drawing.Point(17, 158);
+            this.lblProcesador4.Name = "lblProcesador4";
+            this.lblProcesador4.Size = new System.Drawing.Size(157, 39);
+            this.lblProcesador4.TabIndex = 4;
+            this.lblProcesador4.Text = "PROCESADOR CORE I3-12100\r\n               LGA 1700\r\n\r\n";
             // 
             // pictureBox11
             // 
@@ -425,12 +569,12 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.Controls.Add(this.cboProcesador5);
             this.panel5.Controls.Add(this.label20);
-            this.panel5.Controls.Add(this.comboBox4);
-            this.panel5.Controls.Add(this.pictureBox13);
-            this.panel5.Controls.Add(this.label13);
+            this.panel5.Controls.Add(this.btnComprarProcesador5);
+            this.panel5.Controls.Add(this.lblPrecioProcesador5);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.lblProcesador5);
             this.panel5.Controls.Add(this.pictureBox14);
             this.panel5.Controls.Add(this.pictureBox15);
             this.panel5.Location = new System.Drawing.Point(369, 292);
@@ -438,26 +582,62 @@
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 9;
             // 
-            // pictureBox13
+            // cboProcesador5
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox13.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox13.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 5;
-            this.pictureBox13.TabStop = false;
+            this.cboProcesador5.FormattingEnabled = true;
+            this.cboProcesador5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboProcesador5.Location = new System.Drawing.Point(131, 217);
+            this.cboProcesador5.Name = "cboProcesador5";
+            this.cboProcesador5.Size = new System.Drawing.Size(46, 23);
+            this.cboProcesador5.TabIndex = 11;
+            this.cboProcesador5.Text = "1";
             // 
-            // label13
+            // label20
             // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label13.Location = new System.Drawing.Point(80, 193);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 15);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "$ 215.00 + IVA";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(65, 220);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "Cantidad :";
+            // 
+            // btnComprarProcesador5
+            // 
+            this.btnComprarProcesador5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarProcesador5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarProcesador5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarProcesador5.Name = "btnComprarProcesador5";
+            this.btnComprarProcesador5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarProcesador5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarProcesador5.TabIndex = 5;
+            this.btnComprarProcesador5.TabStop = false;
+            this.btnComprarProcesador5.Click += new System.EventHandler(this.btnComprarProcesador1_Click);
+            // 
+            // lblPrecioProcesador5
+            // 
+            this.lblPrecioProcesador5.AutoSize = true;
+            this.lblPrecioProcesador5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioProcesador5.Location = new System.Drawing.Point(80, 193);
+            this.lblPrecioProcesador5.Name = "lblPrecioProcesador5";
+            this.lblPrecioProcesador5.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioProcesador5.TabIndex = 3;
+            this.lblPrecioProcesador5.Text = "$ 215.00 + IVA";
             // 
             // label14
             // 
@@ -469,16 +649,16 @@
             this.label14.TabIndex = 3;
             this.label14.Text = "Precio :";
             // 
-            // label15
+            // lblProcesador5
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label15.Location = new System.Drawing.Point(17, 158);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(157, 39);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "PROCESADOR CORE I5-10400\r\n               LGA 1200\r\n\r\n";
+            this.lblProcesador5.AutoSize = true;
+            this.lblProcesador5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblProcesador5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblProcesador5.Location = new System.Drawing.Point(17, 158);
+            this.lblProcesador5.Name = "lblProcesador5";
+            this.lblProcesador5.Size = new System.Drawing.Size(157, 39);
+            this.lblProcesador5.TabIndex = 4;
+            this.lblProcesador5.Text = "PROCESADOR CORE I5-10400\r\n               LGA 1200\r\n\r\n";
             // 
             // pictureBox14
             // 
@@ -510,176 +690,6 @@
             this.pictureBox16.TabIndex = 10;
             this.pictureBox16.TabStop = false;
             // 
-            // cboProcesador1
-            // 
-            this.cboProcesador1.FormattingEnabled = true;
-            this.cboProcesador1.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.cboProcesador1.Location = new System.Drawing.Point(138, 214);
-            this.cboProcesador1.Name = "cboProcesador1";
-            this.cboProcesador1.Size = new System.Drawing.Size(46, 23);
-            this.cboProcesador1.TabIndex = 6;
-            this.cboProcesador1.Text = "1";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(72, 218);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(60, 13);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Cantidad :";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(74, 218);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(60, 13);
-            this.label17.TabIndex = 12;
-            this.label17.Text = "Cantidad :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox1.Location = new System.Drawing.Point(140, 214);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.Text = "1";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(68, 218);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 13);
-            this.label18.TabIndex = 12;
-            this.label18.Text = "Cantidad :";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 214);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 11;
-            this.comboBox2.Text = "1";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(65, 220);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(60, 13);
-            this.label19.TabIndex = 12;
-            this.label19.Text = "Cantidad :";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox3.Location = new System.Drawing.Point(131, 216);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 11;
-            this.comboBox3.Text = "1";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(65, 220);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 13);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "Cantidad :";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox4.Location = new System.Drawing.Point(131, 216);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 11;
-            this.comboBox4.Text = "1";
-            // 
             // FormProcesadorIntel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -699,27 +709,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarProcesador5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -731,50 +741,50 @@
 
         private PictureBox btnCerrar2;
         private Panel panel1;
-        private PictureBox pictureBox3;
-        private Label label3;
+        private PictureBox btnComprarProcesador1;
+        private Label lblPrecioProcesador1;
         private Label label4;
-        private Label label5;
+        private Label lblProcesador1;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Panel panel2;
-        private PictureBox pictureBox1;
-        private Label label1;
+        private PictureBox btnComprarProcesador2;
+        private Label lblPrecioProcesador2;
         private Label label2;
-        private Label label6;
+        private Label lblProcesador2;
         private PictureBox pictureBox2;
         private PictureBox pictureBox6;
         private Panel panel3;
-        private PictureBox pictureBox7;
-        private Label label7;
+        private PictureBox btnComprarProcesador3;
+        private Label lblPrecioProcesador3;
         private Label label8;
-        private Label label9;
+        private Label lblProcesador3;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Panel panel4;
-        private PictureBox pictureBox10;
-        private Label label10;
+        private PictureBox btnComprarProcesador4;
+        private Label lblPrecioProcesador4;
         private Label label11;
-        private Label label12;
+        private Label lblProcesador4;
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Panel panel5;
-        private PictureBox pictureBox13;
-        private Label label13;
+        private PictureBox btnComprarProcesador5;
+        private Label lblPrecioProcesador5;
         private Label label14;
-        private Label label15;
+        private Label lblProcesador5;
         private PictureBox pictureBox14;
         private PictureBox pictureBox15;
         private PictureBox pictureBox16;
         private ComboBox cboProcesador1;
         private Label label16;
         private Label label17;
-        private ComboBox comboBox1;
         private Label label18;
-        private ComboBox comboBox2;
         private Label label19;
-        private ComboBox comboBox3;
         private Label label20;
-        private ComboBox comboBox4;
+        private ComboBox cboProcesador2;
+        private ComboBox cboProcesador3;
+        private ComboBox cboProcesador4;
+        private ComboBox cboProcesador5;
     }
 }

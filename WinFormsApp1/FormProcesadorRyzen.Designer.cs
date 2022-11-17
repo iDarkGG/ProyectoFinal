@@ -29,60 +29,60 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cboRyzen1 = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.btnComprarCase1 = new System.Windows.Forms.PictureBox();
-            this.lblPrecioCase1 = new System.Windows.Forms.Label();
+            this.btnComprarRyzen1 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioRyzen1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblCaseGamer1 = new System.Windows.Forms.Label();
+            this.lblRyzen1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cboRyzen2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprarRyzen2 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioRyzen2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblRyzen2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cboRyzen3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnComprarRyzen3 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioRyzen3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblRyzen3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.cboRyzen5 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.btnComprarRyzen5 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioRyzen5 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblRyzen5 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.cboRyzen4 = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.btnComprarRyzen4 = new System.Windows.Forms.PictureBox();
+            this.lblPrecioRyzen4 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblRyzen4 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btnCerrar1 = new System.Windows.Forms.PictureBox();
-            this.cboProcesador2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).BeginInit();
             this.SuspendLayout();
@@ -90,17 +90,42 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cboRyzen1);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.btnComprarCase1);
-            this.panel1.Controls.Add(this.lblPrecioCase1);
+            this.panel1.Controls.Add(this.btnComprarRyzen1);
+            this.panel1.Controls.Add(this.lblPrecioRyzen1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.lblCaseGamer1);
+            this.panel1.Controls.Add(this.lblRyzen1);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(44, 50);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 243);
             this.panel1.TabIndex = 7;
+            // 
+            // cboRyzen1
+            // 
+            this.cboRyzen1.FormattingEnabled = true;
+            this.cboRyzen1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboRyzen1.Location = new System.Drawing.Point(134, 217);
+            this.cboRyzen1.Name = "cboRyzen1";
+            this.cboRyzen1.Size = new System.Drawing.Size(46, 23);
+            this.cboRyzen1.TabIndex = 13;
+            this.cboRyzen1.Text = "1";
             // 
             // label19
             // 
@@ -112,26 +137,27 @@
             this.label19.TabIndex = 8;
             this.label19.Text = "Cantidad :";
             // 
-            // btnComprarCase1
+            // btnComprarRyzen1
             // 
-            this.btnComprarCase1.BackColor = System.Drawing.Color.Yellow;
-            this.btnComprarCase1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.btnComprarCase1.Location = new System.Drawing.Point(3, 212);
-            this.btnComprarCase1.Name = "btnComprarCase1";
-            this.btnComprarCase1.Size = new System.Drawing.Size(56, 28);
-            this.btnComprarCase1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnComprarCase1.TabIndex = 6;
-            this.btnComprarCase1.TabStop = false;
+            this.btnComprarRyzen1.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarRyzen1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarRyzen1.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarRyzen1.Name = "btnComprarRyzen1";
+            this.btnComprarRyzen1.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarRyzen1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarRyzen1.TabIndex = 6;
+            this.btnComprarRyzen1.TabStop = false;
+            this.btnComprarRyzen1.Click += new System.EventHandler(this.btnComprarRyzen1_Click);
             // 
-            // lblPrecioCase1
+            // lblPrecioRyzen1
             // 
-            this.lblPrecioCase1.AutoSize = true;
-            this.lblPrecioCase1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblPrecioCase1.Location = new System.Drawing.Point(83, 193);
-            this.lblPrecioCase1.Name = "lblPrecioCase1";
-            this.lblPrecioCase1.Size = new System.Drawing.Size(80, 15);
-            this.lblPrecioCase1.TabIndex = 3;
-            this.lblPrecioCase1.Text = "$ 270.57 + IVA";
+            this.lblPrecioRyzen1.AutoSize = true;
+            this.lblPrecioRyzen1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioRyzen1.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioRyzen1.Name = "lblPrecioRyzen1";
+            this.lblPrecioRyzen1.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioRyzen1.TabIndex = 3;
+            this.lblPrecioRyzen1.Text = "$ 270.57 + IVA";
             // 
             // label4
             // 
@@ -143,16 +169,16 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Precio :";
             // 
-            // lblCaseGamer1
+            // lblRyzen1
             // 
-            this.lblCaseGamer1.AutoSize = true;
-            this.lblCaseGamer1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCaseGamer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.lblCaseGamer1.Location = new System.Drawing.Point(50, 158);
-            this.lblCaseGamer1.Name = "lblCaseGamer1";
-            this.lblCaseGamer1.Size = new System.Drawing.Size(111, 13);
-            this.lblCaseGamer1.TabIndex = 4;
-            this.lblCaseGamer1.Text = "AMD RYZEN 7 5700G";
+            this.lblRyzen1.AutoSize = true;
+            this.lblRyzen1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRyzen1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblRyzen1.Location = new System.Drawing.Point(50, 158);
+            this.lblRyzen1.Name = "lblRyzen1";
+            this.lblRyzen1.Size = new System.Drawing.Size(111, 13);
+            this.lblRyzen1.TabIndex = 4;
+            this.lblRyzen1.Text = "AMD RYZEN 7 5700G";
             // 
             // pictureBox5
             // 
@@ -167,17 +193,42 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.cboProcesador2);
+            this.panel2.Controls.Add(this.cboRyzen2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.btnComprarRyzen2);
+            this.panel2.Controls.Add(this.lblPrecioRyzen2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.lblRyzen2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(258, 50);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(189, 243);
             this.panel2.TabIndex = 9;
+            // 
+            // cboRyzen2
+            // 
+            this.cboRyzen2.FormattingEnabled = true;
+            this.cboRyzen2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboRyzen2.Location = new System.Drawing.Point(134, 217);
+            this.cboRyzen2.Name = "cboRyzen2";
+            this.cboRyzen2.Size = new System.Drawing.Size(46, 23);
+            this.cboRyzen2.TabIndex = 14;
+            this.cboRyzen2.Text = "1";
             // 
             // label1
             // 
@@ -189,26 +240,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Cantidad :";
             // 
-            // pictureBox1
+            // btnComprarRyzen2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox1.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.btnComprarRyzen2.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarRyzen2.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarRyzen2.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarRyzen2.Name = "btnComprarRyzen2";
+            this.btnComprarRyzen2.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarRyzen2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarRyzen2.TabIndex = 6;
+            this.btnComprarRyzen2.TabStop = false;
+            this.btnComprarRyzen2.Click += new System.EventHandler(this.btnComprarRyzen1_Click);
             // 
-            // label2
+            // lblPrecioRyzen2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label2.Location = new System.Drawing.Point(83, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "$ 236.00 + IVA";
+            this.lblPrecioRyzen2.AutoSize = true;
+            this.lblPrecioRyzen2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioRyzen2.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioRyzen2.Name = "lblPrecioRyzen2";
+            this.lblPrecioRyzen2.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioRyzen2.TabIndex = 3;
+            this.lblPrecioRyzen2.Text = "$ 236.00 + IVA";
             // 
             // label3
             // 
@@ -220,16 +272,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio :";
             // 
-            // label5
+            // lblRyzen2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label5.Location = new System.Drawing.Point(5, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(178, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "PROCESADOR AMD RYZEN 5 3600";
+            this.lblRyzen2.AutoSize = true;
+            this.lblRyzen2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRyzen2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblRyzen2.Location = new System.Drawing.Point(5, 158);
+            this.lblRyzen2.Name = "lblRyzen2";
+            this.lblRyzen2.Size = new System.Drawing.Size(178, 13);
+            this.lblRyzen2.TabIndex = 4;
+            this.lblRyzen2.Text = "PROCESADOR AMD RYZEN 5 3600";
             // 
             // pictureBox2
             // 
@@ -244,17 +296,42 @@
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.comboBox2);
+            this.panel3.Controls.Add(this.cboRyzen3);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.btnComprarRyzen3);
+            this.panel3.Controls.Add(this.lblPrecioRyzen3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lblRyzen3);
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Location = new System.Drawing.Point(478, 50);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(189, 243);
             this.panel3.TabIndex = 9;
+            // 
+            // cboRyzen3
+            // 
+            this.cboRyzen3.FormattingEnabled = true;
+            this.cboRyzen3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboRyzen3.Location = new System.Drawing.Point(134, 217);
+            this.cboRyzen3.Name = "cboRyzen3";
+            this.cboRyzen3.Size = new System.Drawing.Size(46, 23);
+            this.cboRyzen3.TabIndex = 14;
+            this.cboRyzen3.Text = "1";
             // 
             // label6
             // 
@@ -266,26 +343,27 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Cantidad :";
             // 
-            // pictureBox3
+            // btnComprarRyzen3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.btnComprarRyzen3.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarRyzen3.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarRyzen3.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarRyzen3.Name = "btnComprarRyzen3";
+            this.btnComprarRyzen3.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarRyzen3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarRyzen3.TabIndex = 6;
+            this.btnComprarRyzen3.TabStop = false;
+            this.btnComprarRyzen3.Click += new System.EventHandler(this.btnComprarRyzen1_Click);
             // 
-            // label7
+            // lblPrecioRyzen3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label7.Location = new System.Drawing.Point(83, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 15);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "$ 268.89 + IVA";
+            this.lblPrecioRyzen3.AutoSize = true;
+            this.lblPrecioRyzen3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioRyzen3.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioRyzen3.Name = "lblPrecioRyzen3";
+            this.lblPrecioRyzen3.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioRyzen3.TabIndex = 3;
+            this.lblPrecioRyzen3.Text = "$ 268.89 + IVA";
             // 
             // label8
             // 
@@ -297,16 +375,16 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Precio :";
             // 
-            // label9
+            // lblRyzen3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label9.Location = new System.Drawing.Point(0, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(186, 13);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "PROCESADOR AMD RYZEN 5 5600G";
+            this.lblRyzen3.AutoSize = true;
+            this.lblRyzen3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRyzen3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblRyzen3.Location = new System.Drawing.Point(2, 158);
+            this.lblRyzen3.Name = "lblRyzen3";
+            this.lblRyzen3.Size = new System.Drawing.Size(186, 13);
+            this.lblRyzen3.TabIndex = 4;
+            this.lblRyzen3.Text = "PROCESADOR AMD RYZEN 5 5600G";
             // 
             // pictureBox4
             // 
@@ -321,17 +399,42 @@
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.Controls.Add(this.comboBox4);
+            this.panel4.Controls.Add(this.cboRyzen5);
             this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.btnComprarRyzen5);
+            this.panel4.Controls.Add(this.lblPrecioRyzen5);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.lblRyzen5);
             this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Location = new System.Drawing.Point(370, 299);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(189, 243);
             this.panel4.TabIndex = 9;
+            // 
+            // cboRyzen5
+            // 
+            this.cboRyzen5.FormattingEnabled = true;
+            this.cboRyzen5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboRyzen5.Location = new System.Drawing.Point(134, 217);
+            this.cboRyzen5.Name = "cboRyzen5";
+            this.cboRyzen5.Size = new System.Drawing.Size(46, 23);
+            this.cboRyzen5.TabIndex = 15;
+            this.cboRyzen5.Text = "1";
             // 
             // label10
             // 
@@ -343,26 +446,27 @@
             this.label10.TabIndex = 8;
             this.label10.Text = "Cantidad :";
             // 
-            // pictureBox6
+            // btnComprarRyzen5
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox6.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.btnComprarRyzen5.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarRyzen5.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarRyzen5.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarRyzen5.Name = "btnComprarRyzen5";
+            this.btnComprarRyzen5.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarRyzen5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarRyzen5.TabIndex = 6;
+            this.btnComprarRyzen5.TabStop = false;
+            this.btnComprarRyzen5.Click += new System.EventHandler(this.btnComprarRyzen1_Click);
             // 
-            // label11
+            // lblPrecioRyzen5
             // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label11.Location = new System.Drawing.Point(83, 193);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 15);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "$ 432.82 + IVA";
+            this.lblPrecioRyzen5.AutoSize = true;
+            this.lblPrecioRyzen5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioRyzen5.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioRyzen5.Name = "lblPrecioRyzen5";
+            this.lblPrecioRyzen5.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioRyzen5.TabIndex = 3;
+            this.lblPrecioRyzen5.Text = "$ 432.82 + IVA";
             // 
             // label12
             // 
@@ -374,16 +478,16 @@
             this.label12.TabIndex = 3;
             this.label12.Text = "Precio :";
             // 
-            // label13
+            // lblRyzen5
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label13.Location = new System.Drawing.Point(0, 158);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(184, 13);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "PROCESADOR AMD RYZEN 7 3800X";
+            this.lblRyzen5.AutoSize = true;
+            this.lblRyzen5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRyzen5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblRyzen5.Location = new System.Drawing.Point(2, 158);
+            this.lblRyzen5.Name = "lblRyzen5";
+            this.lblRyzen5.Size = new System.Drawing.Size(184, 13);
+            this.lblRyzen5.TabIndex = 4;
+            this.lblRyzen5.Text = "PROCESADOR AMD RYZEN 7 3800X";
             // 
             // pictureBox7
             // 
@@ -398,17 +502,42 @@
             // panel5
             // 
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.comboBox3);
+            this.panel5.Controls.Add(this.cboRyzen4);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.btnComprarRyzen4);
+            this.panel5.Controls.Add(this.lblPrecioRyzen4);
             this.panel5.Controls.Add(this.label16);
-            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.lblRyzen4);
             this.panel5.Controls.Add(this.pictureBox9);
             this.panel5.Location = new System.Drawing.Point(137, 299);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(189, 243);
             this.panel5.TabIndex = 9;
+            // 
+            // cboRyzen4
+            // 
+            this.cboRyzen4.FormattingEnabled = true;
+            this.cboRyzen4.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.cboRyzen4.Location = new System.Drawing.Point(134, 217);
+            this.cboRyzen4.Name = "cboRyzen4";
+            this.cboRyzen4.Size = new System.Drawing.Size(46, 23);
+            this.cboRyzen4.TabIndex = 14;
+            this.cboRyzen4.Text = "1";
             // 
             // label14
             // 
@@ -420,26 +549,27 @@
             this.label14.TabIndex = 8;
             this.label14.Text = "Cantidad :";
             // 
-            // pictureBox8
+            // btnComprarRyzen4
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox8.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
-            this.pictureBox8.Location = new System.Drawing.Point(3, 212);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(56, 28);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 6;
-            this.pictureBox8.TabStop = false;
+            this.btnComprarRyzen4.BackColor = System.Drawing.Color.Yellow;
+            this.btnComprarRyzen4.Image = global::TiendaPerrona.Properties.Resources.pngegg__8_;
+            this.btnComprarRyzen4.Location = new System.Drawing.Point(3, 212);
+            this.btnComprarRyzen4.Name = "btnComprarRyzen4";
+            this.btnComprarRyzen4.Size = new System.Drawing.Size(56, 28);
+            this.btnComprarRyzen4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnComprarRyzen4.TabIndex = 6;
+            this.btnComprarRyzen4.TabStop = false;
+            this.btnComprarRyzen4.Click += new System.EventHandler(this.btnComprarRyzen1_Click);
             // 
-            // label15
+            // lblPrecioRyzen4
             // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label15.Location = new System.Drawing.Point(83, 193);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 15);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "$ 205.28 + IVA";
+            this.lblPrecioRyzen4.AutoSize = true;
+            this.lblPrecioRyzen4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblPrecioRyzen4.Location = new System.Drawing.Point(83, 193);
+            this.lblPrecioRyzen4.Name = "lblPrecioRyzen4";
+            this.lblPrecioRyzen4.Size = new System.Drawing.Size(80, 15);
+            this.lblPrecioRyzen4.TabIndex = 3;
+            this.lblPrecioRyzen4.Text = "$ 205.28 + IVA";
             // 
             // label16
             // 
@@ -451,16 +581,16 @@
             this.label16.TabIndex = 3;
             this.label16.Text = "Precio :";
             // 
-            // label17
+            // lblRyzen4
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.label17.Location = new System.Drawing.Point(0, 158);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(184, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "PROCESADOR AMD RYZEN 5 5600X";
+            this.lblRyzen4.AutoSize = true;
+            this.lblRyzen4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRyzen4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.lblRyzen4.Location = new System.Drawing.Point(2, 158);
+            this.lblRyzen4.Name = "lblRyzen4";
+            this.lblRyzen4.Size = new System.Drawing.Size(184, 13);
+            this.lblRyzen4.TabIndex = 4;
+            this.lblRyzen4.Text = "PROCESADOR AMD RYZEN 5 5600X";
             // 
             // pictureBox9
             // 
@@ -483,126 +613,6 @@
             this.btnCerrar1.TabStop = false;
             this.btnCerrar1.Click += new System.EventHandler(this.btnCerrar1_Click);
             // 
-            // cboProcesador2
-            // 
-            this.cboProcesador2.FormattingEnabled = true;
-            this.cboProcesador2.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.cboProcesador2.Location = new System.Drawing.Point(134, 217);
-            this.cboProcesador2.Name = "cboProcesador2";
-            this.cboProcesador2.Size = new System.Drawing.Size(46, 23);
-            this.cboProcesador2.TabIndex = 12;
-            this.cboProcesador2.Text = "1";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 217);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 23);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "1";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox2.Location = new System.Drawing.Point(134, 217);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 23);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "1";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox3.Location = new System.Drawing.Point(134, 217);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(46, 23);
-            this.comboBox3.TabIndex = 12;
-            this.comboBox3.Text = "1";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"});
-            this.comboBox4.Location = new System.Drawing.Point(134, 217);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(46, 23);
-            this.comboBox4.TabIndex = 12;
-            this.comboBox4.Text = "1";
-            // 
             // FormProcesadorRyzen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -619,23 +629,23 @@
             this.Text = "FormProcesadorRyzen";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnComprarCase1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnComprarRyzen4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar1)).EndInit();
             this.ResumeLayout(false);
@@ -646,44 +656,44 @@
 
         private Panel panel1;
         private Label label19;
-        private PictureBox btnComprarCase1;
-        private Label lblPrecioCase1;
+        private PictureBox btnComprarRyzen1;
+        private Label lblPrecioRyzen1;
         private Label label4;
-        private Label lblCaseGamer1;
+        private Label lblRyzen1;
         private PictureBox pictureBox5;
         private Panel panel2;
         private Label label1;
-        private PictureBox pictureBox1;
-        private Label label2;
+        private PictureBox btnComprarRyzen2;
+        private Label lblPrecioRyzen2;
         private Label label3;
-        private Label label5;
+        private Label lblRyzen2;
         private PictureBox pictureBox2;
         private Panel panel3;
         private Label label6;
-        private PictureBox pictureBox3;
-        private Label label7;
+        private PictureBox btnComprarRyzen3;
+        private Label lblPrecioRyzen3;
         private Label label8;
-        private Label label9;
+        private Label lblRyzen3;
         private PictureBox pictureBox4;
         private Panel panel4;
         private Label label10;
-        private PictureBox pictureBox6;
-        private Label label11;
+        private PictureBox btnComprarRyzen5;
+        private Label lblPrecioRyzen5;
         private Label label12;
-        private Label label13;
+        private Label lblRyzen5;
         private PictureBox pictureBox7;
         private Panel panel5;
         private Label label14;
-        private PictureBox pictureBox8;
-        private Label label15;
+        private PictureBox btnComprarRyzen4;
+        private Label lblPrecioRyzen4;
         private Label label16;
-        private Label label17;
+        private Label lblRyzen4;
         private PictureBox pictureBox9;
         private PictureBox btnCerrar1;
-        private ComboBox comboBox1;
-        private ComboBox cboProcesador2;
-        private ComboBox comboBox2;
-        private ComboBox comboBox4;
-        private ComboBox comboBox3;
+        private ComboBox cboRyzen1;
+        private ComboBox cboRyzen2;
+        private ComboBox cboRyzen3;
+        private ComboBox cboRyzen5;
+        private ComboBox cboRyzen4;
     }
 }
