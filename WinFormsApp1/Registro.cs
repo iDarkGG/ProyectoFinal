@@ -109,26 +109,34 @@ namespace TiendaPerrona
             }
             else
             {
-                if(!rb.UserNameChecker(User) & rb.PasswordChecker(Contraseña, ConfContraseña) & !rb.EmailChecker(Email) & rb.EmailVerifier(Email))
+                if(User.Length <= 5 | Contraseña.Length <= 5)
                 {
-                    DialogResult r = MessageBox.Show("TE REGISTRASTE CORRECTAMENTE, POR FAVOR CONTINUA AL LOGIN", "EXITO", MessageBoxButtons.OK);
-
-                    if(r == DialogResult.OK)
-                    {
-                        dB.Users.Add(new TiendaPerrona.User(User, Email, Contraseña));
-                        uwu.Show();
-                        this.Close();
-                    }
-                    else
-                    {
-                        DialogResult g = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
-                    }
-
+                    DialogResult f = MessageBox.Show("LOS DATOS INGRESADOS NO CUMPLEN LOS REQUERIMENTOS MINIMOS \nRECUERDA QUE EL USUARIO Y CONTRASEÑA NECESITAN UN MINIMO DE 6 CARACTERES.", "ERROR", MessageBoxButtons.OK);
                 }
                 else
                 {
-                    DialogResult h = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
+                    if (!rb.UserNameChecker(User) & rb.PasswordChecker(Contraseña, ConfContraseña) & !rb.EmailChecker(Email) & rb.EmailVerifier(Email))
+                    {
+                        DialogResult r = MessageBox.Show("TE REGISTRASTE CORRECTAMENTE, POR FAVOR CONTINUA AL LOGIN", "EXITO", MessageBoxButtons.OK);
+
+                        if (r == DialogResult.OK)
+                        {
+                            dB.Users.Add(new TiendaPerrona.User(User, Email, Contraseña));
+                            uwu.Show();
+                            this.Close();
+                        }
+                        else
+                        {
+                            DialogResult g = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
+                        }
+
+                    }
+                    else
+                    {
+                        DialogResult h = MessageBox.Show("LOS DATOS INGRESADOS SON INCORRECTOS", "ERROR", MessageBoxButtons.OK);
+                    }
                 }
+                
                 
             }
             

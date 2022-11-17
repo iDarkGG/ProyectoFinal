@@ -10,7 +10,8 @@ namespace TiendaPerrona
     public class RegisterBase : User
     {
 
-        Regex EmailPattern = new Regex("(?<user>[^@]+)@(?<host>[^\\s+]{5,20}[^\\s])");
+        Regex EmailPattern = new Regex(@"(?<user>[^@]+)@(?<host>[^\s+]{5,20}[^\s])");
+        
 
         DataBase dataBase = new DataBase();
         
