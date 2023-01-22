@@ -12,7 +12,7 @@ namespace Libreria
 
         public static void Main()
         {
-            Regex EmailPattern = new Regex("(?<user>[^@]+)@(?<host>.+)");
+            Regex EmailPattern = new Regex("^(?<User>[a-zA-Z0-9]{6,30})@(?<Host>[a-zA-Z0-9]+)\.(?<TLD>[a-zA-Z0-9]{2,5})$");
 
             DataBase dataBase = new DataBase();
 
